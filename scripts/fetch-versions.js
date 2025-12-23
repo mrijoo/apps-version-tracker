@@ -49,6 +49,23 @@ async function fetchFileSize(url) {
   } catch { return null; }
 }
 
+async function fetchFileSizesParallel(downloads, concurrency = 5) {
+  const results = [];
+  for (let i = 0; i < downloads.length; i += concurrency) {
+    const batch = downloads.slice(i, i + concurrency);
+    const sizes = await Promise.all(batch.map(d => fetchFileSize(d.download_url || d.url)));
+    for (let j = 0; j < batch.length; j++) {
+      const size = sizes[j];
+      if (size) {
+        batch[j].size_bytes = size;
+        batch[j].size = formatFileSize(size);
+      }
+    }
+    results.push(...batch);
+  }
+  return results;
+}
+
 async function fetchTagCommitDate(owner, repo, sha) {
   try {
     const response = await axiosInstance.get(`${GITHUB_API}/repos/${owner}/${repo}/commits/${sha}`);
@@ -165,20 +182,21 @@ const SOFTWARE_LIST = [
     fetch: async (existingVersions = []) => {
       const getVsVersion = (version) => { const [major, minor] = version.split('.').map(Number); if (major >= 8 && minor >= 4) return 'vs17'; if (major >= 8) return 'vs16'; if (major === 7 && minor === 4) return 'vc15'; return 'vs16'; };
       const result = await fetchAllGitHubTags('php', 'php-src', { versionFilter: (tag) => /^php-\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('php-', ''), existingVersions });
-      if (result && result.versions) {
-        result.versions = result.versions.map(v => {
+      if (result && result.versions.length > 0) {
+        const allDownloads = [];
+        for (const v of result.versions) {
           const version = v.version, vs = getVsVersion(version);
-          return {
-            ...v, downloads: {
-              windows: [
-                { name: `php-${version}-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-Win32-${vs}-x64.zip`, type: 'Thread Safe (TS)', arch: 'x64' },
-                { name: `php-${version}-nts-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-nts-Win32-${vs}-x64.zip`, type: 'Non-Thread Safe (NTS)', arch: 'x64' },
-                { name: `php-${version}-Win32-${vs}-x86.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-Win32-${vs}-x86.zip`, type: 'Thread Safe (TS)', arch: 'x86' },
-                { name: `php-${version}-nts-Win32-${vs}-x86.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-nts-Win32-${vs}-x86.zip`, type: 'Non-Thread Safe (NTS)', arch: 'x86' }
-              ], source: [{ name: `php-${version}.tar.gz`, download_url: `https://www.php.net/distributions/php-${version}.tar.gz` }, { name: `php-${version}.tar.xz`, download_url: `https://www.php.net/distributions/php-${version}.tar.xz` }]
-            }
+          v.downloads = {
+            windows: [
+              { name: `php-${version}-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-Win32-${vs}-x64.zip`, type: 'Thread Safe (TS)', arch: 'x64' },
+              { name: `php-${version}-nts-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-nts-Win32-${vs}-x64.zip`, type: 'Non-Thread Safe (NTS)', arch: 'x64' }
+            ],
+            source: [{ name: `php-${version}.tar.gz`, download_url: `https://www.php.net/distributions/php-${version}.tar.gz` }]
           };
-        });
+          allDownloads.push(...v.downloads.windows, ...v.downloads.source);
+        }
+        console.log(`📦 Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
       }
       return result;
     }
@@ -218,7 +236,19 @@ const SOFTWARE_LIST = [
     name: 'Python', category: 'Languages', website: 'https://www.python.org',
     fetch: async (existingVersions = []) => {
       const result = await fetchAllGitHubTags('python', 'cpython', { versionFilter: (tag) => /^v?\d+\.\d+\.\d+$/.test(tag), existingVersions });
-      if (result) result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows_x64: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-amd64.exe`, windows_x86: `https://www.python.org/ftp/python/${v.version}/python-${v.version}.exe`, macos: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-macos11.pkg`, source: `https://www.python.org/ftp/python/${v.version}/Python-${v.version}.tar.xz` } }));
+      if (result && result.versions.length > 0) {
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [{ name: `python-${v.version}-amd64.exe`, download_url: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-amd64.exe`, arch: 'x64' }],
+            macos: [{ name: `python-${v.version}-macos11.pkg`, download_url: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-macos11.pkg` }],
+            source: [{ name: `Python-${v.version}.tar.xz`, download_url: `https://www.python.org/ftp/python/${v.version}/Python-${v.version}.tar.xz` }]
+          };
+          allDownloads.push(...v.downloads.windows, ...v.downloads.source);
+        }
+        console.log(`📦 Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
       return result;
     }
   },
@@ -276,26 +306,22 @@ const SOFTWARE_LIST = [
   {
     name: 'PostgreSQL', category: 'Databases', website: 'https://www.postgresql.org',
     fetch: async (existingVersions = []) => {
-      const result = await fetchAllGitHubTags('postgres', 'postgres', { versionFilter: (tag) => tag.startsWith('REL_'), versionTransform: (v) => v.replace('REL_', '').replace(/_/g, '.'), existingVersions });
-      if (result) {
+      const result = await fetchAllGitHubTags('postgres', 'postgres', { versionFilter: (tag) => /^REL_\d+_\d+$/.test(tag), versionTransform: (v) => v.replace('REL_', '').replace(/_/g, '.'), existingVersions });
+      if (result && result.versions.length > 0) {
         result.download_page = 'https://www.postgresql.org/download/';
-        for (let i = 0; i < result.versions.length; i++) {
-          const v = result.versions[i];
-          const windowsUrl = `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64.exe`;
-          const sourceUrl = `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz`;
-          const [windowsSize, sourceSize] = await Promise.all([fetchFileSize(windowsUrl), fetchFileSize(sourceUrl)]);
-          result.versions[i] = {
-            ...v,
-            official_downloads: {
-              windows: windowsUrl,
-              source: sourceUrl
-            },
-            downloads: {
-              windows: [{ name: `postgresql-${v.version}-1-windows-x64.exe`, download_url: windowsUrl, size_bytes: windowsSize, size: formatFileSize(windowsSize), type: 'installer', arch: 'x64' }],
-              source: [{ name: `postgresql-${v.version}.tar.gz`, download_url: sourceUrl, size_bytes: sourceSize, size: formatFileSize(sourceSize), type: 'tarball' }]
-            }
-          };
-          if (i < 5) console.log(`📦 ${v.version}: Windows ${formatFileSize(windowsSize) || 'N/A'}, Source ${formatFileSize(sourceSize) || 'N/A'}`);
+        const allDownloads = [];
+        for (const v of result.versions) {
+          allDownloads.push(
+            { version: v.version, platform: 'windows', name: `postgresql-${v.version}-1-windows-x64.exe`, download_url: `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64.exe`, type: 'installer', arch: 'x64' },
+            { version: v.version, platform: 'source', name: `postgresql-${v.version}.tar.gz`, download_url: `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz`, type: 'tarball' }
+          );
+        }
+        console.log(`📦 Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+        for (const v of result.versions) {
+          const winDl = allDownloads.find(d => d.version === v.version && d.platform === 'windows');
+          const srcDl = allDownloads.find(d => d.version === v.version && d.platform === 'source');
+          v.downloads = { windows: [winDl].filter(d => d), source: [srcDl].filter(d => d) };
         }
       }
       return result;
@@ -317,7 +343,26 @@ const SOFTWARE_LIST = [
       return officialResult;
     }
   },
-  { name: 'Nginx', category: 'Web Servers', website: 'https://nginx.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('nginx', 'nginx', { versionFilter: (tag) => tag.startsWith('release-'), versionTransform: (v) => v.replace('release-', ''), existingVersions }); if (result) { result.download_page = 'https://nginx.org/en/download.html'; result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows: `https://nginx.org/download/nginx-${v.version}.zip`, source: `https://nginx.org/download/nginx-${v.version}.tar.gz` } })); } return result; } },
+  {
+    name: 'Nginx', category: 'Web Servers', website: 'https://nginx.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('nginx', 'nginx', { versionFilter: (tag) => tag.startsWith('release-'), versionTransform: (v) => v.replace('release-', ''), existingVersions });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://nginx.org/en/download.html';
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [{ name: `nginx-${v.version}.zip`, download_url: `https://nginx.org/download/nginx-${v.version}.zip` }],
+            source: [{ name: `nginx-${v.version}.tar.gz`, download_url: `https://nginx.org/download/nginx-${v.version}.tar.gz` }]
+          };
+          allDownloads.push(...v.downloads.windows, ...v.downloads.source);
+        }
+        console.log(`📦 Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
+      return result;
+    }
+  },
   { name: 'Apache HTTP Server', category: 'Web Servers', website: 'https://httpd.apache.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('apache', 'httpd', { versionFilter: (tag) => /^\d+\.\d+\.\d+$/.test(tag), existingVersions }); if (result) { result.download_page = 'https://httpd.apache.org/download.cgi'; result.windows_builds = 'https://www.apachelounge.com/download/'; } return result; } },
   { name: 'Composer', category: 'Package Managers', website: 'https://getcomposer.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('composer', 'composer', { existingVersions }); if (result) result.official_downloads = { phar: 'https://getcomposer.org/download/latest-stable/composer.phar', installer: 'https://getcomposer.org/Composer-Setup.exe' }; return result; } },
   { name: 'npm', category: 'Package Managers', website: 'https://www.npmjs.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('npm', 'cli', { existingVersions }); if (result) result.install_command = 'npm install -g npm@latest'; return result; } },
