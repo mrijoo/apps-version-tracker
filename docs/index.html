@@ -221,6 +221,26 @@
           <div class="endpoint-card">
             <div class="endpoint-header">
               <span class="method">GET</span>
+              <code>/api/v1/stable/{name}.json</code>
+            </div>
+            <p>Get only stable versions (no alpha, beta, RC).</p>
+            <button class="btn-try" data-endpoint="stable/php.json">
+              Try Stable →
+            </button>
+          </div>
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="method">GET</span>
+              <code>/api/v1/latest/{name}.json</code>
+            </div>
+            <p>Get only the latest version info (lightweight).</p>
+            <button class="btn-try" data-endpoint="latest/php.json">
+              Try Latest →
+            </button>
+          </div>
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="method">GET</span>
               <code>/api/v1/categories/{name}.json</code>
             </div>
             <p>Get all software in a category.</p>

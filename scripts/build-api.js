@@ -72,17 +72,25 @@ function buildAPI() {
     const allVersionsPath = path.join(VERSIONS_DIR, 'all-versions.json');
     if (!fs.existsSync(allVersionsPath)) { console.error('❌ all-versions.json not found'); process.exit(1); }
     const allData = JSON.parse(fs.readFileSync(allVersionsPath, 'utf-8'));
-    const dirs = [API_DIR, path.join(API_DIR, 'software'), path.join(API_DIR, 'categories'), path.join(API_DIR, 'latest')];
+    const dirs = [API_DIR, path.join(API_DIR, 'software'), path.join(API_DIR, 'categories'), path.join(API_DIR, 'latest'), path.join(API_DIR, 'stable')];
     for (const dir of dirs) { if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true }); }
     let totalBytes = 0;
     const meta = {
         name: 'Apps Version Tracker API', version: '2.0.0', last_updated: allData.last_updated,
-        endpoints: { all: '/api/v1/all.json', latest: '/api/v1/latest/{name}.json', software: '/api/v1/software/{name}.json', categories: '/api/v1/categories/{category}.json', meta: '/api/v1/meta.json' },
+        endpoints: {
+            all: '/api/v1/all.json',
+            latest: '/api/v1/latest/{name}.json',
+            stable: '/api/v1/stable/{name}.json',
+            software: '/api/v1/software/{name}.json',
+            categories: '/api/v1/categories/{category}.json',
+            meta: '/api/v1/meta.json'
+        },
         available_software: [], available_categories: []
     };
     const categories = {};
     const softwareList = [];
     const latestList = {};
+    const stableList = {};
     const processedCategories = new Set();
     for (const [category, software] of Object.entries(allData.software || {})) {
         const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
@@ -94,27 +102,39 @@ function buildAPI() {
         for (const [name, data] of Object.entries(software)) {
             const softwareSlug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
             const versions = (data.versions || []).map(normalizeVersion);
+            const stableVersions = versions.filter(v => v.stable);
             const latest = versions[0] || (data.latest ? normalizeVersion(data.latest) : null);
-            const latestStable = versions.find(v => v.stable) || latest;
-            softwareList.push({ name, slug: softwareSlug, category, category_slug: categorySlug, latest_version: latest?.version || null, latest_stable: latestStable?.version || null, total_versions: versions.length, endpoint: `/api/v1/software/${softwareSlug}.json` });
-            meta.available_software.push({ name, slug: softwareSlug, category, endpoint: `/api/v1/software/${softwareSlug}.json`, latest_endpoint: `/api/v1/latest/${softwareSlug}.json` });
+            const latestStable = stableVersions[0] || latest;
+
+            softwareList.push({ name, slug: softwareSlug, category, category_slug: categorySlug, latest_version: latest?.version || null, latest_stable: latestStable?.version || null, total_versions: versions.length, total_stable: stableVersions.length, endpoint: `/api/v1/software/${softwareSlug}.json` });
+            meta.available_software.push({ name, slug: softwareSlug, category, endpoint: `/api/v1/software/${softwareSlug}.json`, latest_endpoint: `/api/v1/latest/${softwareSlug}.json`, stable_endpoint: `/api/v1/stable/${softwareSlug}.json` });
+
             const latestData = { name, slug: softwareSlug, website: data.website || null, latest, download_page: data.download_page || null };
             if (latestStable !== latest) latestData.latest_stable = latestStable;
             Object.keys(latestData).forEach(k => latestData[k] === null && delete latestData[k]);
             totalBytes += writeJSON(path.join(API_DIR, 'latest', `${softwareSlug}.json`), latestData);
+
+            const stableData = { name, slug: softwareSlug, website: data.website || null, download_page: data.download_page || null, total_versions: stableVersions.length, latest: latestStable, versions: stableVersions };
+            Object.keys(stableData).forEach(k => stableData[k] === null && delete stableData[k]);
+            totalBytes += writeJSON(path.join(API_DIR, 'stable', `${softwareSlug}.json`), stableData);
+
             const softwareData = { name, slug: softwareSlug, category, website: data.website || null, download_page: data.download_page || null, total_versions: versions.length, latest, versions };
             if (latestStable !== latest) softwareData.latest_stable = latestStable;
             Object.keys(softwareData).forEach(k => softwareData[k] === null && delete softwareData[k]);
             totalBytes += writeJSON(path.join(API_DIR, 'software', `${softwareSlug}.json`), softwareData);
+
             categories[categorySlug].software.push({ name, slug: softwareSlug, latest_version: latest?.version || null, latest_stable: latestStable?.version || null, total_versions: versions.length });
             latestList[softwareSlug] = { v: latest?.version || null, s: latestStable?.version || null };
+            stableList[softwareSlug] = { v: latestStable?.version || null, total: stableVersions.length };
         }
     }
     for (const [slug, categoryData] of Object.entries(categories)) { totalBytes += writeJSON(path.join(API_DIR, 'categories', `${slug}.json`), categoryData); }
     totalBytes += writeJSON(path.join(API_DIR, 'all.json'), { last_updated: allData.last_updated, total_software: softwareList.length, software: softwareList });
     totalBytes += writeJSON(path.join(API_DIR, 'latest-all.json'), { last_updated: allData.last_updated, software: latestList });
+    totalBytes += writeJSON(path.join(API_DIR, 'stable-all.json'), { last_updated: allData.last_updated, software: stableList });
     totalBytes += writeJSON(path.join(API_DIR, 'meta.json'), meta);
     console.log(`✅ API built: ${meta.available_software.length} software, ${(totalBytes / 1024 / 1024).toFixed(2)} MB`);
 }
 
 buildAPI();
+
