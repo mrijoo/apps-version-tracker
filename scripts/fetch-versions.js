@@ -277,7 +277,27 @@ const SOFTWARE_LIST = [
     name: 'PostgreSQL', category: 'Databases', website: 'https://www.postgresql.org',
     fetch: async (existingVersions = []) => {
       const result = await fetchAllGitHubTags('postgres', 'postgres', { versionFilter: (tag) => tag.startsWith('REL_'), versionTransform: (v) => v.replace('REL_', '').replace(/_/g, '.'), existingVersions });
-      if (result) { result.download_page = 'https://www.postgresql.org/download/'; result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows: `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64.exe`, source: `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz` } })); }
+      if (result) {
+        result.download_page = 'https://www.postgresql.org/download/';
+        for (let i = 0; i < result.versions.length; i++) {
+          const v = result.versions[i];
+          const windowsUrl = `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64.exe`;
+          const sourceUrl = `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz`;
+          const [windowsSize, sourceSize] = await Promise.all([fetchFileSize(windowsUrl), fetchFileSize(sourceUrl)]);
+          result.versions[i] = {
+            ...v,
+            official_downloads: {
+              windows: windowsUrl,
+              source: sourceUrl
+            },
+            downloads: {
+              windows: [{ name: `postgresql-${v.version}-1-windows-x64.exe`, download_url: windowsUrl, size_bytes: windowsSize, size: formatFileSize(windowsSize), type: 'installer', arch: 'x64' }],
+              source: [{ name: `postgresql-${v.version}.tar.gz`, download_url: sourceUrl, size_bytes: sourceSize, size: formatFileSize(sourceSize), type: 'tarball' }]
+            }
+          };
+          if (i < 5) console.log(`📦 ${v.version}: Windows ${formatFileSize(windowsSize) || 'N/A'}, Source ${formatFileSize(sourceSize) || 'N/A'}`);
+        }
+      }
       return result;
     }
   },
