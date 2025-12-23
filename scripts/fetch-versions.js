@@ -1,0 +1,372 @@
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+
+const GITHUB_API = 'https://api.github.com';
+const headers = { 'Accept': 'application/vnd.github.v3+json', 'User-Agent': 'Apps-Version-Tracker' };
+if (process.env.GITHUB_TOKEN) headers['Authorization'] = `token ${process.env.GITHUB_TOKEN}`;
+const axiosInstance = axios.create({ headers, timeout: 30000 });
+
+const VERSIONS_DIR = path.join(__dirname, '..', 'versions');
+const EXISTING_DATA_PATH = path.join(VERSIONS_DIR, 'all-versions.json');
+const MAX_NEW_VERSIONS_PER_SCAN = Infinity;
+
+function loadExistingData() {
+  try {
+    if (fs.existsSync(EXISTING_DATA_PATH)) return JSON.parse(fs.readFileSync(EXISTING_DATA_PATH, 'utf-8'));
+  } catch (error) { console.log('No existing data found, starting fresh.'); }
+  return null;
+}
+
+function mergeVersions(existingVersions = [], newVersions = []) {
+  const versionMap = new Map();
+  for (const v of existingVersions) versionMap.set(v.version, v);
+  for (const v of newVersions) versionMap.set(v.version, v);
+  const merged = Array.from(versionMap.values());
+  merged.sort((a, b) => {
+    const aParts = (a.version || '0').split('.').map(p => parseInt(p) || 0);
+    const bParts = (b.version || '0').split('.').map(p => parseInt(p) || 0);
+    for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+      if ((bParts[i] || 0) !== (aParts[i] || 0)) return (bParts[i] || 0) - (aParts[i] || 0);
+    }
+    return 0;
+  });
+  return merged;
+}
+
+function formatFileSize(bytes) {
+  if (!bytes || bytes === 0) return null;
+  const sizes = ['B', 'KB', 'MB', 'GB'];
+  const i = Math.floor(Math.log(bytes) / Math.log(1024));
+  return `${(bytes / Math.pow(1024, i)).toFixed(2)} ${sizes[i]}`;
+}
+
+function extractDownloads(assets) {
+  if (!assets || assets.length === 0) return [];
+  return assets.map(asset => ({
+    name: asset.name,
+    download_url: asset.browser_download_url,
+    size_bytes: asset.size,
+    size: formatFileSize(asset.size),
+    download_count: asset.download_count
+  }));
+}
+
+function categorizeDownloads(downloads) {
+  const categorized = { windows: [], linux: [], macos: [], other: [] };
+  for (const download of downloads) {
+    const name = download.name.toLowerCase();
+    if (name.includes('win') || name.includes('windows') || name.endsWith('.exe') || name.endsWith('.msi')) categorized.windows.push(download);
+    else if (name.includes('linux') || name.includes('ubuntu') || name.includes('debian') || name.endsWith('.deb') || name.endsWith('.rpm') || (name.endsWith('.tar.gz') && !name.includes('darwin'))) categorized.linux.push(download);
+    else if (name.includes('darwin') || name.includes('macos') || name.includes('mac') || name.includes('apple') || name.endsWith('.pkg') || name.endsWith('.dmg')) categorized.macos.push(download);
+    else categorized.other.push(download);
+  }
+  for (const key of Object.keys(categorized)) { if (categorized[key].length === 0) delete categorized[key]; }
+  return Object.keys(categorized).length > 0 ? categorized : null;
+}
+
+async function fetchAllGitHubReleases(owner, repo, options = {}) {
+  try {
+    const existingVersions = new Set((options.existingVersions || []).map(v => v.version));
+    let allReleases = [], page = 1, consecutiveExisting = 0, newVersionsFound = 0;
+    const perPage = 100, MAX_CONSECUTIVE_EXISTING = 20;
+    console.log(`    📊 Existing versions: ${existingVersions.size}`);
+    while (true) {
+      const url = `${GITHUB_API}/repos/${owner}/${repo}/releases?per_page=${perPage}&page=${page}`;
+      const response = await axiosInstance.get(url);
+      if (!response.data || response.data.length === 0) break;
+      const releases = options.includePrerelease ? response.data : response.data.filter(r => !r.prerelease);
+      for (const release of releases) {
+        const version = release.tag_name.replace(/^v/, '');
+        if (existingVersions.has(version)) {
+          consecutiveExisting++;
+          if (consecutiveExisting >= MAX_CONSECUTIVE_EXISTING) { console.log(`    ⏭️  Stopping: ${MAX_CONSECUTIVE_EXISTING} consecutive existing versions found`); break; }
+          continue;
+        }
+        consecutiveExisting = 0;
+        newVersionsFound++;
+        const allDownloads = extractDownloads(release.assets);
+        allReleases.push({
+          version, tag: release.tag_name, published_at: release.published_at, prerelease: release.prerelease,
+          release_url: release.html_url, downloads: categorizeDownloads(allDownloads),
+          total_downloads: allDownloads.reduce((sum, d) => sum + (d.download_count || 0), 0)
+        });
+      }
+      if (consecutiveExisting >= MAX_CONSECUTIVE_EXISTING) break;
+      if (response.data.length < perPage) break;
+      page++;
+      await new Promise(resolve => setTimeout(resolve, 50));
+    }
+    console.log(`    ✨ New versions found: ${newVersionsFound}`);
+    return { latest: allReleases[0] || null, versions: allReleases, total_versions: allReleases.length, new_versions_count: newVersionsFound };
+  } catch (error) { console.error(`Error fetching ${owner}/${repo}:`, error.message); return null; }
+}
+
+async function fetchAllGitHubTags(owner, repo, options = {}) {
+  try {
+    const existingVersions = new Set((options.existingVersions || []).map(v => v.version));
+    let allTags = [], page = 1, consecutiveExisting = 0, newVersionsFound = 0;
+    const perPage = 100, MAX_CONSECUTIVE_EXISTING = 20;
+    console.log(`    📊 Existing versions: ${existingVersions.size}`);
+    while (true) {
+      const url = `${GITHUB_API}/repos/${owner}/${repo}/tags?per_page=${perPage}&page=${page}`;
+      const response = await axiosInstance.get(url);
+      if (!response.data || response.data.length === 0) break;
+      for (const tag of response.data) {
+        if (options.versionFilter && !options.versionFilter(tag.name)) continue;
+        let version = tag.name.replace(/^v/, '');
+        if (options.versionTransform) version = options.versionTransform(version);
+        if (existingVersions.has(version)) {
+          consecutiveExisting++;
+          if (consecutiveExisting >= MAX_CONSECUTIVE_EXISTING) { console.log(`    ⏭️  Stopping: ${MAX_CONSECUTIVE_EXISTING} consecutive existing versions found`); break; }
+          continue;
+        }
+        consecutiveExisting = 0;
+        newVersionsFound++;
+        allTags.push({
+          version, tag: tag.name,
+          release_url: `https://github.com/${owner}/${repo}/releases/tag/${tag.name}`,
+          source_download: { tarball: `https://github.com/${owner}/${repo}/archive/refs/tags/${tag.name}.tar.gz`, zipball: `https://github.com/${owner}/${repo}/archive/refs/tags/${tag.name}.zip` }
+        });
+      }
+      if (consecutiveExisting >= MAX_CONSECUTIVE_EXISTING) break;
+      if (response.data.length < perPage) break;
+      page++;
+      await new Promise(resolve => setTimeout(resolve, 50));
+    }
+    console.log(`    ✨ New versions found: ${newVersionsFound}`);
+    return { latest: allTags[0] || null, versions: allTags, total_versions: allTags.length, new_versions_count: newVersionsFound };
+  } catch (error) { console.error(`Error fetching tags for ${owner}/${repo}:`, error.message); return null; }
+}
+
+const SOFTWARE_LIST = [
+  {
+    name: 'PHP', category: 'Languages', website: 'https://www.php.net',
+    fetch: async (existingVersions = []) => {
+      const getVsVersion = (version) => { const [major, minor] = version.split('.').map(Number); if (major >= 8 && minor >= 4) return 'vs17'; if (major >= 8) return 'vs16'; if (major === 7 && minor === 4) return 'vc15'; return 'vs16'; };
+      const result = await fetchAllGitHubTags('php', 'php-src', { versionFilter: (tag) => /^php-\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('php-', ''), existingVersions });
+      if (result && result.versions) {
+        result.versions = result.versions.map(v => {
+          const version = v.version, vs = getVsVersion(version);
+          return {
+            ...v, downloads: {
+              windows: [
+                { name: `php-${version}-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-Win32-${vs}-x64.zip`, type: 'Thread Safe (TS)', arch: 'x64' },
+                { name: `php-${version}-nts-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-nts-Win32-${vs}-x64.zip`, type: 'Non-Thread Safe (NTS)', arch: 'x64' },
+                { name: `php-${version}-Win32-${vs}-x86.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-Win32-${vs}-x86.zip`, type: 'Thread Safe (TS)', arch: 'x86' },
+                { name: `php-${version}-nts-Win32-${vs}-x86.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-nts-Win32-${vs}-x86.zip`, type: 'Non-Thread Safe (NTS)', arch: 'x86' }
+              ], source: [{ name: `php-${version}.tar.gz`, download_url: `https://www.php.net/distributions/php-${version}.tar.gz` }, { name: `php-${version}.tar.xz`, download_url: `https://www.php.net/distributions/php-${version}.tar.xz` }]
+            }
+          };
+        });
+      }
+      return result;
+    }
+  },
+  {
+    name: 'Node.js', category: 'Languages', website: 'https://nodejs.org',
+    fetch: async (existingVersions = []) => {
+      try {
+        const response = await axiosInstance.get('https://nodejs.org/dist/index.json');
+        const generateDownloads = (version) => ({ windows: { x64_zip: `https://nodejs.org/dist/${version}/node-${version}-win-x64.zip`, x64_msi: `https://nodejs.org/dist/${version}/node-${version}-x64.msi`, x86_zip: `https://nodejs.org/dist/${version}/node-${version}-win-x86.zip`, x86_msi: `https://nodejs.org/dist/${version}/node-${version}-x86.msi` }, linux: { x64: `https://nodejs.org/dist/${version}/node-${version}-linux-x64.tar.xz`, arm64: `https://nodejs.org/dist/${version}/node-${version}-linux-arm64.tar.xz` }, macos: { x64: `https://nodejs.org/dist/${version}/node-${version}-darwin-x64.tar.gz`, arm64: `https://nodejs.org/dist/${version}/node-${version}-darwin-arm64.tar.gz`, pkg: `https://nodejs.org/dist/${version}/node-${version}.pkg` }, source: `https://nodejs.org/dist/${version}/node-${version}.tar.gz` });
+        const versions = response.data.slice(0, MAX_NEW_VERSIONS_PER_SCAN).map(v => ({ version: v.version.replace(/^v/, ''), tag: v.version, lts: v.lts || false, date: v.date, downloads: generateDownloads(v.version) }));
+        return { latest_lts: versions.find(v => v.lts), latest_current: versions[0], versions, total_versions: versions.length };
+      } catch (error) { console.error('Error fetching Node.js:', error.message); return null; }
+    }
+  },
+  {
+    name: 'Go', category: 'Languages', website: 'https://go.dev',
+    fetch: async (existingVersions = []) => {
+      try {
+        const response = await axiosInstance.get('https://go.dev/dl/?mode=json&include=all');
+        const versions = response.data.slice(0, MAX_NEW_VERSIONS_PER_SCAN).map(release => {
+          const downloads = { windows: [], linux: [], macos: [], source: [] };
+          for (const file of release.files) {
+            const download = { name: file.filename, download_url: `https://go.dev/dl/${file.filename}`, size_bytes: file.size, size: formatFileSize(file.size), sha256: file.sha256, arch: file.arch };
+            if (file.os === 'windows') downloads.windows.push(download);
+            else if (file.os === 'linux') downloads.linux.push(download);
+            else if (file.os === 'darwin') downloads.macos.push(download);
+            else if (file.kind === 'source') downloads.source.push(download);
+          }
+          return { version: release.version.replace('go', ''), tag: release.version, stable: release.stable, downloads };
+        });
+        return { latest: versions.find(v => v.stable) || versions[0], versions, total_versions: versions.length };
+      } catch (error) { console.error('Error fetching Go:', error.message); return null; }
+    }
+  },
+  {
+    name: 'Python', category: 'Languages', website: 'https://www.python.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('python', 'cpython', { versionFilter: (tag) => /^v?\d+\.\d+\.\d+$/.test(tag), existingVersions });
+      if (result) result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows_x64: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-amd64.exe`, windows_x86: `https://www.python.org/ftp/python/${v.version}/python-${v.version}.exe`, macos: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-macos11.pkg`, source: `https://www.python.org/ftp/python/${v.version}/Python-${v.version}.tar.xz` } }));
+      return result;
+    }
+  },
+  {
+    name: 'Ruby', category: 'Languages', website: 'https://www.ruby-lang.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('ruby', 'ruby', { versionFilter: (tag) => /^v\d+_\d+_\d+$/.test(tag), versionTransform: (v) => v.replace(/_/g, '.'), existingVersions });
+      if (result) result.versions = result.versions.map(v => ({ ...v, official_downloads: { source: `https://cache.ruby-lang.org/pub/ruby/${v.version.split('.').slice(0, 2).join('.')}/ruby-${v.version}.tar.gz` } }));
+      return result;
+    }
+  },
+  {
+    name: 'Rust', category: 'Languages', website: 'https://www.rust-lang.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubReleases('rust-lang', 'rust', { existingVersions });
+      if (result) result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows_x64: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-pc-windows-msvc.msi`, linux_x64: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, macos_x64: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-apple-darwin.tar.gz` }, install_command: "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh" }));
+      return result;
+    }
+  },
+  {
+    name: 'Java (Eclipse Temurin)', category: 'Languages', website: 'https://adoptium.net',
+    fetch: async (existingVersions = []) => {
+      try {
+        console.log('    🔍 Discovering available Java major versions...');
+        let majorVersions = [], page = 1;
+        while (true) {
+          const reposResponse = await axiosInstance.get(`${GITHUB_API}/orgs/adoptium/repos?per_page=100&page=${page}`);
+          if (!reposResponse.data || reposResponse.data.length === 0) break;
+          for (const repo of reposResponse.data) { const match = repo.name.match(/^temurin(\d+)-binaries$/); if (match) majorVersions.push(parseInt(match[1], 10)); }
+          if (reposResponse.data.length < 100) break;
+          page++;
+        }
+        majorVersions.sort((a, b) => b - a);
+        console.log(`    📦 Found Java versions: ${majorVersions.join(', ')}`);
+        const allVersions = [];
+        for (const major of majorVersions) {
+          const result = await fetchAllGitHubReleases('adoptium', `temurin${major}-binaries`, { existingVersions });
+          if (result && result.versions) allVersions.push(...result.versions.map(v => ({ ...v, major_version: major })));
+        }
+        const LTS_VERSIONS = [8, 11, 17, 21, 25, 29, 33];
+        const parseJavaVersion = (v) => {
+          const tag = v.tag || v.version;
+          let match = tag.match(/jdk-?(\d+)(?:\.(\d+))?(?:\.(\d+))?(?:\+(\d+))?/);
+          if (match) return { major: parseInt(match[1]) || 0, minor: parseInt(match[2]) || 0, patch: parseInt(match[3]) || 0, build: parseInt(match[4]) || 0 };
+          match = tag.match(/jdk(\d+)u(\d+)-b(\d+)/);
+          if (match) return { major: parseInt(match[1]) || 0, minor: parseInt(match[2]) || 0, patch: 0, build: parseInt(match[3]) || 0 };
+          return { major: v.major_version || 0, minor: 0, patch: 0, build: 0 };
+        };
+        const enrichedVersions = allVersions.map(v => { const parsed = parseJavaVersion(v); return { ...v, lts: LTS_VERSIONS.includes(parsed.major), stable: !v.prerelease, release_date: v.published_at || null }; });
+        enrichedVersions.sort((a, b) => { const vA = parseJavaVersion(a), vB = parseJavaVersion(b); if (vB.major !== vA.major) return vB.major - vA.major; if (vB.minor !== vA.minor) return vB.minor - vA.minor; if (vB.patch !== vA.patch) return vB.patch - vA.patch; return vB.build - vA.build; });
+        return { latest: enrichedVersions[0], latest_stable: enrichedVersions.find(v => v.stable) || enrichedVersions[0], latest_lts: enrichedVersions.find(v => v.lts && v.stable), versions: enrichedVersions.slice(0, MAX_NEW_VERSIONS_PER_SCAN), total_versions: enrichedVersions.length, download_page: 'https://adoptium.net/temurin/releases/' };
+      } catch (error) { console.error('Error fetching Java Temurin:', error.message); return null; }
+    }
+  },
+  {
+    name: 'PostgreSQL', category: 'Databases', website: 'https://www.postgresql.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('postgres', 'postgres', { versionFilter: (tag) => tag.startsWith('REL_'), versionTransform: (v) => v.replace('REL_', '').replace(/_/g, '.'), existingVersions });
+      if (result) { result.download_page = 'https://www.postgresql.org/download/'; result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows: `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64.exe`, source: `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz` } })); }
+      return result;
+    }
+  },
+  { name: 'MySQL', category: 'Databases', website: 'https://www.mysql.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('mysql', 'mysql-server', { versionFilter: (tag) => tag.startsWith('mysql-'), versionTransform: (v) => v.replace('mysql-', ''), existingVersions }); if (result) result.download_page = 'https://dev.mysql.com/downloads/mysql/'; return result; } },
+  { name: 'MariaDB', category: 'Databases', website: 'https://mariadb.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('MariaDB', 'server', { versionFilter: (tag) => tag.startsWith('mariadb-'), versionTransform: (v) => v.replace('mariadb-', ''), existingVersions }); if (result) result.download_page = 'https://mariadb.org/download/'; return result; } },
+  { name: 'MongoDB', category: 'Databases', website: 'https://www.mongodb.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('mongodb', 'mongo', { versionFilter: (tag) => /^r\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('r', ''), existingVersions }); if (result) result.download_page = 'https://www.mongodb.com/try/download/community'; return result; } },
+  {
+    name: 'Redis', category: 'Databases', website: 'https://redis.io',
+    fetch: async (existingVersions = []) => {
+      const [officialResult, windowsResult] = await Promise.all([fetchAllGitHubReleases('redis', 'redis', { existingVersions }), fetchAllGitHubReleases('redis-windows', 'redis-windows', { existingVersions })]);
+      if (!officialResult) return null;
+      const windowsVersionMap = new Map();
+      if (windowsResult && windowsResult.versions) { for (const wv of windowsResult.versions) { const versionMatch = wv.version.match(/(\d+\.\d+\.\d+)/); if (versionMatch) windowsVersionMap.set(versionMatch[1], wv); } }
+      officialResult.versions = officialResult.versions.map(v => { const windowsBuild = windowsVersionMap.get(v.version); const downloads = v.downloads || {}; if (windowsBuild && windowsBuild.downloads) downloads.windows = windowsBuild.downloads.windows || windowsBuild.downloads.other || []; return { ...v, downloads }; });
+      officialResult.download_page = 'https://redis.io/download/';
+      officialResult.windows_builds_source = 'https://github.com/redis-windows/redis-windows';
+      return officialResult;
+    }
+  },
+  { name: 'Nginx', category: 'Web Servers', website: 'https://nginx.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('nginx', 'nginx', { versionFilter: (tag) => tag.startsWith('release-'), versionTransform: (v) => v.replace('release-', ''), existingVersions }); if (result) { result.download_page = 'https://nginx.org/en/download.html'; result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows: `https://nginx.org/download/nginx-${v.version}.zip`, source: `https://nginx.org/download/nginx-${v.version}.tar.gz` } })); } return result; } },
+  { name: 'Apache HTTP Server', category: 'Web Servers', website: 'https://httpd.apache.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('apache', 'httpd', { versionFilter: (tag) => /^\d+\.\d+\.\d+$/.test(tag), existingVersions }); if (result) { result.download_page = 'https://httpd.apache.org/download.cgi'; result.windows_builds = 'https://www.apachelounge.com/download/'; } return result; } },
+  { name: 'Composer', category: 'Package Managers', website: 'https://getcomposer.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('composer', 'composer', { existingVersions }); if (result) result.official_downloads = { phar: 'https://getcomposer.org/download/latest-stable/composer.phar', installer: 'https://getcomposer.org/Composer-Setup.exe' }; return result; } },
+  { name: 'npm', category: 'Package Managers', website: 'https://www.npmjs.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('npm', 'cli', { existingVersions }); if (result) result.install_command = 'npm install -g npm@latest'; return result; } },
+  { name: 'Yarn', category: 'Package Managers', website: 'https://yarnpkg.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('yarnpkg', 'berry', { existingVersions }); if (result) result.install_command = 'corepack enable && yarn set version stable'; return result; } },
+  { name: 'pnpm', category: 'Package Managers', website: 'https://pnpm.io', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('pnpm', 'pnpm', { existingVersions }); if (result) result.install_command = 'npm install -g pnpm'; return result; } },
+  { name: 'Bun', category: 'Package Managers', website: 'https://bun.sh', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('oven-sh', 'bun', { existingVersions }); if (result) result.install_command = 'curl -fsSL https://bun.sh/install | bash'; return result; } },
+  { name: 'Laravel', category: 'Frameworks', website: 'https://laravel.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('laravel', 'framework', { existingVersions }); if (result) result.install_command = 'composer create-project laravel/laravel example-app'; return result; } },
+  { name: 'Next.js', category: 'Frameworks', website: 'https://nextjs.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('vercel', 'next.js', { existingVersions }); if (result) result.install_command = 'npx create-next-app@latest'; return result; } },
+  { name: 'Nuxt', category: 'Frameworks', website: 'https://nuxt.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('nuxt', 'nuxt', { existingVersions }); if (result) result.install_command = 'npx nuxi@latest init <project-name>'; return result; } },
+  { name: 'Vue.js', category: 'Frameworks', website: 'https://vuejs.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('vuejs', 'core', { existingVersions }); if (result) result.install_command = 'npm create vue@latest'; return result; } },
+  { name: 'React', category: 'Frameworks', website: 'https://react.dev', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('facebook', 'react', { existingVersions }); if (result) result.install_command = 'npm install react react-dom'; return result; } },
+  { name: 'Svelte', category: 'Frameworks', website: 'https://svelte.dev', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('sveltejs', 'svelte', { existingVersions }); if (result) result.install_command = 'npx sv create my-app'; return result; } },
+  { name: 'Docker', category: 'DevOps', website: 'https://www.docker.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('moby', 'moby', { existingVersions }); if (result) { result.download_page = 'https://www.docker.com/products/docker-desktop/'; result.official_downloads = { windows: 'https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe', macos_intel: 'https://desktop.docker.com/mac/main/amd64/Docker.dmg', macos_arm: 'https://desktop.docker.com/mac/main/arm64/Docker.dmg' }; } return result; } },
+  {
+    name: 'Git', category: 'DevOps', website: 'https://git-scm.com',
+    fetch: async (existingVersions = []) => {
+      const [officialResult, windowsResult] = await Promise.all([fetchAllGitHubTags('git', 'git', { versionFilter: (tag) => /^v\d+\.\d+\.\d+$/.test(tag), existingVersions }), fetchAllGitHubReleases('git-for-windows', 'git', { existingVersions })]);
+      if (!officialResult && !windowsResult) return null;
+      const versions = officialResult?.versions || [];
+      const windowsVersionMap = new Map();
+      if (windowsResult && windowsResult.versions) { for (const wv of windowsResult.versions) { const versionMatch = wv.version.match(/^(\d+\.\d+\.\d+)/); if (versionMatch && !windowsVersionMap.has(versionMatch[1])) windowsVersionMap.set(versionMatch[1], wv); } }
+      const mergedVersions = versions.map(v => ({ ...v, downloads: { windows: windowsVersionMap.get(v.version)?.downloads?.windows || [], source: [{ name: `git-${v.version}.tar.gz`, download_url: `https://github.com/git/git/archive/refs/tags/v${v.version}.tar.gz`, type: 'tarball' }, { name: `git-${v.version}.zip`, download_url: `https://github.com/git/git/archive/refs/tags/v${v.version}.zip`, type: 'zipball' }] } }));
+      for (const [version, wv] of windowsVersionMap) { if (!versions.find(v => v.version === version)) mergedVersions.push({ version, tag: `v${version}`, downloads: { windows: wv.downloads?.windows || [], source: [] } }); }
+      mergedVersions.sort((a, b) => { const aParts = a.version.split('.').map(Number), bParts = b.version.split('.').map(Number); for (let i = 0; i < 3; i++) { if (bParts[i] !== aParts[i]) return bParts[i] - aParts[i]; } return 0; });
+      return { latest: mergedVersions[0], versions: mergedVersions, total_versions: mergedVersions.length, download_page: 'https://git-scm.com/downloads', windows_builds_source: 'https://github.com/git-for-windows/git' };
+    }
+  }
+];
+
+async function fetchAllVersions() {
+  console.log('🚀 Starting version fetch (INCREMENTAL mode)...\n');
+  console.log(`📊 Max new versions per scan: ${MAX_NEW_VERSIONS_PER_SCAN}`);
+  console.log(`💾 Existing versions will be preserved\n`);
+  const existingData = loadExistingData();
+  const existingCategories = existingData?.software || {};
+  const results = { last_updated: new Date().toISOString(), incremental_mode: true, software: {} };
+  const categories = {};
+  for (const software of SOFTWARE_LIST) {
+    console.log(`📦 Fetching ${software.name}...`);
+    try {
+      const existingSwData = existingCategories[software.category]?.[software.name];
+      const existingVersions = existingSwData?.versions || [];
+      const newData = await software.fetch(existingVersions);
+      if (!categories[software.category]) categories[software.category] = {};
+      let mergedVersions = [];
+      if (newData && newData.versions) mergedVersions = mergeVersions(existingVersions, newData.versions);
+      else if (existingVersions.length > 0) mergedVersions = existingVersions;
+      const addedCount = mergedVersions.length - existingVersions.length;
+      categories[software.category][software.name] = { website: software.website, ...newData, versions: mergedVersions, latest: mergedVersions[0] || newData?.latest || null, total_versions: mergedVersions.length, fetched_at: new Date().toISOString() };
+      if (addedCount > 0) console.log(`   ✅ ${software.name}: ${mergedVersions.length} total (${addedCount} new added)`);
+      else if (mergedVersions.length > 0) console.log(`   ✅ ${software.name}: ${mergedVersions.length} versions (no new)`);
+      else console.log(`   ⚠️ ${software.name}: No data found`);
+    } catch (error) {
+      console.error(`   ❌ ${software.name}: ${error.message}`);
+      const existingSwData = existingCategories[software.category]?.[software.name];
+      if (!categories[software.category]) categories[software.category] = {};
+      if (existingSwData) { categories[software.category][software.name] = { ...existingSwData, last_error: error.message, fetched_at: new Date().toISOString() }; console.log(`   ℹ️  Preserved ${existingSwData.total_versions || 0} existing versions`); }
+      else categories[software.category][software.name] = { website: software.website, error: error.message, fetched_at: new Date().toISOString() };
+    }
+    await new Promise(resolve => setTimeout(resolve, 200));
+  }
+  results.software = categories;
+  const outputDir = path.join(__dirname, '..', 'versions');
+  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+  const outputPath = path.join(outputDir, 'all-versions.json');
+  fs.writeFileSync(outputPath, JSON.stringify(results, null, 2));
+  console.log(`\n✨ Done! Results saved to ${outputPath}`);
+  const summaryPath = path.join(outputDir, 'VERSIONS.md');
+  fs.writeFileSync(summaryPath, generateMarkdownSummary(results));
+  console.log(`📄 Summary saved to ${summaryPath}`);
+  console.log(`\n💡 Run 'npm run build-api' to generate API files in docs/api/v1/`);
+  return results;
+}
+
+function generateMarkdownSummary(results) {
+  let md = `# Software Versions\n\n> Last updated: ${results.last_updated}\n> Max versions tracked per software: ${results.max_versions_per_software}\n\n`;
+  for (const [category, software] of Object.entries(results.software)) {
+    md += `## ${category}\n\n| Software | Latest Version | Total Versions | Downloads |\n|----------|----------------|----------------|----------|\n`;
+    for (const [name, data] of Object.entries(software)) {
+      if (data.error) md += `| ${name} | ⚠️ Error | - | - |\n`;
+      else {
+        const latest = data.latest || data.latest_lts || (data.versions && data.versions[0]);
+        md += `| ${name} | ${latest?.version || 'N/A'} | ${data.total_versions || data.versions?.length || 0} | ${data.website ? `[Website](${data.website})` : '-'} |\n`;
+      }
+    }
+    md += `\n`;
+  }
+  md += `---\n\n*For full version history with downloads, see individual JSON files or [all-versions.json](./all-versions.json)*\n`;
+  return md;
+}
+
+fetchAllVersions().catch(console.error);

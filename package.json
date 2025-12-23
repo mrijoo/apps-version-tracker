@@ -1,0 +1,29 @@
+{
+  "name": "apps-version-tracker",
+  "version": "1.0.0",
+  "description": "Track latest versions of popular development tools using GitHub Actions",
+  "main": "scripts/fetch-versions.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-versions.js",
+    "build-api": "node scripts/build-api.js",
+    "build": "npm run fetch && npm run build-api",
+    "sync-versions": "git fetch origin versions && git checkout origin/versions -- versions/ docs/api/ 2>/dev/null || echo 'No versions branch yet'",
+    "test": "node --check scripts/fetch-versions.js"
+  },
+  "keywords": [
+    "version-tracker",
+    "github-actions",
+    "php",
+    "nodejs",
+    "golang",
+    "redis",
+    "mongodb",
+    "postgresql",
+    "mysql"
+  ],
+  "author": "mrijoo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apps Version API - Documentation</title>
+  <meta name="description"
+    content="Free API to get latest versions of PHP, Node.js, Go, Redis, MongoDB, and more development tools." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <a href="#" class="logo">
+            <svg class="icon icon-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+            <span class="logo-text">Apps Version API</span>
+          </a>
+          <nav class="nav">
+            <a href="#overview">Overview</a>
+            <a href="#endpoints">Endpoints</a>
+            <a href="#explorer">Explorer</a>
+            <a href="#examples">Examples</a>
+          </nav>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <svg class="icon theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg class="icon theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              style="display: none">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-badge">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+            </polygon>
+          </svg>
+          Free & Open Source
+        </div>
+        <h1>Apps Version <span class="gradient-text">API</span></h1>
+        <p class="hero-subtitle">
+          Track latest versions of popular development tools with a simple,
+          fast, and free API
+        </p>
+        <div class="search-container">
+          <div class="search-box">
+            <svg class="icon search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="globalSearch" placeholder="Search software... (e.g., PHP, Node.js, Redis)"
+              autocomplete="off" />
+            <kbd class="search-shortcut">/</kbd>
+          </div>
+          <div class="search-results" id="searchResults"></div>
+        </div>
+
+        <div class="hero-stats" id="heroStats">
+          <div class="stat">
+            <span class="stat-value" id="totalSoftware">--</span>
+            <span class="stat-label">Software</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="totalCategories">--</span>
+            <span class="stat-label">Categories</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="totalVersions">--</span>
+            <span class="stat-label">Versions Tracked</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#explorer" class="btn btn-primary">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            Try API Explorer
+          </a>
+          <a href="https://github.com/mrijoo/apps-version-tracker" class="btn btn-secondary" target="_blank">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+            Star on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="overview">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Use This API?</h2>
+          <p>Everything you need to track software versions</p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon-wrap">
+              <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3>Free & Fast</h3>
+            <p>
+              Hosted on GitHub Pages CDN. No rate limits, no API keys
+              required.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon-wrap">
+              <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="23 4 23 10 17 10"></polyline>
+                <polyline points="1 20 1 14 7 14"></polyline>
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+              </svg>
+            </div>
+            <h3>Auto-Updated</h3>
+            <p>
+              Versions are automatically updated every 6 hours via GitHub
+              Actions.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon-wrap">
+              <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3>Complete History</h3>
+            <p>
+              All versions preserved forever. New versions added
+              incrementally.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon-wrap">
+              <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+            <h3>Download Links</h3>
+            <p>
+              Direct download URLs with file sizes for Windows, Linux, and
+              macOS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="endpoints">
+      <div class="container">
+        <div class="section-header">
+          <h2>API Endpoints</h2>
+          <p>Simple REST endpoints to get the data you need</p>
+        </div>
+        <div class="endpoints-grid">
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="method">GET</span>
+              <code>/api/v1/meta.json</code>
+            </div>
+            <p>Get API metadata, available software, and categories list.</p>
+            <button class="btn-try" data-endpoint="meta.json">
+              Try it →
+            </button>
+          </div>
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="method">GET</span>
+              <code>/api/v1/all.json</code>
+            </div>
+            <p>Get summary of all software with latest versions.</p>
+            <button class="btn-try" data-endpoint="all.json">Try it →</button>
+          </div>
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="method">GET</span>
+              <code>/api/v1/software/{name}.json</code>
+            </div>
+            <p>Get all versions for a specific software.</p>
+            <button class="btn-try" data-endpoint="software/php.json">
+              Try PHP →
+            </button>
+          </div>
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="method">GET</span>
+              <code>/api/v1/categories/{name}.json</code>
+            </div>
+            <p>Get all software in a category.</p>
+            <button class="btn-try" data-endpoint="categories/databases.json">
+              Try Databases →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="explorer">
+      <div class="container">
+        <div class="section-header">
+          <h2>API Explorer</h2>
+          <p>Test the API with live data</p>
+        </div>
+        <div class="explorer">
+          <div class="explorer-controls">
+            <div class="filter-row">
+              <div class="filter-group">
+                <label for="categoryFilter">Category</label>
+                <select id="categoryFilter">
+                  <option value="">All Categories</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label for="softwareFilter">Software</label>
+                <select id="softwareFilter">
+                  <option value="">All Software</option>
+                </select>
+              </div>
+              <button class="btn btn-primary btn-sm" id="refreshBtn">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="23 4 23 10 17 10"></polyline>
+                  <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                </svg>
+                Load
+              </button>
+            </div>
+          </div>
+
+          <div class="explorer-url">
+            <div class="url-label">Request URL</div>
+            <div class="url-box">
+              <code id="requestUrl">Loading...</code>
+              <button class="btn-icon" id="copyUrl" title="Copy URL">
+                <svg class="icon" id="copyIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="filter-params" id="filterParams" style="display: none"></div>
+          </div>
+
+          <div class="explorer-results">
+            <div class="results-header">
+              <span class="results-label">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                Response
+              </span>
+              <span class="results-count" id="resultsCount">0 results</span>
+            </div>
+            <div class="results-body">
+              <pre id="resultsJson"><div class="loading-skeleton"></div></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="examples">
+      <div class="container">
+        <div class="section-header">
+          <h2>Code Examples</h2>
+          <p>Get started quickly with these examples</p>
+        </div>
+        <div class="tabs-container">
+          <div class="tabs">
+            <button class="tab active" data-tab="curl">cURL</button>
+            <button class="tab" data-tab="javascript">JavaScript</button>
+            <button class="tab" data-tab="python">Python</button>
+            <button class="tab" data-tab="php">PHP</button>
+          </div>
+          <div class="tab-panels">
+            <div class="tab-content active" id="tab-curl">
+              <div class="code-header">
+                <span>Bash</span>
+                <button class="btn-icon btn-copy" data-target="code-curl">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+              <pre><code id="code-curl" class="language-bash"># Get all software summary
+curl https://mrijoo.github.io/apps-version-tracker/api/v1/all.json
+
+# Get PHP versions
+curl https://mrijoo.github.io/apps-version-tracker/api/v1/software/php.json
+
+# Get all databases
+curl https://mrijoo.github.io/apps-version-tracker/api/v1/categories/databases.json</code></pre>
+            </div>
+            <div class="tab-content" id="tab-javascript">
+              <div class="code-header">
+                <span>JavaScript</span>
+                <button class="btn-icon btn-copy" data-target="code-js">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+              <pre><code id="code-js" class="language-javascript">const API_BASE = 'https://mrijoo.github.io/apps-version-tracker/api/v1';
+
+// Get PHP versions
+async function getPhpVersions() {
+  const response = await fetch(`${API_BASE}/software/php.json`);
+  const data = await response.json();
+  
+  console.log('Latest:', data.latest?.version);
+  console.log('Total versions:', data.total_versions);
+  
+  return data;
+}
+
+getPhpVersions();</code></pre>
+            </div>
+            <div class="tab-content" id="tab-python">
+              <div class="code-header">
+                <span>Python</span>
+                <button class="btn-icon btn-copy" data-target="code-python">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+              <pre><code id="code-python" class="language-python">import requests
+
+API_BASE = "https://mrijoo.github.io/apps-version-tracker/api/v1"
+
+def get_php_versions():
+    response = requests.get(f"{API_BASE}/software/php.json")
+    data = response.json()
+    
+    print(f"Latest: {data.get('latest', {}).get('version')}")
+    print(f"Total versions: {data.get('total_versions')}")
+    
+    return data
+
+get_php_versions()</code></pre>
+            </div>
+            <div class="tab-content" id="tab-php">
+              <div class="code-header">
+                <span>PHP</span>
+                <button class="btn-icon btn-copy" data-target="code-php">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+              <pre><code id="code-php" class="language-php">&lt;?php
+
+$apiBase = 'https://mrijoo.github.io/apps-version-tracker/api/v1';
+
+function getPhpVersions() {
+    global $apiBase;
+    $json = file_get_contents("$apiBase/software/php.json");
+    $data = json_decode($json, true);
+    
+    echo "Latest: " . ($data['latest']['version'] ?? 'N/A') . "\n";
+    echo "Total versions: " . ($data['total_versions'] ?? 0) . "\n";
+    
+    return $data;
+}
+
+getPhpVersions();</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="software">
+      <div class="container">
+        <div class="section-header">
+          <h2>Available Software</h2>
+          <p>Click on any software to explore its versions</p>
+        </div>
+
+        <div class="category-tabs" id="categoryTabs">
+          <button class="category-tab active" data-category="">All</button>
+        </div>
+
+        <div class="software-grid" id="softwareGrid">
+          <div class="software-card skeleton"></div>
+          <div class="software-card skeleton"></div>
+          <div class="software-card skeleton"></div>
+          <div class="software-card skeleton"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+            </svg>
+            <span>Apps Version API</span>
+          </div>
+          <p>Open source version tracking powered by GitHub Actions</p>
+          <div class="footer-links">
+            <a href="https://github.com/mrijoo/apps-version-tracker" target="_blank">GitHub</a>
+            <a href="#endpoints">API Docs</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast">
+    <svg class="icon toast-icon" id="toastIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span class="toast-message" id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <script src="js/api-client.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

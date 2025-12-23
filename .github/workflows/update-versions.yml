@@ -1,0 +1,128 @@
+name: Update Software Versions
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - main
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-versions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main-repo
+
+      - name: Setup versions directory
+        run: |
+          mkdir -p versions-repo
+          cd versions-repo
+          git init
+          git remote add origin https://github.com/${{ github.repository }}.git
+          
+          # Try to fetch versions branch if it exists
+          if git ls-remote --exit-code --heads origin versions 2>/dev/null; then
+            git fetch origin versions
+            git checkout -b versions origin/versions
+          else
+            echo "Creating new versions branch"
+            git checkout -b versions
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          cd main-repo
+          npm install
+
+      - name: Copy existing version data to main for processing
+        run: |
+          mkdir -p main-repo/versions
+          if [ -d "versions-repo/versions" ] && [ "$(ls -A versions-repo/versions 2>/dev/null)" ]; then
+            echo "Found existing versions data, copying..."
+            ls -la versions-repo/versions/
+            cp -r versions-repo/versions/* main-repo/versions/
+            echo "Copied files:"
+            ls -la main-repo/versions/
+          else
+            echo "No existing versions data found in versions-repo"
+          fi
+
+      - name: Fetch latest versions
+        run: |
+          cd main-repo
+          npm run fetch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build API structure
+        run: |
+          cd main-repo
+          npm run build-api
+
+      - name: Copy updated data to versions repo
+        run: |
+          # Ensure directories exist
+          mkdir -p versions-repo/versions
+          mkdir -p versions-repo/docs
+          
+          # Copy all needed files
+          cp -r main-repo/versions/* versions-repo/versions/
+          cp -r main-repo/docs/* versions-repo/docs/
+
+      - name: Commit and push to versions branch
+        run: |
+          cd versions-repo
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --staged --quiet || git commit -m "chore: update software versions [$(date -u '+%Y-%m-%d %H:%M:%S UTC')]"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git versions --force
+
+  deploy:
+    needs: update-versions
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout versions branch
+        uses: actions/checkout@v4
+        with:
+          ref: versions
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
