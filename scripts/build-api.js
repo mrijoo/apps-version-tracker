@@ -20,6 +20,11 @@ function isStableVersion(version) {
     return !unstablePatterns.some(pattern => pattern.test(versionStr));
 }
 
+function cleanObject(obj) {
+    for (const key of Object.keys(obj)) { if (obj[key] === null || obj[key] === undefined) delete obj[key]; }
+    return obj;
+}
+
 function normalizeVersion(version) {
     const normalized = {
         version: version.version || null,
@@ -34,18 +39,18 @@ function normalizeVersion(version) {
         for (const platform of ['windows', 'linux', 'macos', 'source']) {
             if (version.downloads[platform]) {
                 if (Array.isArray(version.downloads[platform])) {
-                    normalized.downloads[platform] = version.downloads[platform].map(d => ({
+                    normalized.downloads[platform] = version.downloads[platform].map(d => cleanObject({
                         name: d.name || null, url: d.download_url || d.url || null, size: d.size || null, size_bytes: d.size_bytes || null, type: d.type || null, arch: d.arch || null
                     })).filter(d => d.url);
                 } else if (typeof version.downloads[platform] === 'object') {
-                    normalized.downloads[platform] = Object.entries(version.downloads[platform]).map(([key, url]) => ({ name: key, url: typeof url === 'string' ? url : null, type: key })).filter(d => d.url);
+                    normalized.downloads[platform] = Object.entries(version.downloads[platform]).map(([key, url]) => cleanObject({ name: key, url: typeof url === 'string' ? url : null, type: key })).filter(d => d.url);
                 } else if (typeof version.downloads[platform] === 'string') {
                     normalized.downloads[platform] = [{ name: platform, url: version.downloads[platform], type: platform }];
                 }
             }
         }
         if (version.downloads.other && Array.isArray(version.downloads.other)) {
-            normalized.downloads.source.push(...version.downloads.other.map(d => ({ name: d.name || null, url: d.download_url || d.url || null, size: d.size || null, type: d.type || 'other' })).filter(d => d.url));
+            normalized.downloads.source.push(...version.downloads.other.map(d => cleanObject({ name: d.name || null, url: d.download_url || d.url || null, size: d.size || null, type: d.type || 'other' })).filter(d => d.url));
         }
     }
     if (version.source_download) {
@@ -56,7 +61,7 @@ function normalizeVersion(version) {
     if (version.official_downloads) {
         for (const [key, url] of Object.entries(version.official_downloads)) {
             const platform = key.includes('windows') ? 'windows' : key.includes('linux') ? 'linux' : key.includes('mac') || key.includes('darwin') ? 'macos' : 'source';
-            normalized.downloads[platform].push({ name: key, url: typeof url === 'string' ? url : null, type: key });
+            normalized.downloads[platform].push(cleanObject({ name: key, url: typeof url === 'string' ? url : null, type: key }));
         }
     }
     if (version.lts !== undefined) normalized.lts = version.lts;

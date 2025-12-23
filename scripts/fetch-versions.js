@@ -41,6 +41,21 @@ function formatFileSize(bytes) {
   return `${(bytes / Math.pow(1024, i)).toFixed(2)} ${sizes[i]}`;
 }
 
+async function fetchFileSize(url) {
+  try {
+    const response = await axios.head(url, { timeout: 5000, maxRedirects: 5 });
+    const contentLength = response.headers['content-length'];
+    return contentLength ? parseInt(contentLength, 10) : null;
+  } catch { return null; }
+}
+
+async function fetchTagCommitDate(owner, repo, sha) {
+  try {
+    const response = await axiosInstance.get(`${GITHUB_API}/repos/${owner}/${repo}/commits/${sha}`);
+    return response.data?.commit?.committer?.date || null;
+  } catch { return null; }
+}
+
 function extractDownloads(assets) {
   if (!assets || assets.length === 0) return [];
   return assets.map(asset => ({
@@ -107,6 +122,7 @@ async function fetchAllGitHubTags(owner, repo, options = {}) {
     const existingVersions = new Set((options.existingVersions || []).map(v => v.version));
     let allTags = [], page = 1, consecutiveExisting = 0, newVersionsFound = 0;
     const perPage = 100, MAX_CONSECUTIVE_EXISTING = 20;
+    const fetchDates = options.fetchDates !== false;
     console.log(`    📊 Existing versions: ${existingVersions.size}`);
     while (true) {
       const url = `${GITHUB_API}/repos/${owner}/${repo}/tags?per_page=${perPage}&page=${page}`;
@@ -123,8 +139,12 @@ async function fetchAllGitHubTags(owner, repo, options = {}) {
         }
         consecutiveExisting = 0;
         newVersionsFound++;
+        let published_at = null;
+        if (fetchDates && tag.commit?.sha) {
+          published_at = await fetchTagCommitDate(owner, repo, tag.commit.sha);
+        }
         allTags.push({
-          version, tag: tag.name,
+          version, tag: tag.name, published_at,
           release_url: `https://github.com/${owner}/${repo}/releases/tag/${tag.name}`,
           source_download: { tarball: `https://github.com/${owner}/${repo}/archive/refs/tags/${tag.name}.tar.gz`, zipball: `https://github.com/${owner}/${repo}/archive/refs/tags/${tag.name}.zip` }
         });
