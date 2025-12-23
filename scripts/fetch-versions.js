@@ -327,9 +327,63 @@ const SOFTWARE_LIST = [
       return result;
     }
   },
-  { name: 'MySQL', category: 'Databases', website: 'https://www.mysql.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('mysql', 'mysql-server', { versionFilter: (tag) => tag.startsWith('mysql-'), versionTransform: (v) => v.replace('mysql-', ''), existingVersions }); if (result) result.download_page = 'https://dev.mysql.com/downloads/mysql/'; return result; } },
-  { name: 'MariaDB', category: 'Databases', website: 'https://mariadb.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('MariaDB', 'server', { versionFilter: (tag) => tag.startsWith('mariadb-'), versionTransform: (v) => v.replace('mariadb-', ''), existingVersions }); if (result) result.download_page = 'https://mariadb.org/download/'; return result; } },
-  { name: 'MongoDB', category: 'Databases', website: 'https://www.mongodb.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('mongodb', 'mongo', { versionFilter: (tag) => /^r\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('r', ''), existingVersions }); if (result) result.download_page = 'https://www.mongodb.com/try/download/community'; return result; } },
+  {
+    name: 'MySQL', category: 'Databases', website: 'https://www.mysql.com',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('mysql', 'mysql-server', { versionFilter: (tag) => /^mysql-\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('mysql-', ''), existingVersions });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://dev.mysql.com/downloads/mysql/';
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [{ name: `mysql-${v.version}-winx64.zip`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}-winx64.zip` }],
+            source: [{ name: `mysql-${v.version}.tar.gz`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}.tar.gz` }]
+          };
+          allDownloads.push(...v.downloads.windows, ...v.downloads.source);
+        }
+        console.log(`📦 MySQL: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
+      return result;
+    }
+  },
+  {
+    name: 'MariaDB', category: 'Databases', website: 'https://mariadb.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('MariaDB', 'server', { versionFilter: (tag) => /^mariadb-\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('mariadb-', ''), existingVersions });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://mariadb.org/download/';
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [{ name: `mariadb-${v.version}-winx64.zip`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}-winx64.zip` }],
+            source: [{ name: `mariadb-${v.version}.tar.gz`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}.tar.gz` }]
+          };
+          allDownloads.push(...v.downloads.source);
+        }
+        console.log(`📦 MariaDB: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
+      return result;
+    }
+  },
+  {
+    name: 'MongoDB', category: 'Databases', website: 'https://www.mongodb.com',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('mongodb', 'mongo', { versionFilter: (tag) => /^r\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('r', ''), existingVersions });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://www.mongodb.com/try/download/community';
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [{ name: `mongodb-windows-x86_64-${v.version}.zip`, download_url: `https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-${v.version}.zip` }],
+            linux: [{ name: `mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz` }],
+            macos: [{ name: `mongodb-macos-arm64-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/osx/mongodb-macos-arm64-${v.version}.tgz` }]
+          };
+        }
+      }
+      return result;
+    }
+  },
   {
     name: 'Redis', category: 'Databases', website: 'https://redis.io',
     fetch: async (existingVersions = []) => {
@@ -363,8 +417,47 @@ const SOFTWARE_LIST = [
       return result;
     }
   },
-  { name: 'Apache HTTP Server', category: 'Web Servers', website: 'https://httpd.apache.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubTags('apache', 'httpd', { versionFilter: (tag) => /^\d+\.\d+\.\d+$/.test(tag), existingVersions }); if (result) { result.download_page = 'https://httpd.apache.org/download.cgi'; result.windows_builds = 'https://www.apachelounge.com/download/'; } return result; } },
-  { name: 'Composer', category: 'Package Managers', website: 'https://getcomposer.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('composer', 'composer', { existingVersions }); if (result) result.official_downloads = { phar: 'https://getcomposer.org/download/latest-stable/composer.phar', installer: 'https://getcomposer.org/Composer-Setup.exe' }; return result; } },
+  {
+    name: 'Apache HTTP Server', category: 'Web Servers', website: 'https://httpd.apache.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('apache', 'httpd', { versionFilter: (tag) => /^\d+\.\d+\.\d+$/.test(tag), existingVersions });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://httpd.apache.org/download.cgi';
+        result.windows_builds = 'https://www.apachelounge.com/download/';
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            source: [{ name: `httpd-${v.version}.tar.gz`, download_url: `https://archive.apache.org/dist/httpd/httpd-${v.version}.tar.gz` }]
+          };
+          allDownloads.push(...v.downloads.source);
+        }
+        console.log(`📦 Apache: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
+      return result;
+    }
+  },
+  {
+    name: 'Composer', category: 'Package Managers', website: 'https://getcomposer.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubReleases('composer', 'composer', { existingVersions });
+      if (result && result.versions.length > 0) {
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            other: [
+              { name: `composer.phar`, download_url: `https://getcomposer.org/download/${v.version}/composer.phar` },
+              { name: `composer-setup.php`, download_url: `https://getcomposer.org/download/${v.version}/composer-setup.php` }
+            ]
+          };
+          allDownloads.push(...v.downloads.other);
+        }
+        console.log(`📦 Composer: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
+      return result;
+    }
+  },
   { name: 'npm', category: 'Package Managers', website: 'https://www.npmjs.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('npm', 'cli', { existingVersions }); if (result) result.install_command = 'npm install -g npm@latest'; return result; } },
   { name: 'Yarn', category: 'Package Managers', website: 'https://yarnpkg.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('yarnpkg', 'berry', { existingVersions }); if (result) result.install_command = 'corepack enable && yarn set version stable'; return result; } },
   { name: 'pnpm', category: 'Package Managers', website: 'https://pnpm.io', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('pnpm', 'pnpm', { existingVersions }); if (result) result.install_command = 'npm install -g pnpm'; return result; } },
