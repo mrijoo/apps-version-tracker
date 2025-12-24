@@ -392,8 +392,8 @@ const SOFTWARE_LIST = [
         const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
-            windows: [{ name: `mysql-${v.version}-winx64.zip`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}-winx64.zip`, type: 'binaries' }],
-            source: [{ name: `mysql-${v.version}.tar.gz`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}.tar.gz`, type: 'source' }]
+            windows: [{ name: `mysql-${v.version}-winx64.zip`, download_url: `https://cdn.mysql.com/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}-winx64.zip`, type: 'binaries' }],
+            source: [{ name: `mysql-${v.version}.tar.gz`, download_url: `https://cdn.mysql.com/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}.tar.gz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.windows, ...v.downloads.source);
         }
