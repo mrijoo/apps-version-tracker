@@ -198,7 +198,7 @@ const SOFTWARE_LIST = [
               { name: `php-${version}-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-Win32-${vs}-x64.zip`, type: 'Thread Safe (TS)', arch: 'x64' },
               { name: `php-${version}-nts-Win32-${vs}-x64.zip`, download_url: `https://windows.php.net/downloads/releases/php-${version}-nts-Win32-${vs}-x64.zip`, type: 'Non-Thread Safe (NTS)', arch: 'x64' }
             ],
-            source: [{ name: `php-${version}.tar.gz`, download_url: `https://www.php.net/distributions/php-${version}.tar.gz` }]
+            source: [{ name: `php-${version}.tar.gz`, download_url: `https://www.php.net/distributions/php-${version}.tar.gz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.windows, ...v.downloads.source);
         }
@@ -222,18 +222,18 @@ const SOFTWARE_LIST = [
             published_at: v.date,
             downloads: {
               windows: [
-                { name: `node-${ver}-win-x64.zip`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-win-x64.zip`, arch: 'x64' },
-                { name: `node-${ver}-x64.msi`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-x64.msi`, arch: 'x64', type: 'installer' }
+                { name: `node-${ver}-win-x64.zip`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-win-x64.zip`, type: 'binaries', arch: 'x64' },
+                { name: `node-${ver}-x64.msi`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-x64.msi`, type: 'installer', arch: 'x64' }
               ],
               linux: [
-                { name: `node-${ver}-linux-x64.tar.xz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-linux-x64.tar.xz`, arch: 'x64' },
-                { name: `node-${ver}-linux-arm64.tar.xz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-linux-arm64.tar.xz`, arch: 'arm64' }
+                { name: `node-${ver}-linux-x64.tar.xz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-linux-x64.tar.xz`, type: 'binaries', arch: 'x64' },
+                { name: `node-${ver}-linux-arm64.tar.xz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-linux-arm64.tar.xz`, type: 'binaries', arch: 'arm64' }
               ],
               macos: [
-                { name: `node-${ver}-darwin-arm64.tar.gz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-darwin-arm64.tar.gz`, arch: 'arm64' },
+                { name: `node-${ver}-darwin-arm64.tar.gz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-darwin-arm64.tar.gz`, type: 'binaries', arch: 'arm64' },
                 { name: `node-${ver}.pkg`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}.pkg`, type: 'installer' }
               ],
-              source: [{ name: `node-${ver}.tar.gz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}.tar.gz` }]
+              source: [{ name: `node-${ver}.tar.gz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}.tar.gz`, type: 'source' }]
             }
           };
         });
@@ -269,9 +269,9 @@ const SOFTWARE_LIST = [
         const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
-            windows: [{ name: `python-${v.version}-amd64.exe`, download_url: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-amd64.exe`, arch: 'x64' }],
-            macos: [{ name: `python-${v.version}-macos11.pkg`, download_url: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-macos11.pkg` }],
-            source: [{ name: `Python-${v.version}.tar.xz`, download_url: `https://www.python.org/ftp/python/${v.version}/Python-${v.version}.tar.xz` }]
+            windows: [{ name: `python-${v.version}-amd64.exe`, download_url: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-amd64.exe`, type: 'installer', arch: 'x64' }],
+            macos: [{ name: `python-${v.version}-macos11.pkg`, download_url: `https://www.python.org/ftp/python/${v.version}/python-${v.version}-macos11.pkg`, type: 'installer' }],
+            source: [{ name: `Python-${v.version}.tar.xz`, download_url: `https://www.python.org/ftp/python/${v.version}/Python-${v.version}.tar.xz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.windows, ...v.downloads.source);
         }
@@ -290,8 +290,8 @@ const SOFTWARE_LIST = [
         for (const v of result.versions) {
           const majorMinor = v.version.split('.').slice(0, 2).join('.');
           v.downloads = {
-            windows: [{ name: `rubyinstaller-${v.version}-x64.exe`, download_url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-${v.version}-1/rubyinstaller-${v.version}-1-x64.exe`, arch: 'x64' }],
-            source: [{ name: `ruby-${v.version}.tar.gz`, download_url: `https://cache.ruby-lang.org/pub/ruby/${majorMinor}/ruby-${v.version}.tar.gz` }]
+            windows: [{ name: `rubyinstaller-${v.version}-x64.exe`, download_url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-${v.version}-1/rubyinstaller-${v.version}-1-x64.exe`, type: 'installer', arch: 'x64' }],
+            source: [{ name: `ruby-${v.version}.tar.gz`, download_url: `https://cache.ruby-lang.org/pub/ruby/${majorMinor}/ruby-${v.version}.tar.gz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.source);
         }
@@ -309,9 +309,9 @@ const SOFTWARE_LIST = [
         const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
-            windows: [{ name: `rust-${v.version}-x86_64-pc-windows-msvc.msi`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-pc-windows-msvc.msi`, arch: 'x64' }],
-            linux: [{ name: `rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, arch: 'x64' }],
-            macos: [{ name: `rust-${v.version}-x86_64-apple-darwin.tar.gz`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-apple-darwin.tar.gz`, arch: 'x64' }]
+            windows: [{ name: `rust-${v.version}-x86_64-pc-windows-msvc.msi`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-pc-windows-msvc.msi`, type: 'installer', arch: 'x64' }],
+            linux: [{ name: `rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, type: 'binaries', arch: 'x64' }],
+            macos: [{ name: `rust-${v.version}-x86_64-apple-darwin.tar.gz`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-apple-darwin.tar.gz`, type: 'binaries', arch: 'x64' }]
           };
           v.install_command = "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh";
           allDownloads.push(...v.downloads.windows, ...v.downloads.linux);
@@ -368,7 +368,7 @@ const SOFTWARE_LIST = [
           allDownloads.push(
             { version: v.version, platform: 'windows', name: `postgresql-${v.version}-1-windows-x64.exe`, download_url: `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64.exe`, type: 'installer', arch: 'x64' },
             { version: v.version, platform: 'windows_zip', name: `postgresql-${v.version}-1-windows-x64-binaries.zip`, download_url: `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64-binaries.zip`, type: 'binaries', arch: 'x64' },
-            { version: v.version, platform: 'source', name: `postgresql-${v.version}.tar.gz`, download_url: `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz`, type: 'tarball' }
+            { version: v.version, platform: 'source', name: `postgresql-${v.version}.tar.gz`, download_url: `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz`, type: 'source' }
           );
         }
         console.log(`📦 PostgreSQL: Fetching sizes for ${allDownloads.length} files...`);
@@ -392,8 +392,8 @@ const SOFTWARE_LIST = [
         const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
-            windows: [{ name: `mysql-${v.version}-winx64.zip`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}-winx64.zip` }],
-            source: [{ name: `mysql-${v.version}.tar.gz`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}.tar.gz` }]
+            windows: [{ name: `mysql-${v.version}-winx64.zip`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}-winx64.zip`, type: 'binaries' }],
+            source: [{ name: `mysql-${v.version}.tar.gz`, download_url: `https://dev.mysql.com/get/Downloads/MySQL-${v.version.split('.').slice(0, 2).join('.')}/mysql-${v.version}.tar.gz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.windows, ...v.downloads.source);
         }
@@ -412,8 +412,8 @@ const SOFTWARE_LIST = [
         const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
-            windows: [{ name: `mariadb-${v.version}-winx64.zip`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}-winx64.zip` }],
-            source: [{ name: `mariadb-${v.version}.tar.gz`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}.tar.gz` }]
+            windows: [{ name: `mariadb-${v.version}-winx64.zip`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}-winx64.zip`, type: 'binaries' }],
+            source: [{ name: `mariadb-${v.version}.tar.gz`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}.tar.gz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.source);
         }
@@ -431,9 +431,9 @@ const SOFTWARE_LIST = [
         result.download_page = 'https://www.mongodb.com/try/download/community';
         for (const v of result.versions) {
           v.downloads = {
-            windows: [{ name: `mongodb-windows-x86_64-${v.version}.zip`, download_url: `https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-${v.version}.zip` }],
-            linux: [{ name: `mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz` }],
-            macos: [{ name: `mongodb-macos-arm64-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/osx/mongodb-macos-arm64-${v.version}.tgz` }]
+            windows: [{ name: `mongodb-windows-x86_64-${v.version}.zip`, download_url: `https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-${v.version}.zip`, type: 'binaries' }],
+            linux: [{ name: `mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz`, type: 'binaries' }],
+            macos: [{ name: `mongodb-macos-arm64-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/osx/mongodb-macos-arm64-${v.version}.tgz`, type: 'binaries' }]
           };
         }
       }
@@ -462,8 +462,8 @@ const SOFTWARE_LIST = [
         const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
-            windows: [{ name: `nginx-${v.version}.zip`, download_url: `https://nginx.org/download/nginx-${v.version}.zip` }],
-            source: [{ name: `nginx-${v.version}.tar.gz`, download_url: `https://nginx.org/download/nginx-${v.version}.tar.gz` }]
+            windows: [{ name: `nginx-${v.version}.zip`, download_url: `https://nginx.org/download/nginx-${v.version}.zip`, type: 'binaries' }],
+            source: [{ name: `nginx-${v.version}.tar.gz`, download_url: `https://nginx.org/download/nginx-${v.version}.tar.gz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.windows, ...v.downloads.source);
         }
@@ -483,7 +483,7 @@ const SOFTWARE_LIST = [
         const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
-            source: [{ name: `httpd-${v.version}.tar.gz`, download_url: `https://archive.apache.org/dist/httpd/httpd-${v.version}.tar.gz` }]
+            source: [{ name: `httpd-${v.version}.tar.gz`, download_url: `https://archive.apache.org/dist/httpd/httpd-${v.version}.tar.gz`, type: 'source' }]
           };
           allDownloads.push(...v.downloads.source);
         }
@@ -502,8 +502,8 @@ const SOFTWARE_LIST = [
         for (const v of result.versions) {
           v.downloads = {
             other: [
-              { name: `composer.phar`, download_url: `https://getcomposer.org/download/${v.version}/composer.phar` },
-              { name: `composer-setup.php`, download_url: `https://getcomposer.org/download/${v.version}/composer-setup.php` }
+              { name: `composer.phar`, download_url: `https://getcomposer.org/download/${v.version}/composer.phar`, type: 'phar' },
+              { name: `composer-setup.php`, download_url: `https://getcomposer.org/download/${v.version}/composer-setup.php`, type: 'installer' }
             ]
           };
           allDownloads.push(...v.downloads.other);
@@ -531,9 +531,9 @@ const SOFTWARE_LIST = [
       if (result && result.versions.length > 0) {
         result.download_page = 'https://www.docker.com/products/docker-desktop/';
         const latestDownloads = [
-          { name: 'Docker Desktop Installer.exe', download_url: 'https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe', platform: 'windows' },
-          { name: 'Docker.dmg (Intel)', download_url: 'https://desktop.docker.com/mac/main/amd64/Docker.dmg', platform: 'macos', arch: 'x64' },
-          { name: 'Docker.dmg (ARM)', download_url: 'https://desktop.docker.com/mac/main/arm64/Docker.dmg', platform: 'macos', arch: 'arm64' }
+          { name: 'Docker Desktop Installer.exe', download_url: 'https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe', platform: 'windows', type: 'installer' },
+          { name: 'Docker.dmg (Intel)', download_url: 'https://desktop.docker.com/mac/main/amd64/Docker.dmg', platform: 'macos', type: 'installer', arch: 'x64' },
+          { name: 'Docker.dmg (ARM)', download_url: 'https://desktop.docker.com/mac/main/arm64/Docker.dmg', platform: 'macos', type: 'installer', arch: 'arm64' }
         ];
         console.log(`📦 Docker: Fetching sizes for ${latestDownloads.length} files...`);
         await fetchFileSizesParallel(latestDownloads, 5);
