@@ -206,8 +206,30 @@ const SOFTWARE_LIST = [
     fetch: async (existingVersions = []) => {
       try {
         const response = await axiosInstance.get('https://nodejs.org/dist/index.json');
-        const generateDownloads = (version) => ({ windows: { x64_zip: `https://nodejs.org/dist/${version}/node-${version}-win-x64.zip`, x64_msi: `https://nodejs.org/dist/${version}/node-${version}-x64.msi`, x86_zip: `https://nodejs.org/dist/${version}/node-${version}-win-x86.zip`, x86_msi: `https://nodejs.org/dist/${version}/node-${version}-x86.msi` }, linux: { x64: `https://nodejs.org/dist/${version}/node-${version}-linux-x64.tar.xz`, arm64: `https://nodejs.org/dist/${version}/node-${version}-linux-arm64.tar.xz` }, macos: { x64: `https://nodejs.org/dist/${version}/node-${version}-darwin-x64.tar.gz`, arm64: `https://nodejs.org/dist/${version}/node-${version}-darwin-arm64.tar.gz`, pkg: `https://nodejs.org/dist/${version}/node-${version}.pkg` }, source: `https://nodejs.org/dist/${version}/node-${version}.tar.gz` });
-        const versions = response.data.slice(0, MAX_NEW_VERSIONS_PER_SCAN).map(v => ({ version: v.version.replace(/^v/, ''), tag: v.version, lts: v.lts || false, date: v.date, downloads: generateDownloads(v.version) }));
+        const versions = response.data.slice(0, MAX_NEW_VERSIONS_PER_SCAN).map(v => {
+          const ver = v.version;
+          return {
+            version: ver.replace(/^v/, ''),
+            tag: ver,
+            lts: v.lts || false,
+            published_at: v.date,
+            downloads: {
+              windows: [
+                { name: `node-${ver}-win-x64.zip`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-win-x64.zip`, arch: 'x64' },
+                { name: `node-${ver}-x64.msi`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-x64.msi`, arch: 'x64', type: 'installer' }
+              ],
+              linux: [
+                { name: `node-${ver}-linux-x64.tar.xz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-linux-x64.tar.xz`, arch: 'x64' },
+                { name: `node-${ver}-linux-arm64.tar.xz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-linux-arm64.tar.xz`, arch: 'arm64' }
+              ],
+              macos: [
+                { name: `node-${ver}-darwin-arm64.tar.gz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}-darwin-arm64.tar.gz`, arch: 'arm64' },
+                { name: `node-${ver}.pkg`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}.pkg`, type: 'installer' }
+              ],
+              source: [{ name: `node-${ver}.tar.gz`, download_url: `https://nodejs.org/dist/${ver}/node-${ver}.tar.gz` }]
+            }
+          };
+        });
         return { latest_lts: versions.find(v => v.lts), latest_current: versions[0], versions, total_versions: versions.length };
       } catch (error) { console.error('Error fetching Node.js:', error.message); return null; }
     }
@@ -256,7 +278,19 @@ const SOFTWARE_LIST = [
     name: 'Ruby', category: 'Languages', website: 'https://www.ruby-lang.org',
     fetch: async (existingVersions = []) => {
       const result = await fetchAllGitHubTags('ruby', 'ruby', { versionFilter: (tag) => /^v\d+_\d+_\d+$/.test(tag), versionTransform: (v) => v.replace(/_/g, '.'), existingVersions });
-      if (result) result.versions = result.versions.map(v => ({ ...v, official_downloads: { source: `https://cache.ruby-lang.org/pub/ruby/${v.version.split('.').slice(0, 2).join('.')}/ruby-${v.version}.tar.gz` } }));
+      if (result && result.versions.length > 0) {
+        const allDownloads = [];
+        for (const v of result.versions) {
+          const majorMinor = v.version.split('.').slice(0, 2).join('.');
+          v.downloads = {
+            windows: [{ name: `rubyinstaller-${v.version}-x64.exe`, download_url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-${v.version}-1/rubyinstaller-${v.version}-1-x64.exe`, arch: 'x64' }],
+            source: [{ name: `ruby-${v.version}.tar.gz`, download_url: `https://cache.ruby-lang.org/pub/ruby/${majorMinor}/ruby-${v.version}.tar.gz` }]
+          };
+          allDownloads.push(...v.downloads.source);
+        }
+        console.log(`📦 Ruby: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
       return result;
     }
   },
@@ -264,7 +298,20 @@ const SOFTWARE_LIST = [
     name: 'Rust', category: 'Languages', website: 'https://www.rust-lang.org',
     fetch: async (existingVersions = []) => {
       const result = await fetchAllGitHubReleases('rust-lang', 'rust', { existingVersions });
-      if (result) result.versions = result.versions.map(v => ({ ...v, official_downloads: { windows_x64: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-pc-windows-msvc.msi`, linux_x64: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, macos_x64: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-apple-darwin.tar.gz` }, install_command: "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh" }));
+      if (result && result.versions.length > 0) {
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [{ name: `rust-${v.version}-x86_64-pc-windows-msvc.msi`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-pc-windows-msvc.msi`, arch: 'x64' }],
+            linux: [{ name: `rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-unknown-linux-gnu.tar.gz`, arch: 'x64' }],
+            macos: [{ name: `rust-${v.version}-x86_64-apple-darwin.tar.gz`, download_url: `https://static.rust-lang.org/dist/rust-${v.version}-x86_64-apple-darwin.tar.gz`, arch: 'x64' }]
+          };
+          v.install_command = "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh";
+          allDownloads.push(...v.downloads.windows, ...v.downloads.linux);
+        }
+        console.log(`📦 Rust: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
       return result;
     }
   },
@@ -313,15 +360,17 @@ const SOFTWARE_LIST = [
         for (const v of result.versions) {
           allDownloads.push(
             { version: v.version, platform: 'windows', name: `postgresql-${v.version}-1-windows-x64.exe`, download_url: `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64.exe`, type: 'installer', arch: 'x64' },
+            { version: v.version, platform: 'windows_zip', name: `postgresql-${v.version}-1-windows-x64-binaries.zip`, download_url: `https://get.enterprisedb.com/postgresql/postgresql-${v.version}-1-windows-x64-binaries.zip`, type: 'binaries', arch: 'x64' },
             { version: v.version, platform: 'source', name: `postgresql-${v.version}.tar.gz`, download_url: `https://ftp.postgresql.org/pub/source/v${v.version}/postgresql-${v.version}.tar.gz`, type: 'tarball' }
           );
         }
-        console.log(`📦 Fetching sizes for ${allDownloads.length} files...`);
+        console.log(`📦 PostgreSQL: Fetching sizes for ${allDownloads.length} files...`);
         await fetchFileSizesParallel(allDownloads, 10);
         for (const v of result.versions) {
-          const winDl = allDownloads.find(d => d.version === v.version && d.platform === 'windows');
+          const winExe = allDownloads.find(d => d.version === v.version && d.platform === 'windows');
+          const winZip = allDownloads.find(d => d.version === v.version && d.platform === 'windows_zip');
           const srcDl = allDownloads.find(d => d.version === v.version && d.platform === 'source');
-          v.downloads = { windows: [winDl].filter(d => d), source: [srcDl].filter(d => d) };
+          v.downloads = { windows: [winExe, winZip].filter(d => d), source: [srcDl].filter(d => d) };
         }
       }
       return result;
@@ -468,7 +517,29 @@ const SOFTWARE_LIST = [
   { name: 'Vue.js', category: 'Frameworks', website: 'https://vuejs.org', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('vuejs', 'core', { existingVersions }); if (result) result.install_command = 'npm create vue@latest'; return result; } },
   { name: 'React', category: 'Frameworks', website: 'https://react.dev', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('facebook', 'react', { existingVersions }); if (result) result.install_command = 'npm install react react-dom'; return result; } },
   { name: 'Svelte', category: 'Frameworks', website: 'https://svelte.dev', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('sveltejs', 'svelte', { existingVersions }); if (result) result.install_command = 'npx sv create my-app'; return result; } },
-  { name: 'Docker', category: 'DevOps', website: 'https://www.docker.com', fetch: async (existingVersions = []) => { const result = await fetchAllGitHubReleases('moby', 'moby', { existingVersions }); if (result) { result.download_page = 'https://www.docker.com/products/docker-desktop/'; result.official_downloads = { windows: 'https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe', macos_intel: 'https://desktop.docker.com/mac/main/amd64/Docker.dmg', macos_arm: 'https://desktop.docker.com/mac/main/arm64/Docker.dmg' }; } return result; } },
+  {
+    name: 'Docker', category: 'DevOps', website: 'https://www.docker.com',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubReleases('moby', 'moby', { existingVersions });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://www.docker.com/products/docker-desktop/';
+        const latestDownloads = [
+          { name: 'Docker Desktop Installer.exe', download_url: 'https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe', platform: 'windows' },
+          { name: 'Docker.dmg (Intel)', download_url: 'https://desktop.docker.com/mac/main/amd64/Docker.dmg', platform: 'macos', arch: 'x64' },
+          { name: 'Docker.dmg (ARM)', download_url: 'https://desktop.docker.com/mac/main/arm64/Docker.dmg', platform: 'macos', arch: 'arm64' }
+        ];
+        console.log(`📦 Docker: Fetching sizes for ${latestDownloads.length} files...`);
+        await fetchFileSizesParallel(latestDownloads, 5);
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [latestDownloads[0]],
+            macos: [latestDownloads[1], latestDownloads[2]]
+          };
+        }
+      }
+      return result;
+    }
+  },
   {
     name: 'Git', category: 'DevOps', website: 'https://git-scm.com',
     fetch: async (existingVersions = []) => {
