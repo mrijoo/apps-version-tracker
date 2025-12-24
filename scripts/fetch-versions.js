@@ -21,7 +21,14 @@ function loadExistingData() {
 function mergeVersions(existingVersions = [], newVersions = []) {
   const versionMap = new Map();
   for (const v of existingVersions) versionMap.set(v.version, v);
-  for (const v of newVersions) versionMap.set(v.version, v);
+  for (const v of newVersions) {
+    const existing = versionMap.get(v.version);
+    if (existing) {
+      versionMap.set(v.version, { ...existing, ...v, downloads: v.downloads || existing.downloads });
+    } else {
+      versionMap.set(v.version, v);
+    }
+  }
   const merged = Array.from(versionMap.values());
   merged.sort((a, b) => {
     const aParts = (a.version || '0').split('.').map(p => parseInt(p) || 0);
