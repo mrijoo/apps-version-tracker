@@ -465,6 +465,53 @@ const SOFTWARE_LIST = [
     }
   },
   {
+    name: 'pgAdmin', category: 'Databases', website: 'https://www.pgadmin.org',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubTags('pgadmin-org', 'pgadmin4', {
+        versionFilter: (tag) => /^REL-\d+_\d+$/.test(tag),
+        versionTransform: (v) => v.replace('REL-', '').replace(/_/g, '.'),
+        existingVersions
+      });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://www.pgadmin.org/download/';
+        const allDownloads = [];
+        for (const v of result.versions) {
+          v.downloads = {
+            windows: [{ name: `pgadmin4-${v.version}-x64.exe`, download_url: `https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v${v.version}/windows/pgadmin4-${v.version}-x64.exe`, type: 'installer', arch: 'x64' }],
+            source: [{ name: `pgadmin4-${v.version}.tar.gz`, download_url: `https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v${v.version}/source/pgadmin4-${v.version}.tar.gz`, type: 'source' }]
+          };
+          allDownloads.push(...v.downloads.windows, ...v.downloads.source);
+        }
+        console.log(`📦 pgAdmin: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
+      return result;
+    }
+  },
+  {
+    name: 'phpMyAdmin', category: 'Databases', website: 'https://www.phpmyadmin.net',
+    fetch: async (existingVersions = []) => {
+      const result = await fetchAllGitHubReleases('phpmyadmin', 'phpmyadmin', { existingVersions });
+      if (result && result.versions.length > 0) {
+        result.download_page = 'https://www.phpmyadmin.net/downloads/';
+        const allDownloads = [];
+        for (const v of result.versions) {
+          const ver = v.version.replace('RELEASE_', '').replace(/_/g, '.');
+          v.downloads = {
+            other: [
+              { name: `phpMyAdmin-${ver}-all-languages.zip`, download_url: `https://files.phpmyadmin.net/phpMyAdmin/${ver}/phpMyAdmin-${ver}-all-languages.zip`, type: 'zip' },
+              { name: `phpMyAdmin-${ver}-all-languages.tar.gz`, download_url: `https://files.phpmyadmin.net/phpMyAdmin/${ver}/phpMyAdmin-${ver}-all-languages.tar.gz`, type: 'tarball' }
+            ]
+          };
+          allDownloads.push(...v.downloads.other);
+        }
+        console.log(`📦 phpMyAdmin: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
+      }
+      return result;
+    }
+  },
+  {
     name: 'Nginx', category: 'Web Servers', website: 'https://nginx.org',
     fetch: async (existingVersions = []) => {
       const result = await fetchAllGitHubTags('nginx', 'nginx', { versionFilter: (tag) => tag.startsWith('release-'), versionTransform: (v) => v.replace('release-', ''), existingVersions });
