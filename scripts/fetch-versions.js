@@ -237,6 +237,13 @@ const SOFTWARE_LIST = [
             }
           };
         });
+        const latestVersions = versions.slice(0, 10);
+        const allDownloads = [];
+        for (const v of latestVersions) {
+          allDownloads.push(...v.downloads.windows, ...v.downloads.source);
+        }
+        console.log(`📦 Node.js: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
         return { latest_lts: versions.find(v => v.lts), latest_current: versions[0], versions, total_versions: versions.length };
       } catch (error) { console.error('Error fetching Node.js:', error.message); return null; }
     }
@@ -415,7 +422,7 @@ const SOFTWARE_LIST = [
             windows: [{ name: `mariadb-${v.version}-winx64.zip`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}-winx64.zip`, type: 'binaries' }],
             source: [{ name: `mariadb-${v.version}.tar.gz`, download_url: `https://downloads.mariadb.org/rest-api/mariadb/${v.version}/mariadb-${v.version}.tar.gz`, type: 'source' }]
           };
-          allDownloads.push(...v.downloads.source);
+          allDownloads.push(...v.downloads.windows, ...v.downloads.source);
         }
         console.log(`📦 MariaDB: Fetching sizes for ${allDownloads.length} files...`);
         await fetchFileSizesParallel(allDownloads, 10);
@@ -429,13 +436,17 @@ const SOFTWARE_LIST = [
       const result = await fetchAllGitHubTags('mongodb', 'mongo', { versionFilter: (tag) => /^r\d+\.\d+\.\d+$/.test(tag), versionTransform: (v) => v.replace('r', ''), existingVersions });
       if (result && result.versions.length > 0) {
         result.download_page = 'https://www.mongodb.com/try/download/community';
+        const allDownloads = [];
         for (const v of result.versions) {
           v.downloads = {
             windows: [{ name: `mongodb-windows-x86_64-${v.version}.zip`, download_url: `https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-${v.version}.zip`, type: 'binaries' }],
             linux: [{ name: `mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-${v.version}.tgz`, type: 'binaries' }],
             macos: [{ name: `mongodb-macos-arm64-${v.version}.tgz`, download_url: `https://fastdl.mongodb.org/osx/mongodb-macos-arm64-${v.version}.tgz`, type: 'binaries' }]
           };
+          allDownloads.push(...v.downloads.windows);
         }
+        console.log(`📦 MongoDB: Fetching sizes for ${allDownloads.length} files...`);
+        await fetchFileSizesParallel(allDownloads, 10);
       }
       return result;
     }
@@ -483,12 +494,20 @@ const SOFTWARE_LIST = [
         const regex = /href="(\/download\/[^"]+\/binaries\/(httpd-(\d+\.\d+\.\d+)[^"]*-[Ww]in64[^"]*\.zip))"/gi;
         let match;
         while ((match = regex.exec(html)) !== null) {
-          const [, path, filename, version] = match;
+          const [, urlPath, filename, version] = match;
           if (!windowsBinaries.has(version)) {
-            windowsBinaries.set(version, { name: filename, download_url: `https://www.apachelounge.com${path}`, type: 'binaries', arch: 'x64' });
+            windowsBinaries.set(version, { name: filename, download_url: `https://www.apachelounge.com${urlPath}`, type: 'binaries', arch: 'x64' });
           }
         }
         console.log(`🔍 Found ${windowsBinaries.size} Apache Windows binaries from ApacheLounge`);
+
+        for (const v of existingVersions) {
+          const winBinary = windowsBinaries.get(v.version);
+          if (winBinary) {
+            if (!v.downloads) v.downloads = { windows: [], source: [] };
+            v.downloads.windows = [winBinary];
+          }
+        }
 
         const result = await fetchAllGitHubTags('apache', 'httpd', { versionFilter: (tag) => /^\d+\.\d+\.\d+$/.test(tag), existingVersions });
         if (result && result.versions.length > 0) {
@@ -497,15 +516,20 @@ const SOFTWARE_LIST = [
           const allDownloads = [];
           for (const v of result.versions) {
             const winBinary = windowsBinaries.get(v.version);
-            v.downloads = {
-              windows: winBinary ? [winBinary] : [],
-              source: [{ name: `httpd-${v.version}.tar.gz`, download_url: `https://archive.apache.org/dist/httpd/httpd-${v.version}.tar.gz`, type: 'source' }]
-            };
-            if (winBinary) allDownloads.push(winBinary);
-            allDownloads.push(...v.downloads.source);
+            if (!v.downloads) v.downloads = { windows: [], source: [] };
+            if (winBinary && (!v.downloads.windows || v.downloads.windows.length === 0)) {
+              v.downloads.windows = [winBinary];
+            }
+            if (!v.downloads.source || v.downloads.source.length === 0) {
+              v.downloads.source = [{ name: `httpd-${v.version}.tar.gz`, download_url: `https://archive.apache.org/dist/httpd/httpd-${v.version}.tar.gz`, type: 'source' }];
+            }
+            if (v.downloads.windows?.length > 0) allDownloads.push(...v.downloads.windows);
+            allDownloads.push(...(v.downloads.source || []));
           }
-          console.log(`📦 Apache: Fetching sizes for ${allDownloads.length} files...`);
-          await fetchFileSizesParallel(allDownloads, 10);
+          if (allDownloads.length > 0) {
+            console.log(`📦 Apache: Fetching sizes for ${allDownloads.length} files...`);
+            await fetchFileSizesParallel(allDownloads, 10);
+          }
         }
         return result;
       } catch (error) { console.error('Error fetching Apache:', error.message); return null; }
