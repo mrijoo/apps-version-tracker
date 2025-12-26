@@ -496,11 +496,13 @@ const SOFTWARE_LIST = [
         result.download_page = 'https://www.phpmyadmin.net/downloads/';
         const allDownloads = [];
         for (const v of result.versions) {
-          const ver = v.version.replace('RELEASE_', '').replace(/_/g, '.');
+          const cleanVer = v.version.replace('RELEASE_', '').replace(/_/g, '.');
+          v.tag = v.version;
+          v.version = cleanVer;
           v.downloads = {
             other: [
-              { name: `phpMyAdmin-${ver}-all-languages.zip`, download_url: `https://files.phpmyadmin.net/phpMyAdmin/${ver}/phpMyAdmin-${ver}-all-languages.zip`, type: 'zip' },
-              { name: `phpMyAdmin-${ver}-all-languages.tar.gz`, download_url: `https://files.phpmyadmin.net/phpMyAdmin/${ver}/phpMyAdmin-${ver}-all-languages.tar.gz`, type: 'tarball' }
+              { name: `phpMyAdmin-${cleanVer}-all-languages.zip`, download_url: `https://files.phpmyadmin.net/phpMyAdmin/${cleanVer}/phpMyAdmin-${cleanVer}-all-languages.zip`, type: 'zip' },
+              { name: `phpMyAdmin-${cleanVer}-all-languages.tar.gz`, download_url: `https://files.phpmyadmin.net/phpMyAdmin/${cleanVer}/phpMyAdmin-${cleanVer}-all-languages.tar.gz`, type: 'tarball' }
             ]
           };
           allDownloads.push(...v.downloads.other);
