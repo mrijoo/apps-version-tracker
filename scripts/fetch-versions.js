@@ -476,21 +476,39 @@ const SOFTWARE_LIST = [
   {
     name: 'Apache HTTP Server', category: 'Web Servers', website: 'https://httpd.apache.org',
     fetch: async (existingVersions = []) => {
-      const result = await fetchAllGitHubTags('apache', 'httpd', { versionFilter: (tag) => /^\d+\.\d+\.\d+$/.test(tag), existingVersions });
-      if (result && result.versions.length > 0) {
-        result.download_page = 'https://httpd.apache.org/download.cgi';
-        result.windows_builds = 'https://www.apachelounge.com/download/';
-        const allDownloads = [];
-        for (const v of result.versions) {
-          v.downloads = {
-            source: [{ name: `httpd-${v.version}.tar.gz`, download_url: `https://archive.apache.org/dist/httpd/httpd-${v.version}.tar.gz`, type: 'source' }]
-          };
-          allDownloads.push(...v.downloads.source);
+      try {
+        const loungeResponse = await axiosInstance.get('https://www.apachelounge.com/download/');
+        const html = loungeResponse.data;
+        const windowsBinaries = new Map();
+        const regex = /href="(\/download\/[^"]+\/binaries\/(httpd-(\d+\.\d+\.\d+)[^"]*-win64[^"]*\.zip))"/g;
+        let match;
+        while ((match = regex.exec(html)) !== null) {
+          const [, path, filename, version] = match;
+          if (!windowsBinaries.has(version)) {
+            windowsBinaries.set(version, { name: filename, download_url: `https://www.apachelounge.com${path}`, type: 'binaries', arch: 'x64' });
+          }
         }
-        console.log(`📦 Apache: Fetching sizes for ${allDownloads.length} files...`);
-        await fetchFileSizesParallel(allDownloads, 10);
-      }
-      return result;
+        console.log(`🔍 Found ${windowsBinaries.size} Apache Windows binaries from ApacheLounge`);
+
+        const result = await fetchAllGitHubTags('apache', 'httpd', { versionFilter: (tag) => /^\d+\.\d+\.\d+$/.test(tag), existingVersions });
+        if (result && result.versions.length > 0) {
+          result.download_page = 'https://httpd.apache.org/download.cgi';
+          result.windows_builds = 'https://www.apachelounge.com/download/';
+          const allDownloads = [];
+          for (const v of result.versions) {
+            const winBinary = windowsBinaries.get(v.version);
+            v.downloads = {
+              windows: winBinary ? [winBinary] : [],
+              source: [{ name: `httpd-${v.version}.tar.gz`, download_url: `https://archive.apache.org/dist/httpd/httpd-${v.version}.tar.gz`, type: 'source' }]
+            };
+            if (winBinary) allDownloads.push(winBinary);
+            allDownloads.push(...v.downloads.source);
+          }
+          console.log(`📦 Apache: Fetching sizes for ${allDownloads.length} files...`);
+          await fetchFileSizesParallel(allDownloads, 10);
+        }
+        return result;
+      } catch (error) { console.error('Error fetching Apache:', error.message); return null; }
     }
   },
   {
