@@ -480,7 +480,7 @@ const SOFTWARE_LIST = [
         const loungeResponse = await axiosInstance.get('https://www.apachelounge.com/download/');
         const html = loungeResponse.data;
         const windowsBinaries = new Map();
-        const regex = /href="(\/download\/[^"]+\/binaries\/(httpd-(\d+\.\d+\.\d+)[^"]*-win64[^"]*\.zip))"/g;
+        const regex = /href="(\/download\/[^"]+\/binaries\/(httpd-(\d+\.\d+\.\d+)[^"]*-[Ww]in64[^"]*\.zip))"/gi;
         let match;
         while ((match = regex.exec(html)) !== null) {
           const [, path, filename, version] = match;
