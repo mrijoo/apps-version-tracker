@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-01-08T06:21:53.873Z
+> Last updated: 2026-01-08T12:28:22.882Z
 > Max versions tracked per software: undefined
 
 ## Languages
