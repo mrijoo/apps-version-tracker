@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-01-20T12:29:57.616Z
+> Last updated: 2026-01-20T18:23:52.241Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -20,7 +20,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PostgreSQL | 18.1 | 153 | [Website](https://www.postgresql.org) |
-| MySQL | 9.6.0 | 439 | [Website](https://www.mysql.com) |
+| MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
 | MariaDB | 12.2.1 | 439 | [Website](https://mariadb.org) |
 | MongoDB | 8.2.3 | 525 | [Website](https://www.mongodb.com) |
 | Redis | 8.4.0 | 89 | [Website](https://redis.io) |
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 12.47.0 | 904 | [Website](https://laravel.com) |
+| Laravel | 12.48.1 | 906 | [Website](https://laravel.com) |
 | Next.js | 16.1.4 | 330 | [Website](https://nextjs.org) |
 | Nuxt | 4.2.2 | 185 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.27 | 147 | [Website](https://vuejs.org) |
