@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-01-26T18:23:12.462Z
+> Last updated: 2026-01-27T01:07:44.635Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.2 | 539 | [Website](https://www.php.net) |
-| Node.js | 25.4.0 | 825 | [Website](https://nodejs.org) |
+| Node.js | 25.5.0 | 826 | [Website](https://nodejs.org) |
 | Go | 1.26rc1 | 341 | [Website](https://go.dev) |
 | Python | 3.14.2 | 246 | [Website](https://www.python.org) |
 | Ruby | 3.4.8 | 163 | [Website](https://www.ruby-lang.org) |
@@ -49,17 +49,17 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Laravel | 12.48.1 | 906 | [Website](https://laravel.com) |
-| Next.js | 16.1.4 | 330 | [Website](https://nextjs.org) |
+| Next.js | 16.1.5 | 338 | [Website](https://nextjs.org) |
 | Nuxt | 4.3.0 | 187 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.27 | 147 | [Website](https://vuejs.org) |
-| React | 19.2.3 | 110 | [Website](https://react.dev) |
-| Svelte | svelte@5.48.2 | 315 | [Website](https://svelte.dev) |
+| React | 19.2.4 | 113 | [Website](https://react.dev) |
+| Svelte | svelte@5.48.3 | 316 | [Website](https://svelte.dev) |
 
 ## DevOps
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 162 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 165 | [Website](https://www.docker.com) |
 | Git | 2.52.0 | 401 | [Website](https://git-scm.com) |
 
 ---
