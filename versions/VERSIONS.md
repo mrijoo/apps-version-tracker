@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-02-04T12:07:20.193Z
+> Last updated: 2026-02-04T18:13:27.217Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -9,7 +9,7 @@
 |----------|----------------|----------------|----------|
 | PHP | 8.5.2 | 539 | [Website](https://www.php.net) |
 | Node.js | 25.6.0 | 827 | [Website](https://nodejs.org) |
-| Go | 1.26rc1 | 341 | [Website](https://go.dev) |
+| Go | 1.26rc1 | 344 | [Website](https://go.dev) |
 | Python | 3.14.3 | 248 | [Website](https://www.python.org) |
 | Ruby | 3.4.8 | 163 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.93.0 | 144 | [Website](https://www.rust-lang.org) |
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.29.4 | 578 | [Website](https://nginx.org) |
+| Nginx | 1.29.5 | 580 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.66 | 212 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
@@ -49,11 +49,11 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Laravel | 12.49.0 | 907 | [Website](https://laravel.com) |
-| Next.js | 16.1.6 | 340 | [Website](https://nextjs.org) |
+| Next.js | 16.1.6 | 341 | [Website](https://nextjs.org) |
 | Nuxt | 4.3.0 | 187 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.27 | 147 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
-| Svelte | svelte@5.49.1 | 320 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.49.2 | 321 | [Website](https://svelte.dev) |
 
 ## DevOps
 
