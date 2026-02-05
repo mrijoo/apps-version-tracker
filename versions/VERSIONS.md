@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-02-04T18:13:27.217Z
+> Last updated: 2026-02-05T00:12:47.856Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -21,7 +21,7 @@
 |----------|----------------|----------------|----------|
 | PostgreSQL | 18.1 | 153 | [Website](https://www.postgresql.org) |
 | MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
-| MariaDB | 12.2.1 | 439 | [Website](https://mariadb.org) |
+| MariaDB | 12.2.1 | 441 | [Website](https://mariadb.org) |
 | MongoDB | 8.2.3 | 525 | [Website](https://www.mongodb.com) |
 | Redis | 8.4.0 | 89 | [Website](https://redis.io) |
 | pgAdmin | 9.11 | 113 | [Website](https://www.pgadmin.org) |
@@ -39,7 +39,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.9.5 | 213 | [Website](https://getcomposer.org) |
-| npm | 11.8.0 | 764 | [Website](https://www.npmjs.com) |
+| npm | 11.9.0 | 771 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 64 | [Website](https://yarnpkg.com) |
 | pnpm | 10.28.2 | 770 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 207 | [Website](https://bun.sh) |
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 12.49.0 | 907 | [Website](https://laravel.com) |
+| Laravel | 12.50.0 | 908 | [Website](https://laravel.com) |
 | Next.js | 16.1.6 | 341 | [Website](https://nextjs.org) |
 | Nuxt | 4.3.0 | 187 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.27 | 147 | [Website](https://vuejs.org) |
