@@ -1,14 +1,14 @@
 # Software Versions
 
-> Last updated: 2026-02-10T12:14:12.714Z
+> Last updated: 2026-02-10T18:19:35.573Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.2 | 539 | [Website](https://www.php.net) |
-| Node.js | 25.6.0 | 827 | [Website](https://nodejs.org) |
+| PHP | 8.5.2 | 541 | [Website](https://www.php.net) |
+| Node.js | 25.6.1 | 829 | [Website](https://nodejs.org) |
 | Go | 1.26rc1 | 344 | [Website](https://go.dev) |
 | Python | 3.14.3 | 248 | [Website](https://www.python.org) |
 | Ruby | 3.4.8 | 163 | [Website](https://www.ruby-lang.org) |
@@ -23,7 +23,7 @@
 | MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
 | MariaDB | 12.2.1 | 441 | [Website](https://mariadb.org) |
 | MongoDB | 8.2.3 | 525 | [Website](https://www.mongodb.com) |
-| Redis | 8.4.1 | 91 | [Website](https://redis.io) |
+| Redis | 8.6.0 | 92 | [Website](https://redis.io) |
 | pgAdmin | 9.12 | 114 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
 
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 12.50.0 | 908 | [Website](https://laravel.com) |
+| Laravel | 12.51.0 | 909 | [Website](https://laravel.com) |
 | Next.js | 16.1.6 | 341 | [Website](https://nextjs.org) |
 | Nuxt | 4.3.1 | 189 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.28 | 148 | [Website](https://vuejs.org) |
