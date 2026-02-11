@@ -1,15 +1,15 @@
 # Software Versions
 
-> Last updated: 2026-02-10T18:19:35.573Z
+> Last updated: 2026-02-11T00:16:54.030Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.2 | 541 | [Website](https://www.php.net) |
+| PHP | 8.5.3 | 542 | [Website](https://www.php.net) |
 | Node.js | 25.6.1 | 829 | [Website](https://nodejs.org) |
-| Go | 1.26rc1 | 344 | [Website](https://go.dev) |
+| Go | 1.26rc1 | 345 | [Website](https://go.dev) |
 | Python | 3.14.3 | 248 | [Website](https://www.python.org) |
 | Ruby | 3.4.8 | 163 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.93.0 | 144 | [Website](https://www.rust-lang.org) |
@@ -22,7 +22,7 @@
 | PostgreSQL | 18.1 | 153 | [Website](https://www.postgresql.org) |
 | MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
 | MariaDB | 12.2.1 | 441 | [Website](https://mariadb.org) |
-| MongoDB | 8.2.3 | 525 | [Website](https://www.mongodb.com) |
+| MongoDB | 8.2.5 | 529 | [Website](https://www.mongodb.com) |
 | Redis | 8.6.0 | 92 | [Website](https://redis.io) |
 | pgAdmin | 9.12 | 114 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
