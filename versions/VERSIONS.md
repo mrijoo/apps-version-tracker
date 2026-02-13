@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-02-12T18:16:55.311Z
+> Last updated: 2026-02-13T00:14:09.691Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -12,7 +12,7 @@
 | Go | 1.26rc1 | 345 | [Website](https://go.dev) |
 | Python | 3.14.3 | 248 | [Website](https://www.python.org) |
 | Ruby | 3.4.8 | 163 | [Website](https://www.ruby-lang.org) |
-| Rust | 1.93.0 | 144 | [Website](https://www.rust-lang.org) |
+| Rust | 1.93.1 | 145 | [Website](https://www.rust-lang.org) |
 | Java (Eclipse Temurin) | jdk8u422-b05.1 | 105 | [Website](https://adoptium.net) |
 
 ## Databases
@@ -21,7 +21,7 @@
 |----------|----------------|----------------|----------|
 | PostgreSQL | 18.2 | 158 | [Website](https://www.postgresql.org) |
 | MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
-| MariaDB | 12.2.1 | 441 | [Website](https://mariadb.org) |
+| MariaDB | 12.3.1 | 443 | [Website](https://mariadb.org) |
 | MongoDB | 8.2.5 | 529 | [Website](https://www.mongodb.com) |
 | Redis | 8.6.0 | 92 | [Website](https://redis.io) |
 | pgAdmin | 9.12 | 114 | [Website](https://www.pgadmin.org) |
@@ -53,7 +53,7 @@
 | Nuxt | 4.3.1 | 189 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.28 | 148 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
-| Svelte | svelte@5.50.2 | 324 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.50.3 | 325 | [Website](https://svelte.dev) |
 
 ## DevOps
 
