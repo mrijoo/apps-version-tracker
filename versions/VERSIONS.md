@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-02-17T12:09:23.194Z
+> Last updated: 2026-02-17T18:16:26.345Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -41,19 +41,19 @@
 | Composer | 2.9.5 | 213 | [Website](https://getcomposer.org) |
 | npm | 11.10.0 | 778 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 64 | [Website](https://yarnpkg.com) |
-| pnpm | 10.29.3 | 773 | [Website](https://pnpm.io) |
+| pnpm | 10.30.0 | 774 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 208 | [Website](https://bun.sh) |
 
 ## Frameworks
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 12.51.0 | 909 | [Website](https://laravel.com) |
+| Laravel | 12.52.0 | 910 | [Website](https://laravel.com) |
 | Next.js | 16.1.6 | 341 | [Website](https://nextjs.org) |
 | Nuxt | 4.3.1 | 189 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.28 | 148 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
-| Svelte | svelte@5.51.2 | 328 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.51.3 | 329 | [Website](https://svelte.dev) |
 
 ## DevOps
 
