@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-02-23T06:21:36.984Z
+> Last updated: 2026-02-23T12:09:31.818Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -23,7 +23,7 @@
 | MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
 | MariaDB | 12.3.1 | 443 | [Website](https://mariadb.org) |
 | MongoDB | 8.2.5 | 529 | [Website](https://www.mongodb.com) |
-| Redis | 8.6.0 | 92 | [Website](https://redis.io) |
+| Redis | 8.6.0 | 97 | [Website](https://redis.io) |
 | pgAdmin | 9.12 | 114 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
 
@@ -53,7 +53,7 @@
 | Nuxt | 4.3.1 | 189 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.28 | 148 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
-| Svelte | svelte@5.53.2 | 335 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.53.3 | 336 | [Website](https://svelte.dev) |
 
 ## DevOps
 
