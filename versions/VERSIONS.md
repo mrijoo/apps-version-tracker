@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-02-24T00:12:37.762Z
+> Last updated: 2026-02-24T06:19:31.815Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -51,7 +51,7 @@
 | Laravel | 12.52.0 | 910 | [Website](https://laravel.com) |
 | Next.js | 16.1.6 | 341 | [Website](https://nextjs.org) |
 | Nuxt | 4.3.1 | 189 | [Website](https://nuxt.com) |
-| Vue.js | 3.5.28 | 148 | [Website](https://vuejs.org) |
+| Vue.js | 3.5.29 | 149 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
 | Svelte | svelte@5.53.3 | 336 | [Website](https://svelte.dev) |
 
