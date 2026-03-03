@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-03-03T12:07:25.042Z
+> Last updated: 2026-03-03T18:12:31.935Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,9 +8,9 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.3 | 542 | [Website](https://www.php.net) |
-| Node.js | 25.7.0 | 831 | [Website](https://nodejs.org) |
+| Node.js | 25.8.0 | 832 | [Website](https://nodejs.org) |
 | Go | 1.26rc1 | 345 | [Website](https://go.dev) |
-| Python | 3.14.3 | 248 | [Website](https://www.python.org) |
+| Python | 3.14.3 | 251 | [Website](https://www.python.org) |
 | Ruby | 3.4.8 | 163 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.93.1 | 145 | [Website](https://www.rust-lang.org) |
 | Java (Eclipse Temurin) | jdk8u422-b05.1 | 105 | [Website](https://adoptium.net) |
@@ -53,7 +53,7 @@
 | Nuxt | 4.3.1 | 189 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.29 | 149 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
-| Svelte | svelte@5.53.6 | 339 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.53.7 | 340 | [Website](https://svelte.dev) |
 
 ## DevOps
 
