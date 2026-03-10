@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-03-09T18:13:42.824Z
+> Last updated: 2026-03-10T00:10:06.847Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -41,7 +41,7 @@
 | Composer | 2.9.5 | 213 | [Website](https://getcomposer.org) |
 | npm | 11.11.0 | 798 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 65 | [Website](https://yarnpkg.com) |
-| pnpm | 10.31.0 | 778 | [Website](https://pnpm.io) |
+| pnpm | 10.32.0 | 779 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 209 | [Website](https://bun.sh) |
 
 ## Frameworks
