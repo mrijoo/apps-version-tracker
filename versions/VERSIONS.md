@@ -1,13 +1,13 @@
 # Software Versions
 
-> Last updated: 2026-03-10T18:13:21.004Z
+> Last updated: 2026-03-11T00:09:34.004Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.3 | 543 | [Website](https://www.php.net) |
+| PHP | 8.5.4 | 544 | [Website](https://www.php.net) |
 | Node.js | 25.8.0 | 834 | [Website](https://nodejs.org) |
 | Go | 1.26.1 | 347 | [Website](https://go.dev) |
 | Python | 3.14.3 | 251 | [Website](https://www.python.org) |
@@ -48,12 +48,12 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 12.54.0 | 912 | [Website](https://laravel.com) |
+| Laravel | 12.54.1 | 913 | [Website](https://laravel.com) |
 | Next.js | 16.1.6 | 341 | [Website](https://nextjs.org) |
 | Nuxt | 4.3.1 | 189 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.30 | 150 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
-| Svelte | svelte@5.53.9 | 342 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.53.10 | 343 | [Website](https://svelte.dev) |
 
 ## DevOps
 
