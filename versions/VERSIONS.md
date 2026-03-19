@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-03-18T18:18:15.572Z
+> Last updated: 2026-03-19T00:13:28.653Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -22,7 +22,7 @@
 | PostgreSQL | 18.3 | 163 | [Website](https://www.postgresql.org) |
 | MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
 | MariaDB | 12.3.1 | 443 | [Website](https://mariadb.org) |
-| MongoDB | 8.2.5 | 530 | [Website](https://www.mongodb.com) |
+| MongoDB | 8.2.6 | 531 | [Website](https://www.mongodb.com) |
 | Redis | 8.6.0 | 97 | [Website](https://redis.io) |
 | pgAdmin | 9.13 | 115 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
@@ -39,7 +39,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.9.5 | 213 | [Website](https://getcomposer.org) |
-| npm | 11.11.1 | 810 | [Website](https://www.npmjs.com) |
+| npm | 11.12.0 | 823 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 65 | [Website](https://yarnpkg.com) |
 | pnpm | 10.32.1 | 780 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 210 | [Website](https://bun.sh) |
@@ -49,7 +49,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Laravel | 13.1.1 | 920 | [Website](https://laravel.com) |
-| Next.js | 16.1.7 | 343 | [Website](https://nextjs.org) |
+| Next.js | 16.2.0 | 344 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.0 | 190 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.30 | 150 | [Website](https://vuejs.org) |
 | React | 19.2.4 | 113 | [Website](https://react.dev) |
