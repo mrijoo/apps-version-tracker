@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-03-24T12:12:58.855Z
+> Last updated: 2026-03-24T18:16:51.293Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -23,7 +23,7 @@
 | MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
 | MariaDB | 12.3.1 | 443 | [Website](https://mariadb.org) |
 | MongoDB | 8.2.6 | 531 | [Website](https://www.mongodb.com) |
-| Redis | 8.6.0 | 97 | [Website](https://redis.io) |
+| Redis | 8.6.2 | 98 | [Website](https://redis.io) |
 | pgAdmin | 9.13 | 115 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
 
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.29.6 | 581 | [Website](https://nginx.org) |
+| Nginx | 1.29.7 | 582 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.66 | 212 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
@@ -41,7 +41,7 @@
 | Composer | 2.9.5 | 213 | [Website](https://getcomposer.org) |
 | npm | 11.12.0 | 823 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 65 | [Website](https://yarnpkg.com) |
-| pnpm | 10.32.1 | 780 | [Website](https://pnpm.io) |
+| pnpm | 10.33.0 | 781 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 210 | [Website](https://bun.sh) |
 
 ## Frameworks
