@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-03-23T18:14:25.889Z
+> Last updated: 2026-03-24T00:11:46.410Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -13,7 +13,7 @@
 | Python | 3.14.3 | 251 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 164 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.94.0 | 146 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 105 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 106 | [Website](https://adoptium.net) |
 
 ## Databases
 
