@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-03-24T18:16:51.293Z
+> Last updated: 2026-03-25T00:13:26.130Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.4 | 544 | [Website](https://www.php.net) |
-| Node.js | 25.8.1 | 835 | [Website](https://nodejs.org) |
+| Node.js | 25.8.2 | 839 | [Website](https://nodejs.org) |
 | Go | 1.26.1 | 347 | [Website](https://go.dev) |
 | Python | 3.14.3 | 251 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 164 | [Website](https://www.ruby-lang.org) |
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.29.7 | 582 | [Website](https://nginx.org) |
+| Nginx | 1.29.7 | 583 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.66 | 212 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.1.1 | 920 | [Website](https://laravel.com) |
+| Laravel | 13.2.0 | 921 | [Website](https://laravel.com) |
 | Next.js | 16.2.1 | 346 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.0 | 190 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.30 | 150 | [Website](https://vuejs.org) |
