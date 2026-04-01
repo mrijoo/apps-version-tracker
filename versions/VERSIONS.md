@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-04-01T12:15:03.648Z
+> Last updated: 2026-04-01T18:15:00.678Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.4 | 544 | [Website](https://www.php.net) |
-| Node.js | 25.8.2 | 839 | [Website](https://nodejs.org) |
+| Node.js | 25.9.0 | 840 | [Website](https://nodejs.org) |
 | Go | 1.26.1 | 347 | [Website](https://go.dev) |
 | Python | 3.14.3 | 251 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
@@ -38,7 +38,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Composer | 2.9.5 | 213 | [Website](https://getcomposer.org) |
+| Composer | 2.10.0-RC1 | 214 | [Website](https://getcomposer.org) |
 | npm | 11.12.1 | 831 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 65 | [Website](https://yarnpkg.com) |
 | pnpm | 10.33.0 | 781 | [Website](https://pnpm.io) |
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.2.0 | 923 | [Website](https://laravel.com) |
+| Laravel | 13.3.0 | 924 | [Website](https://laravel.com) |
 | Next.js | 16.2.2 | 347 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.0 | 190 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.31 | 151 | [Website](https://vuejs.org) |
