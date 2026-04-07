@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-04-07T06:28:13.410Z
+> Last updated: 2026-04-07T12:15:13.245Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.29.7 | 583 | [Website](https://nginx.org) |
+| Nginx | 1.29.8 | 584 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.66 | 212 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
@@ -59,7 +59,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 172 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 173 | [Website](https://www.docker.com) |
 | Git | 2.53.0 | 402 | [Website](https://git-scm.com) |
 
 ---
