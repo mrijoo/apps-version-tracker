@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-04-14T12:17:45.984Z
+> Last updated: 2026-04-14T18:22:29.420Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.29.8 | 584 | [Website](https://nginx.org) |
+| Nginx | 1.30.0 | 585 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.66 | 212 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
@@ -48,12 +48,12 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.4.0 | 925 | [Website](https://laravel.com) |
+| Laravel | 13.5.0 | 926 | [Website](https://laravel.com) |
 | Next.js | 16.2.3 | 349 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.0 | 190 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.32 | 152 | [Website](https://vuejs.org) |
 | React | 19.2.5 | 116 | [Website](https://react.dev) |
-| Svelte | svelte@5.55.3 | 352 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.55.4 | 353 | [Website](https://svelte.dev) |
 
 ## DevOps
 
