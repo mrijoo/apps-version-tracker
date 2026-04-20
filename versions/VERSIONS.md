@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-04-20T12:20:57.982Z
+> Last updated: 2026-04-20T18:17:50.243Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -59,8 +59,8 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 173 | [Website](https://www.docker.com) |
-| Git | 2.53.0 | 402 | [Website](https://git-scm.com) |
+| Docker | 28.5.2 | 176 | [Website](https://www.docker.com) |
+| Git | 2.54.0 | 403 | [Website](https://git-scm.com) |
 
 ---
 
