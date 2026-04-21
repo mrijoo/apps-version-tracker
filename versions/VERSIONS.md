@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-04-21T06:34:37.211Z
+> Last updated: 2026-04-21T12:18:18.654Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -20,7 +20,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PostgreSQL | 18.3 | 163 | [Website](https://www.postgresql.org) |
-| MySQL | 9.6.0 | 450 | [Website](https://www.mysql.com) |
+| MySQL | 9.7.0 | 453 | [Website](https://www.mysql.com) |
 | MariaDB | 12.3.1 | 443 | [Website](https://mariadb.org) |
 | MongoDB | 8.2.6 | 531 | [Website](https://www.mongodb.com) |
 | Redis | 8.6.2 | 98 | [Website](https://redis.io) |
