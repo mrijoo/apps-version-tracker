@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-04-22T06:34:43.374Z
+> Last updated: 2026-04-22T12:18:05.319Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -13,7 +13,7 @@
 | Python | 3.14.4 | 253 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.95.0 | 148 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 106 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 107 | [Website](https://adoptium.net) |
 
 ## Databases
 
@@ -41,7 +41,7 @@
 | Composer | 2.10.0-RC1 | 217 | [Website](https://getcomposer.org) |
 | npm | 11.12.1 | 831 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 67 | [Website](https://yarnpkg.com) |
-| pnpm | 10.33.0 | 781 | [Website](https://pnpm.io) |
+| pnpm | 10.33.1 | 782 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 212 | [Website](https://bun.sh) |
 
 ## Frameworks
@@ -51,7 +51,7 @@
 | Laravel | 13.6.0 | 927 | [Website](https://laravel.com) |
 | Next.js | 16.2.4 | 350 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.0 | 190 | [Website](https://nuxt.com) |
-| Vue.js | 3.5.32 | 152 | [Website](https://vuejs.org) |
+| Vue.js | 3.5.33 | 153 | [Website](https://vuejs.org) |
 | React | 19.2.5 | 118 | [Website](https://react.dev) |
 | Svelte | svelte@5.55.4 | 353 | [Website](https://svelte.dev) |
 
