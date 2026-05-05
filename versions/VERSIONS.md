@@ -1,14 +1,14 @@
 # Software Versions
 
-> Last updated: 2026-05-05T13:15:36.976Z
+> Last updated: 2026-05-05T19:05:52.498Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.5 | 546 | [Website](https://www.php.net) |
-| Node.js | 25.9.0 | 841 | [Website](https://nodejs.org) |
+| PHP | 8.5.5 | 547 | [Website](https://www.php.net) |
+| Node.js | 26.0.0 | 842 | [Website](https://nodejs.org) |
 | Go | 1.26.2 | 349 | [Website](https://go.dev) |
 | Python | 3.14.4 | 253 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
@@ -22,8 +22,8 @@
 | PostgreSQL | 18.3 | 163 | [Website](https://www.postgresql.org) |
 | MySQL | 9.7.0 | 454 | [Website](https://www.mysql.com) |
 | MariaDB | 12.3.1 | 443 | [Website](https://mariadb.org) |
-| MongoDB | 8.2.6 | 532 | [Website](https://www.mongodb.com) |
-| Redis | 8.6.2 | 99 | [Website](https://redis.io) |
+| MongoDB | 8.2.7 | 533 | [Website](https://www.mongodb.com) |
+| Redis | 8.6.3 | 105 | [Website](https://redis.io) |
 | pgAdmin | 9.14 | 116 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
 
@@ -41,7 +41,7 @@
 | Composer | 2.10.0-RC1 | 217 | [Website](https://getcomposer.org) |
 | npm | 11.13.0 | 837 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 67 | [Website](https://yarnpkg.com) |
-| pnpm | 11.0.5 | 790 | [Website](https://pnpm.io) |
+| pnpm | 11.0.6 | 791 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 212 | [Website](https://bun.sh) |
 
 ## Frameworks
