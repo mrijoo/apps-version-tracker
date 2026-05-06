@@ -1,13 +1,13 @@
 # Software Versions
 
-> Last updated: 2026-05-05T19:05:52.498Z
+> Last updated: 2026-05-06T01:59:04.847Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.5 | 547 | [Website](https://www.php.net) |
+| PHP | 8.5.6 | 548 | [Website](https://www.php.net) |
 | Node.js | 26.0.0 | 842 | [Website](https://nodejs.org) |
 | Go | 1.26.2 | 349 | [Website](https://go.dev) |
 | Python | 3.14.4 | 253 | [Website](https://www.python.org) |
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.7.0 | 930 | [Website](https://laravel.com) |
+| Laravel | 13.8.0 | 931 | [Website](https://laravel.com) |
 | Next.js | 16.2.4 | 350 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.3 | 192 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.33 | 153 | [Website](https://vuejs.org) |
