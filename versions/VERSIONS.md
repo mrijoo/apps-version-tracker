@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-05-06T13:46:29.763Z
+> Last updated: 2026-05-06T19:23:30.310Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -39,7 +39,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.10.0-RC1 | 217 | [Website](https://getcomposer.org) |
-| npm | 11.13.0 | 837 | [Website](https://www.npmjs.com) |
+| npm | 11.14.0 | 844 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 67 | [Website](https://yarnpkg.com) |
 | pnpm | 11.0.6 | 792 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 212 | [Website](https://bun.sh) |
@@ -49,17 +49,17 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Laravel | 13.8.0 | 931 | [Website](https://laravel.com) |
-| Next.js | 16.2.4 | 350 | [Website](https://nextjs.org) |
+| Next.js | 16.2.5 | 352 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.3 | 192 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.34 | 154 | [Website](https://vuejs.org) |
-| React | 19.2.5 | 118 | [Website](https://react.dev) |
+| React | 19.2.6 | 121 | [Website](https://react.dev) |
 | Svelte | svelte@5.55.5 | 354 | [Website](https://svelte.dev) |
 
 ## DevOps
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 177 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 178 | [Website](https://www.docker.com) |
 | Git | 2.54.0 | 403 | [Website](https://git-scm.com) |
 
 ---
