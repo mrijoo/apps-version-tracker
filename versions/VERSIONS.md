@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-05-12T13:56:33.306Z
+> Last updated: 2026-05-14T19:28:01.563Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.6 | 548 | [Website](https://www.php.net) |
-| Node.js | 26.1.0 | 843 | [Website](https://nodejs.org) |
+| Node.js | 26.1.0 | 844 | [Website](https://nodejs.org) |
 | Go | 1.26.3 | 351 | [Website](https://go.dev) |
 | Python | 3.14.5 | 254 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
@@ -19,10 +19,10 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PostgreSQL | 18.3 | 163 | [Website](https://www.postgresql.org) |
+| PostgreSQL | 18.4 | 168 | [Website](https://www.postgresql.org) |
 | MySQL | 9.7.0 | 454 | [Website](https://www.mysql.com) |
 | MariaDB | 12.3.1 | 443 | [Website](https://mariadb.org) |
-| MongoDB | 8.2.7 | 533 | [Website](https://www.mongodb.com) |
+| MongoDB | 8.3.2 | 536 | [Website](https://www.mongodb.com) |
 | Redis | 8.6.3 | 105 | [Website](https://redis.io) |
 | pgAdmin | 9.15 | 117 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
@@ -31,29 +31,29 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.30.0 | 585 | [Website](https://nginx.org) |
+| Nginx | 1.31.0 | 587 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.67 | 213 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Composer | 2.10.0-RC1 | 217 | [Website](https://getcomposer.org) |
+| Composer | 2.10.0-RC1 | 220 | [Website](https://getcomposer.org) |
 | npm | 11.14.1 | 845 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 67 | [Website](https://yarnpkg.com) |
-| pnpm | 11.1.1 | 797 | [Website](https://pnpm.io) |
-| Bun | bun-v0.8.1 | 212 | [Website](https://bun.sh) |
+| pnpm | 11.1.2 | 798 | [Website](https://pnpm.io) |
+| Bun | bun-v0.8.1 | 213 | [Website](https://bun.sh) |
 
 ## Frameworks
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.8.0 | 931 | [Website](https://laravel.com) |
+| Laravel | 13.9.0 | 933 | [Website](https://laravel.com) |
 | Next.js | 16.2.6 | 354 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.5 | 194 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.34 | 154 | [Website](https://vuejs.org) |
 | React | 19.2.6 | 121 | [Website](https://react.dev) |
-| Svelte | svelte@5.55.5 | 354 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.55.7 | 356 | [Website](https://svelte.dev) |
 
 ## DevOps
 
