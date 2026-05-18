@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-05-18T13:07:06.065Z
+> Last updated: 2026-05-18T18:33:55.391Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -41,7 +41,7 @@
 | Composer | 2.10.0-RC1 | 220 | [Website](https://getcomposer.org) |
 | npm | 11.14.1 | 845 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 67 | [Website](https://yarnpkg.com) |
-| pnpm | 11.1.2 | 798 | [Website](https://pnpm.io) |
+| pnpm | 11.1.3 | 799 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 213 | [Website](https://bun.sh) |
 
 ## Frameworks
@@ -53,13 +53,13 @@
 | Nuxt | 4.4.6 | 196 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.34 | 154 | [Website](https://vuejs.org) |
 | React | 19.2.6 | 121 | [Website](https://react.dev) |
-| Svelte | svelte@5.55.7 | 356 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.55.8 | 357 | [Website](https://svelte.dev) |
 
 ## DevOps
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 179 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 180 | [Website](https://www.docker.com) |
 | Git | 2.54.0 | 403 | [Website](https://git-scm.com) |
 
 ---
