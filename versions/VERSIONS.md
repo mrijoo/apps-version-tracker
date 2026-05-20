@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-05-20T12:46:57.510Z
+> Last updated: 2026-05-20T18:44:35.241Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.6 | 548 | [Website](https://www.php.net) |
-| Node.js | 26.1.0 | 844 | [Website](https://nodejs.org) |
+| Node.js | 26.2.0 | 845 | [Website](https://nodejs.org) |
 | Go | 1.26.3 | 351 | [Website](https://go.dev) |
 | Python | 3.14.5 | 254 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
@@ -41,7 +41,7 @@
 | Composer | 2.10.0-RC1 | 220 | [Website](https://getcomposer.org) |
 | npm | 11.14.1 | 845 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 68 | [Website](https://yarnpkg.com) |
-| pnpm | 11.2.0 | 800 | [Website](https://pnpm.io) |
+| pnpm | 11.2.1 | 801 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 213 | [Website](https://bun.sh) |
 
 ## Frameworks
@@ -59,7 +59,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 180 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 181 | [Website](https://www.docker.com) |
 | Git | 2.54.0 | 403 | [Website](https://git-scm.com) |
 
 ---
