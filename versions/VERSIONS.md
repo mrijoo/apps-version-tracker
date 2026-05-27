@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-05-27T13:03:05.294Z
+> Last updated: 2026-05-27T18:43:00.560Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -21,7 +21,7 @@
 |----------|----------------|----------------|----------|
 | PostgreSQL | 18.4 | 168 | [Website](https://www.postgresql.org) |
 | MySQL | 9.7.0 | 454 | [Website](https://www.mysql.com) |
-| MariaDB | 12.3.1 | 445 | [Website](https://mariadb.org) |
+| MariaDB | 12.3.1 | 447 | [Website](https://mariadb.org) |
 | MongoDB | 8.3.2 | 536 | [Website](https://www.mongodb.com) |
 | Redis | 8.8.0 | 106 | [Website](https://redis.io) |
 | pgAdmin | 9.15 | 117 | [Website](https://www.pgadmin.org) |
@@ -41,7 +41,7 @@
 | Composer | 2.10.0-RC1 | 220 | [Website](https://getcomposer.org) |
 | npm | 11.15.0 | 853 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 68 | [Website](https://yarnpkg.com) |
-| pnpm | 11.3.0 | 803 | [Website](https://pnpm.io) |
+| pnpm | 11.4.0 | 805 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 213 | [Website](https://bun.sh) |
 
 ## Frameworks
