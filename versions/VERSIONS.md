@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-05-28T13:07:25.705Z
+> Last updated: 2026-05-28T18:49:16.369Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -12,7 +12,7 @@
 | Go | 1.26.3 | 351 | [Website](https://go.dev) |
 | Python | 3.14.5 | 254 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
-| Rust | 1.95.0 | 148 | [Website](https://www.rust-lang.org) |
+| Rust | 1.96.0 | 149 | [Website](https://www.rust-lang.org) |
 | Java (Eclipse Temurin) | jdk8u422-b05.1 | 112 | [Website](https://adoptium.net) |
 
 ## Databases
