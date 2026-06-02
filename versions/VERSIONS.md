@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-06-02T13:09:36.640Z
+> Last updated: 2026-06-02T19:09:49.978Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -9,7 +9,7 @@
 |----------|----------------|----------------|----------|
 | PHP | 8.5.6 | 548 | [Website](https://www.php.net) |
 | Node.js | 26.3.0 | 847 | [Website](https://nodejs.org) |
-| Go | 1.26.3 | 351 | [Website](https://go.dev) |
+| Go | 1.26.3 | 352 | [Website](https://go.dev) |
 | Python | 3.14.5 | 254 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.96.0 | 149 | [Website](https://www.rust-lang.org) |
@@ -48,9 +48,9 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.12.0 | 942 | [Website](https://laravel.com) |
+| Laravel | 13.13.0 | 943 | [Website](https://laravel.com) |
 | Next.js | 16.2.7 | 356 | [Website](https://nextjs.org) |
-| Nuxt | 4.4.6 | 196 | [Website](https://nuxt.com) |
+| Nuxt | 4.4.7 | 198 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.35 | 155 | [Website](https://vuejs.org) |
 | React | 19.2.7 | 124 | [Website](https://react.dev) |
 | Svelte | svelte@5.56.1 | 361 | [Website](https://svelte.dev) |
