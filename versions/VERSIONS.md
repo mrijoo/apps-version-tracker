@@ -1,13 +1,13 @@
 # Software Versions
 
-> Last updated: 2026-06-03T00:40:44.886Z
+> Last updated: 2026-06-03T07:36:50.433Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.7 | 549 | [Website](https://www.php.net) |
+| PHP | 8.5.7 | 550 | [Website](https://www.php.net) |
 | Node.js | 26.3.0 | 847 | [Website](https://nodejs.org) |
 | Go | 1.26.4 | 353 | [Website](https://go.dev) |
 | Python | 3.14.5 | 254 | [Website](https://www.python.org) |
