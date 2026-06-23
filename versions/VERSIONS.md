@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-06-23T12:52:53.829Z
+> Last updated: 2026-06-23T18:38:16.352Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.7 | 550 | [Website](https://www.php.net) |
-| Node.js | 26.3.1 | 850 | [Website](https://nodejs.org) |
+| Node.js | 26.3.1 | 851 | [Website](https://nodejs.org) |
 | Go | 1.27rc1 | 354 | [Website](https://go.dev) |
 | Python | 3.14.6 | 256 | [Website](https://www.python.org) |
 | Ruby | 3.4.9 | 166 | [Website](https://www.ruby-lang.org) |
@@ -41,7 +41,7 @@
 | Composer | 2.10.1 | 222 | [Website](https://getcomposer.org) |
 | npm | 11.17.0 | 868 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 70 | [Website](https://yarnpkg.com) |
-| pnpm | 11.8.0 | 816 | [Website](https://pnpm.io) |
+| pnpm | 11.9.0 | 817 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 213 | [Website](https://bun.sh) |
 
 ## Frameworks
