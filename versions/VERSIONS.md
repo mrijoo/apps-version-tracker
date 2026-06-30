@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-06-30T12:36:59.394Z
+> Last updated: 2026-06-30T18:33:24.828Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.17.0 | 950 | [Website](https://laravel.com) |
+| Laravel | 13.18.0 | 951 | [Website](https://laravel.com) |
 | Next.js | 16.2.9 | 358 | [Website](https://nextjs.org) |
 | Nuxt | 4.4.8 | 200 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.39 | 158 | [Website](https://vuejs.org) |
