@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-07-07T18:38:36.815Z
+> Last updated: 2026-07-08T00:23:49.145Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -9,7 +9,7 @@
 |----------|----------------|----------------|----------|
 | PHP | 8.5.8 | 552 | [Website](https://www.php.net) |
 | Node.js | 26.4.0 | 853 | [Website](https://nodejs.org) |
-| Go | 1.27rc1 | 354 | [Website](https://go.dev) |
+| Go | 1.27rc1 | 357 | [Website](https://go.dev) |
 | Python | 3.14.6 | 256 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 167 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.96.1 | 150 | [Website](https://www.rust-lang.org) |
