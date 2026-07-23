@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-07-22T18:23:38.406Z
+> Last updated: 2026-07-23T00:24:16.143Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -13,7 +13,7 @@
 | Python | 3.14.6 | 256 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.97.1 | 152 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 115 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 116 | [Website](https://adoptium.net) |
 
 ## Databases
 
@@ -41,7 +41,7 @@
 | Composer | 2.10.2 | 224 | [Website](https://getcomposer.org) |
 | npm | 12.0.1 | 894 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 71 | [Website](https://yarnpkg.com) |
-| pnpm | 11.15.1 | 826 | [Website](https://pnpm.io) |
+| pnpm | 11.16.0 | 827 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 213 | [Website](https://bun.sh) |
 
 ## Frameworks
