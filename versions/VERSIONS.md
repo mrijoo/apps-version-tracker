@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-07-27T13:00:21.474Z
+> Last updated: 2026-07-27T18:29:59.161Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -13,7 +13,7 @@
 | Python | 3.14.6 | 256 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.97.1 | 152 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 121 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 122 | [Website](https://adoptium.net) |
 
 ## Databases
 
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.22.0 | 958 | [Website](https://laravel.com) |
+| Laravel | 13.23.0 | 959 | [Website](https://laravel.com) |
 | Next.js | 16.2.12 | 364 | [Website](https://nextjs.org) |
 | Nuxt | 4.5.1 | 204 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.40 | 159 | [Website](https://vuejs.org) |
