@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-07-28T06:49:35.560Z
+> Last updated: 2026-07-28T12:33:41.879Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -13,14 +13,14 @@
 | Python | 3.14.6 | 256 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.97.1 | 152 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 122 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 123 | [Website](https://adoptium.net) |
 
 ## Databases
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PostgreSQL | 18.4 | 168 | [Website](https://www.postgresql.org) |
-| MySQL | 9.7.1 | 455 | [Website](https://www.mysql.com) |
+| MySQL | 26.7.0 | 456 | [Website](https://www.mysql.com) |
 | MariaDB | 13.0.1 | 449 | [Website](https://mariadb.org) |
 | MongoDB | 8.3.7 | 543 | [Website](https://www.mongodb.com) |
 | Redis | 8.8.1 | 116 | [Website](https://redis.io) |
