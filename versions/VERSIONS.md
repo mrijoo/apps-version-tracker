@@ -1,13 +1,13 @@
 # Software Versions
 
-> Last updated: 2026-07-28T12:33:41.879Z
+> Last updated: 2026-07-28T18:27:24.353Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.8 | 552 | [Website](https://www.php.net) |
+| PHP | 8.5.9 | 553 | [Website](https://www.php.net) |
 | Node.js | 26.5.0 | 854 | [Website](https://nodejs.org) |
 | Go | 1.27rc1 | 357 | [Website](https://go.dev) |
 | Python | 3.14.6 | 256 | [Website](https://www.python.org) |
@@ -22,7 +22,7 @@
 | PostgreSQL | 18.4 | 168 | [Website](https://www.postgresql.org) |
 | MySQL | 26.7.0 | 456 | [Website](https://www.mysql.com) |
 | MariaDB | 13.0.1 | 449 | [Website](https://mariadb.org) |
-| MongoDB | 8.3.7 | 543 | [Website](https://www.mongodb.com) |
+| MongoDB | 8.3.7 | 547 | [Website](https://www.mongodb.com) |
 | Redis | 8.8.1 | 116 | [Website](https://redis.io) |
 | pgAdmin | 9.16 | 118 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
