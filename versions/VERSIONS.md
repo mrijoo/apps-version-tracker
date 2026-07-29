@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-07-29T13:46:47.993Z
+> Last updated: 2026-07-29T18:58:19.107Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.9 | 554 | [Website](https://www.php.net) |
-| Node.js | 26.5.0 | 854 | [Website](https://nodejs.org) |
+| Node.js | 26.5.1 | 857 | [Website](https://nodejs.org) |
 | Go | 1.27rc1 | 357 | [Website](https://go.dev) |
 | Python | 3.14.6 | 256 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
@@ -23,7 +23,7 @@
 | MySQL | 26.7.0 | 457 | [Website](https://www.mysql.com) |
 | MariaDB | 13.0.1 | 449 | [Website](https://mariadb.org) |
 | MongoDB | 8.3.7 | 547 | [Website](https://www.mongodb.com) |
-| Redis | 8.8.1 | 116 | [Website](https://redis.io) |
+| Redis | 8.10.0 | 117 | [Website](https://redis.io) |
 | pgAdmin | 9.16 | 118 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
 
@@ -39,7 +39,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.10.2 | 224 | [Website](https://getcomposer.org) |
-| npm | 12.0.1 | 894 | [Website](https://www.npmjs.com) |
+| npm | 12.0.1 | 895 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 72 | [Website](https://yarnpkg.com) |
 | pnpm | 11.18.0 | 829 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 213 | [Website](https://bun.sh) |
