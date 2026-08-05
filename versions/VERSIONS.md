@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-08-05T13:44:04.818Z
+> Last updated: 2026-08-05T19:15:31.303Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,9 +8,9 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.9 | 554 | [Website](https://www.php.net) |
-| Node.js | 26.6.0 | 859 | [Website](https://nodejs.org) |
+| Node.js | 26.7.0 | 860 | [Website](https://nodejs.org) |
 | Go | 1.27rc1 | 357 | [Website](https://go.dev) |
-| Python | 3.14.7 | 257 | [Website](https://www.python.org) |
+| Python | 3.14.7 | 258 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.97.1 | 152 | [Website](https://www.rust-lang.org) |
 | Java (Eclipse Temurin) | jdk8u422-b05.1 | 124 | [Website](https://adoptium.net) |
@@ -48,9 +48,9 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.24.0 | 960 | [Website](https://laravel.com) |
+| Laravel | 13.24.0 | 961 | [Website](https://laravel.com) |
 | Next.js | 16.3.0 | 365 | [Website](https://nextjs.org) |
-| Nuxt | 4.5.1 | 204 | [Website](https://nuxt.com) |
+| Nuxt | 4.5.2 | 206 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.41 | 160 | [Website](https://vuejs.org) |
 | React | 19.2.8 | 127 | [Website](https://react.dev) |
 | Svelte | svelte@5.56.8 | 368 | [Website](https://svelte.dev) |
