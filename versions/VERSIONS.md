@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-08-17T12:23:28.075Z
+> Last updated: 2026-08-17T18:24:21.637Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -23,7 +23,7 @@
 | MySQL | 26.7.0 | 457 | [Website](https://www.mysql.com) |
 | MariaDB | 13.0.1 | 449 | [Website](https://mariadb.org) |
 | MongoDB | 8.3.8 | 548 | [Website](https://www.mongodb.com) |
-| Redis | 8.10.0 | 117 | [Website](https://redis.io) |
+| Redis | 8.10.1 | 125 | [Website](https://redis.io) |
 | pgAdmin | 9.17 | 119 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
 
