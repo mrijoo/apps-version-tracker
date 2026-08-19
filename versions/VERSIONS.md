@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-08-19T12:25:34.511Z
+> Last updated: 2026-08-19T18:19:49.935Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -9,11 +9,11 @@
 |----------|----------------|----------------|----------|
 | PHP | 8.5.9 | 554 | [Website](https://www.php.net) |
 | Node.js | 26.7.0 | 860 | [Website](https://nodejs.org) |
-| Go | 1.27rc1 | 360 | [Website](https://go.dev) |
+| Go | 1.27rc1 | 363 | [Website](https://go.dev) |
 | Python | 3.14.7 | 258 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.97.1 | 152 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 125 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 126 | [Website](https://adoptium.net) |
 
 ## Databases
 
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.31.3 | 593 | [Website](https://nginx.org) |
+| Nginx | 1.31.4 | 594 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.68 | 214 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
