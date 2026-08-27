@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-08-26T19:38:34.910Z
+> Last updated: 2026-08-27T05:51:09.886Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.10 | 556 | [Website](https://www.php.net) |
-| Node.js | 26.8.0 | 862 | [Website](https://nodejs.org) |
+| Node.js | 26.8.1 | 863 | [Website](https://nodejs.org) |
 | Go | 1.27rc1 | 363 | [Website](https://go.dev) |
 | Python | 3.14.7 | 258 | [Website](https://www.python.org) |
 | Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
@@ -39,7 +39,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.10.2 | 224 | [Website](https://getcomposer.org) |
-| npm | 12.0.2 | 908 | [Website](https://www.npmjs.com) |
+| npm | 12.0.2 | 910 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 72 | [Website](https://yarnpkg.com) |
 | pnpm | 12.0.0 | 836 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 214 | [Website](https://bun.sh) |
@@ -51,7 +51,7 @@
 | Laravel | 13.29.0 | 969 | [Website](https://laravel.com) |
 | Next.js | 16.3.3 | 370 | [Website](https://nextjs.org) |
 | Nuxt | 4.5.2 | 206 | [Website](https://nuxt.com) |
-| Vue.js | 3.5.41 | 160 | [Website](https://vuejs.org) |
+| Vue.js | 3.5.42 | 161 | [Website](https://vuejs.org) |
 | React | 19.2.8 | 127 | [Website](https://react.dev) |
 | Svelte | svelte@5.56.10 | 370 | [Website](https://svelte.dev) |
 
