@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-09-23T02:29:38.647Z
+> Last updated: 2026-09-23T10:29:36.920Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -11,7 +11,7 @@
 | Node.js | 26.10.0 | 867 | [Website](https://nodejs.org) |
 | Go | 1.27.1 | 365 | [Website](https://go.dev) |
 | Python | 3.14.7 | 258 | [Website](https://www.python.org) |
-| Ruby | 3.4.10 | 169 | [Website](https://www.ruby-lang.org) |
+| Ruby | 3.4.11 | 170 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.98.1 | 154 | [Website](https://www.rust-lang.org) |
 | Java (Eclipse Temurin) | jdk8u422-b05.1 | 131 | [Website](https://adoptium.net) |
 
