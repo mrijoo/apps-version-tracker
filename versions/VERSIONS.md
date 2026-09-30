@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-09-30T11:36:31.446Z
+> Last updated: 2026-09-30T17:16:05.063Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -39,9 +39,9 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.10.3 | 226 | [Website](https://getcomposer.org) |
-| npm | 12.1.0 | 926 | [Website](https://www.npmjs.com) |
+| npm | 12.2.0 | 928 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 73 | [Website](https://yarnpkg.com) |
-| pnpm | 12.8.2 | 862 | [Website](https://pnpm.io) |
+| pnpm | 12.8.2 | 863 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 216 | [Website](https://bun.sh) |
 
 ## Frameworks
@@ -49,7 +49,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Laravel | 13.34.0 | 979 | [Website](https://laravel.com) |
-| Next.js | 16.3.7 | 376 | [Website](https://nextjs.org) |
+| Next.js | 16.3.8 | 378 | [Website](https://nextjs.org) |
 | Nuxt | 4.5.2 | 206 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.43 | 162 | [Website](https://vuejs.org) |
 | React | 19.3.0 | 128 | [Website](https://react.dev) |
@@ -59,7 +59,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 198 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 199 | [Website](https://www.docker.com) |
 | Git | 2.56.0 | 405 | [Website](https://git-scm.com) |
 
 ---
