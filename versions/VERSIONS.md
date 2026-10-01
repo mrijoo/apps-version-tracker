@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-10-01T12:05:21.033Z
+> Last updated: 2026-10-01T22:08:33.127Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -12,7 +12,7 @@
 | Go | 1.27.1 | 365 | [Website](https://go.dev) |
 | Python | 3.14.8 | 266 | [Website](https://www.python.org) |
 | Ruby | 3.4.11 | 170 | [Website](https://www.ruby-lang.org) |
-| Rust | 1.98.1 | 154 | [Website](https://www.rust-lang.org) |
+| Rust | 1.99.0 | 155 | [Website](https://www.rust-lang.org) |
 | Java (Eclipse Temurin) | jdk8u422-b05.1 | 131 | [Website](https://adoptium.net) |
 
 ## Databases
@@ -32,7 +32,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Nginx | 1.31.6 | 597 | [Website](https://nginx.org) |
-| Apache HTTP Server | 2.4.68 | 214 | [Website](https://httpd.apache.org) |
+| Apache HTTP Server | 2.4.69 | 215 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
 
@@ -59,7 +59,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 200 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 202 | [Website](https://www.docker.com) |
 | Git | 2.56.0 | 405 | [Website](https://git-scm.com) |
 
 ---
