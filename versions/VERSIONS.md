@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-10-10T03:26:31.241Z
+> Last updated: 2026-10-10T11:36:32.100Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -42,7 +42,7 @@
 | npm | 12.2.0 | 928 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 73 | [Website](https://yarnpkg.com) |
 | pnpm | 12.11.2 | 872 | [Website](https://pnpm.io) |
-| Bun | bun-v0.8.1 | 216 | [Website](https://bun.sh) |
+| Bun | bun-v0.8.1 | 217 | [Website](https://bun.sh) |
 
 ## Frameworks
 
