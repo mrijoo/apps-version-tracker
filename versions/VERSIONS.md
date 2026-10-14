@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-10-14T16:11:35.934Z
+> Last updated: 2026-10-14T21:07:11.546Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -22,7 +22,7 @@
 | PostgreSQL | 18.6 | 173 | [Website](https://www.postgresql.org) |
 | MySQL | 26.7.0 | 457 | [Website](https://www.mysql.com) |
 | MariaDB | 13.1.1 | 454 | [Website](https://mariadb.org) |
-| MongoDB | 9.0.2 | 552 | [Website](https://www.mongodb.com) |
+| MongoDB | 9.0.4 | 553 | [Website](https://www.mongodb.com) |
 | Redis | 8.10.2 | 130 | [Website](https://redis.io) |
 | pgAdmin | 9.18 | 120 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
@@ -39,7 +39,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.10.3 | 226 | [Website](https://getcomposer.org) |
-| npm | 12.2.0 | 928 | [Website](https://www.npmjs.com) |
+| npm | 12.2.0 | 930 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 73 | [Website](https://yarnpkg.com) |
 | pnpm | 12.13.0 | 876 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 217 | [Website](https://bun.sh) |
@@ -49,17 +49,17 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Laravel | 13.36.0 | 982 | [Website](https://laravel.com) |
-| Next.js | 16.4.0 | 379 | [Website](https://nextjs.org) |
+| Next.js | 16.4.1 | 381 | [Website](https://nextjs.org) |
 | Nuxt | 4.6.1 | 208 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.44 | 163 | [Website](https://vuejs.org) |
-| React | 19.3.0 | 128 | [Website](https://react.dev) |
+| React | 19.3.1 | 132 | [Website](https://react.dev) |
 | Svelte | svelte@5.57.2 | 373 | [Website](https://svelte.dev) |
 
 ## DevOps
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Docker | 28.5.2 | 204 | [Website](https://www.docker.com) |
+| Docker | 28.5.2 | 205 | [Website](https://www.docker.com) |
 | Git | 2.56.0 | 405 | [Website](https://git-scm.com) |
 
 ---
