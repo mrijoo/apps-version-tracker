@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-10-14T10:52:32.124Z
+> Last updated: 2026-10-14T16:11:35.934Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.11 | 558 | [Website](https://www.php.net) |
-| Node.js | 26.11.1 | 870 | [Website](https://nodejs.org) |
+| Node.js | 26.12.0 | 872 | [Website](https://nodejs.org) |
 | Go | 1.27.2 | 367 | [Website](https://go.dev) |
 | Python | 3.15.0 | 267 | [Website](https://www.python.org) |
 | Ruby | 3.4.11 | 170 | [Website](https://www.ruby-lang.org) |
@@ -22,7 +22,7 @@
 | PostgreSQL | 18.6 | 173 | [Website](https://www.postgresql.org) |
 | MySQL | 26.7.0 | 457 | [Website](https://www.mysql.com) |
 | MariaDB | 13.1.1 | 454 | [Website](https://mariadb.org) |
-| MongoDB | 8.3.13 | 551 | [Website](https://www.mongodb.com) |
+| MongoDB | 9.0.2 | 552 | [Website](https://www.mongodb.com) |
 | Redis | 8.10.2 | 130 | [Website](https://redis.io) |
 | pgAdmin | 9.18 | 120 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.31.6 | 597 | [Website](https://nginx.org) |
+| Nginx | 1.31.7 | 599 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.69 | 215 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
