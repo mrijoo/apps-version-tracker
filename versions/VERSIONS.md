@@ -1,16 +1,16 @@
 # Software Versions
 
-> Last updated: 2026-10-21T10:51:01.548Z
+> Last updated: 2026-10-21T16:19:48.980Z
 > Max versions tracked per software: undefined
 
 ## Languages
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PHP | 8.5.11 | 558 | [Website](https://www.php.net) |
+| PHP | 8.5.12 | 560 | [Website](https://www.php.net) |
 | Node.js | 26.12.1 | 875 | [Website](https://nodejs.org) |
 | Go | 1.27.3 | 369 | [Website](https://go.dev) |
-| Python | 3.15.0 | 267 | [Website](https://www.python.org) |
+| Python | 3.15.1 | 270 | [Website](https://www.python.org) |
 | Ruby | 3.4.11 | 170 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.99.1 | 156 | [Website](https://www.rust-lang.org) |
 | Java (Eclipse Temurin) | jdk8u422-b05.1 | 131 | [Website](https://adoptium.net) |
@@ -31,7 +31,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Nginx | 1.31.7 | 599 | [Website](https://nginx.org) |
+| Nginx | 1.31.8 | 600 | [Website](https://nginx.org) |
 | Apache HTTP Server | 2.4.69 | 215 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
@@ -41,14 +41,14 @@
 | Composer | 2.10.3 | 226 | [Website](https://getcomposer.org) |
 | npm | 12.2.1 | 942 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 73 | [Website](https://yarnpkg.com) |
-| pnpm | 12.14.0 | 878 | [Website](https://pnpm.io) |
+| pnpm | 12.15.0 | 880 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 217 | [Website](https://bun.sh) |
 
 ## Frameworks
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.38.0 | 984 | [Website](https://laravel.com) |
+| Laravel | 13.38.0 | 985 | [Website](https://laravel.com) |
 | Next.js | 16.4.2 | 382 | [Website](https://nextjs.org) |
 | Nuxt | 4.6.2 | 209 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.44 | 163 | [Website](https://vuejs.org) |

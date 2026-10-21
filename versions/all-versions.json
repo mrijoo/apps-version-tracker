@@ -1,50 +1,89 @@
 {
-  "last_updated": "2026-10-21T10:51:01.548Z",
+  "last_updated": "2026-10-21T16:19:48.980Z",
   "incremental_mode": true,
   "software": {
     "Languages": {
       "PHP": {
         "website": "https://www.php.net",
         "latest": {
-          "version": "8.5.11",
-          "tag": "php-8.5.11",
-          "published_at": "2026-09-22T13:32:06Z",
-          "release_url": "https://github.com/php/php-src/releases/tag/php-8.5.11",
+          "version": "8.5.12",
+          "tag": "php-8.5.12",
+          "published_at": "2026-10-19T17:02:46Z",
+          "release_url": "https://github.com/php/php-src/releases/tag/php-8.5.12",
           "source_download": {
-            "tarball": "https://github.com/php/php-src/archive/refs/tags/php-8.5.11.tar.gz",
-            "zipball": "https://github.com/php/php-src/archive/refs/tags/php-8.5.11.zip"
+            "tarball": "https://github.com/php/php-src/archive/refs/tags/php-8.5.12.tar.gz",
+            "zipball": "https://github.com/php/php-src/archive/refs/tags/php-8.5.12.zip"
           },
           "downloads": {
             "windows": [
               {
-                "name": "php-8.5.11-Win32-vs17-x64.zip",
-                "download_url": "https://windows.php.net/downloads/releases/php-8.5.11-Win32-vs17-x64.zip",
+                "name": "php-8.5.12-Win32-vs17-x64.zip",
+                "download_url": "https://windows.php.net/downloads/releases/php-8.5.12-Win32-vs17-x64.zip",
                 "type": "Thread Safe (TS)",
                 "arch": "x64",
-                "size_bytes": 36180745,
-                "size": "34.50 MB"
+                "size_bytes": 36446352,
+                "size": "34.76 MB"
               },
               {
-                "name": "php-8.5.11-nts-Win32-vs17-x64.zip",
-                "download_url": "https://windows.php.net/downloads/releases/php-8.5.11-nts-Win32-vs17-x64.zip",
+                "name": "php-8.5.12-nts-Win32-vs17-x64.zip",
+                "download_url": "https://windows.php.net/downloads/releases/php-8.5.12-nts-Win32-vs17-x64.zip",
                 "type": "Non-Thread Safe (NTS)",
                 "arch": "x64",
-                "size_bytes": 36048897,
-                "size": "34.38 MB"
+                "size_bytes": 36306925,
+                "size": "34.62 MB"
               }
             ],
             "source": [
               {
-                "name": "php-8.5.11.tar.gz",
-                "download_url": "https://www.php.net/distributions/php-8.5.11.tar.gz",
+                "name": "php-8.5.12.tar.gz",
+                "download_url": "https://www.php.net/distributions/php-8.5.12.tar.gz",
                 "type": "source",
-                "size_bytes": 24353496,
-                "size": "23.23 MB"
+                "size_bytes": 24469403,
+                "size": "23.34 MB"
               }
             ]
           }
         },
         "versions": [
+          {
+            "version": "8.5.12",
+            "tag": "php-8.5.12",
+            "published_at": "2026-10-19T17:02:46Z",
+            "release_url": "https://github.com/php/php-src/releases/tag/php-8.5.12",
+            "source_download": {
+              "tarball": "https://github.com/php/php-src/archive/refs/tags/php-8.5.12.tar.gz",
+              "zipball": "https://github.com/php/php-src/archive/refs/tags/php-8.5.12.zip"
+            },
+            "downloads": {
+              "windows": [
+                {
+                  "name": "php-8.5.12-Win32-vs17-x64.zip",
+                  "download_url": "https://windows.php.net/downloads/releases/php-8.5.12-Win32-vs17-x64.zip",
+                  "type": "Thread Safe (TS)",
+                  "arch": "x64",
+                  "size_bytes": 36446352,
+                  "size": "34.76 MB"
+                },
+                {
+                  "name": "php-8.5.12-nts-Win32-vs17-x64.zip",
+                  "download_url": "https://windows.php.net/downloads/releases/php-8.5.12-nts-Win32-vs17-x64.zip",
+                  "type": "Non-Thread Safe (NTS)",
+                  "arch": "x64",
+                  "size_bytes": 36306925,
+                  "size": "34.62 MB"
+                }
+              ],
+              "source": [
+                {
+                  "name": "php-8.5.12.tar.gz",
+                  "download_url": "https://www.php.net/distributions/php-8.5.12.tar.gz",
+                  "type": "source",
+                  "size_bytes": 24469403,
+                  "size": "23.34 MB"
+                }
+              ]
+            }
+          },
           {
             "version": "8.5.11",
             "tag": "php-8.5.11",
@@ -465,6 +504,45 @@
                   "name": "php-8.5.0.tar.gz",
                   "download_url": "https://www.php.net/distributions/php-8.5.0.tar.gz",
                   "type": "source"
+                }
+              ]
+            }
+          },
+          {
+            "version": "8.4.27",
+            "tag": "php-8.4.27",
+            "published_at": "2026-10-19T14:38:59Z",
+            "release_url": "https://github.com/php/php-src/releases/tag/php-8.4.27",
+            "source_download": {
+              "tarball": "https://github.com/php/php-src/archive/refs/tags/php-8.4.27.tar.gz",
+              "zipball": "https://github.com/php/php-src/archive/refs/tags/php-8.4.27.zip"
+            },
+            "downloads": {
+              "windows": [
+                {
+                  "name": "php-8.4.27-Win32-vs17-x64.zip",
+                  "download_url": "https://windows.php.net/downloads/releases/php-8.4.27-Win32-vs17-x64.zip",
+                  "type": "Thread Safe (TS)",
+                  "arch": "x64",
+                  "size_bytes": 35460909,
+                  "size": "33.82 MB"
+                },
+                {
+                  "name": "php-8.4.27-nts-Win32-vs17-x64.zip",
+                  "download_url": "https://windows.php.net/downloads/releases/php-8.4.27-nts-Win32-vs17-x64.zip",
+                  "type": "Non-Thread Safe (NTS)",
+                  "arch": "x64",
+                  "size_bytes": 35290559,
+                  "size": "33.66 MB"
+                }
+              ],
+              "source": [
+                {
+                  "name": "php-8.4.27.tar.gz",
+                  "download_url": "https://www.php.net/distributions/php-8.4.27.tar.gz",
+                  "type": "source",
+                  "size_bytes": 22708176,
+                  "size": "21.66 MB"
                 }
               ]
             }
@@ -18536,9 +18614,9 @@
             }
           }
         ],
-        "total_versions": 558,
-        "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:51:01.919Z"
+        "total_versions": 560,
+        "new_versions_count": 2,
+        "fetched_at": "2026-10-21T16:19:54.518Z"
       },
       "Node.js": {
         "website": "https://nodejs.org",
@@ -67785,7 +67863,7 @@
             ]
           }
         },
-        "fetched_at": "2026-10-21T10:51:02.816Z"
+        "fetched_at": "2026-10-21T16:19:55.467Z"
       },
       "Go": {
         "website": "https://go.dev",
@@ -123314,49 +123392,87 @@
           }
         ],
         "total_versions": 369,
-        "fetched_at": "2026-10-21T10:51:03.419Z"
+        "fetched_at": "2026-10-21T16:19:56.095Z"
       },
       "Python": {
         "website": "https://www.python.org",
         "latest": {
-          "version": "3.15.0",
-          "tag": "v3.15.0",
-          "published_at": "2026-10-09T11:16:41Z",
-          "release_url": "https://github.com/python/cpython/releases/tag/v3.15.0",
+          "version": "3.15.1",
+          "tag": "v3.15.1",
+          "published_at": "2026-10-21T05:55:12Z",
+          "release_url": "https://github.com/python/cpython/releases/tag/v3.15.1",
           "source_download": {
-            "tarball": "https://github.com/python/cpython/archive/refs/tags/v3.15.0.tar.gz",
-            "zipball": "https://github.com/python/cpython/archive/refs/tags/v3.15.0.zip"
+            "tarball": "https://github.com/python/cpython/archive/refs/tags/v3.15.1.tar.gz",
+            "zipball": "https://github.com/python/cpython/archive/refs/tags/v3.15.1.zip"
           },
           "downloads": {
             "windows": [
               {
-                "name": "python-3.15.0-amd64.exe",
-                "download_url": "https://www.python.org/ftp/python/3.15.0/python-3.15.0-amd64.exe",
+                "name": "python-3.15.1-amd64.exe",
+                "download_url": "https://www.python.org/ftp/python/3.15.1/python-3.15.1-amd64.exe",
                 "type": "installer",
                 "arch": "x64",
-                "size_bytes": 45383680,
-                "size": "43.28 MB"
+                "size_bytes": 45555248,
+                "size": "43.44 MB"
               }
             ],
             "macos": [
               {
-                "name": "python-3.15.0-macos11.pkg",
-                "download_url": "https://www.python.org/ftp/python/3.15.0/python-3.15.0-macos11.pkg",
+                "name": "python-3.15.1-macos11.pkg",
+                "download_url": "https://www.python.org/ftp/python/3.15.1/python-3.15.1-macos11.pkg",
                 "type": "installer"
               }
             ],
             "source": [
               {
-                "name": "Python-3.15.0.tar.xz",
-                "download_url": "https://www.python.org/ftp/python/3.15.0/Python-3.15.0.tar.xz",
+                "name": "Python-3.15.1.tar.xz",
+                "download_url": "https://www.python.org/ftp/python/3.15.1/Python-3.15.1.tar.xz",
                 "type": "source",
-                "size_bytes": 35688820,
-                "size": "34.04 MB"
+                "size_bytes": 35789408,
+                "size": "34.13 MB"
               }
             ]
           }
         },
         "versions": [
+          {
+            "version": "3.15.1",
+            "tag": "v3.15.1",
+            "published_at": "2026-10-21T05:55:12Z",
+            "release_url": "https://github.com/python/cpython/releases/tag/v3.15.1",
+            "source_download": {
+              "tarball": "https://github.com/python/cpython/archive/refs/tags/v3.15.1.tar.gz",
+              "zipball": "https://github.com/python/cpython/archive/refs/tags/v3.15.1.zip"
+            },
+            "downloads": {
+              "windows": [
+                {
+                  "name": "python-3.15.1-amd64.exe",
+                  "download_url": "https://www.python.org/ftp/python/3.15.1/python-3.15.1-amd64.exe",
+                  "type": "installer",
+                  "arch": "x64",
+                  "size_bytes": 45555248,
+                  "size": "43.44 MB"
+                }
+              ],
+              "macos": [
+                {
+                  "name": "python-3.15.1-macos11.pkg",
+                  "download_url": "https://www.python.org/ftp/python/3.15.1/python-3.15.1-macos11.pkg",
+                  "type": "installer"
+                }
+              ],
+              "source": [
+                {
+                  "name": "Python-3.15.1.tar.xz",
+                  "download_url": "https://www.python.org/ftp/python/3.15.1/Python-3.15.1.tar.xz",
+                  "type": "source",
+                  "size_bytes": 35789408,
+                  "size": "34.13 MB"
+                }
+              ]
+            }
+          },
           {
             "version": "3.15.0",
             "tag": "v3.15.0",
@@ -123391,6 +123507,44 @@
                   "type": "source",
                   "size_bytes": 35688820,
                   "size": "34.04 MB"
+                }
+              ]
+            }
+          },
+          {
+            "version": "3.14.9",
+            "tag": "v3.14.9",
+            "published_at": "2026-10-21T06:02:15Z",
+            "release_url": "https://github.com/python/cpython/releases/tag/v3.14.9",
+            "source_download": {
+              "tarball": "https://github.com/python/cpython/archive/refs/tags/v3.14.9.tar.gz",
+              "zipball": "https://github.com/python/cpython/archive/refs/tags/v3.14.9.zip"
+            },
+            "downloads": {
+              "windows": [
+                {
+                  "name": "python-3.14.9-amd64.exe",
+                  "download_url": "https://www.python.org/ftp/python/3.14.9/python-3.14.9-amd64.exe",
+                  "type": "installer",
+                  "arch": "x64",
+                  "size_bytes": 33453216,
+                  "size": "31.90 MB"
+                }
+              ],
+              "macos": [
+                {
+                  "name": "python-3.14.9-macos11.pkg",
+                  "download_url": "https://www.python.org/ftp/python/3.14.9/python-3.14.9-macos11.pkg",
+                  "type": "installer"
+                }
+              ],
+              "source": [
+                {
+                  "name": "Python-3.14.9.tar.xz",
+                  "download_url": "https://www.python.org/ftp/python/3.14.9/Python-3.14.9.tar.xz",
+                  "type": "source",
+                  "size_bytes": 24176992,
+                  "size": "23.06 MB"
                 }
               ]
             }
@@ -123733,6 +123887,44 @@
                   "type": "source",
                   "size_bytes": 23595844,
                   "size": "22.50 MB"
+                }
+              ]
+            }
+          },
+          {
+            "version": "3.13.17",
+            "tag": "v3.13.17",
+            "published_at": "2026-10-21T13:48:20Z",
+            "release_url": "https://github.com/python/cpython/releases/tag/v3.13.17",
+            "source_download": {
+              "tarball": "https://github.com/python/cpython/archive/refs/tags/v3.13.17.tar.gz",
+              "zipball": "https://github.com/python/cpython/archive/refs/tags/v3.13.17.zip"
+            },
+            "downloads": {
+              "windows": [
+                {
+                  "name": "python-3.13.17-amd64.exe",
+                  "download_url": "https://www.python.org/ftp/python/3.13.17/python-3.13.17-amd64.exe",
+                  "type": "installer",
+                  "arch": "x64",
+                  "size_bytes": 29941280,
+                  "size": "28.55 MB"
+                }
+              ],
+              "macos": [
+                {
+                  "name": "python-3.13.17-macos11.pkg",
+                  "download_url": "https://www.python.org/ftp/python/3.13.17/python-3.13.17-macos11.pkg",
+                  "type": "installer"
+                }
+              ],
+              "source": [
+                {
+                  "name": "Python-3.13.17.tar.xz",
+                  "download_url": "https://www.python.org/ftp/python/3.13.17/Python-3.13.17.tar.xz",
+                  "type": "source",
+                  "size_bytes": 23233336,
+                  "size": "22.16 MB"
                 }
               ]
             }
@@ -133098,9 +133290,9 @@
             }
           }
         ],
-        "total_versions": 267,
-        "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:51:03.900Z"
+        "total_versions": 270,
+        "new_versions_count": 3,
+        "fetched_at": "2026-10-21T16:19:57.646Z"
       },
       "Ruby": {
         "website": "https://www.ruby-lang.org",
@@ -138039,7 +138231,7 @@
         ],
         "total_versions": 170,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:51:04.340Z"
+        "fetched_at": "2026-10-21T16:19:58.112Z"
       },
       "Rust": {
         "website": "https://www.rust-lang.org",
@@ -144120,7 +144312,7 @@
         ],
         "total_versions": 156,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:51:05.092Z"
+        "fetched_at": "2026-10-21T16:19:58.825Z"
       },
       "Java (Eclipse Temurin)": {
         "website": "https://adoptium.net",
@@ -305699,7 +305891,7 @@
         ],
         "total_versions": 131,
         "download_page": "https://adoptium.net/temurin/releases/",
-        "fetched_at": "2026-10-21T10:53:32.129Z"
+        "fetched_at": "2026-10-21T16:22:29.036Z"
       }
     },
     "Databases": {
@@ -313439,7 +313631,7 @@
         ],
         "total_versions": 173,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:53:32.561Z"
+        "fetched_at": "2026-10-21T16:22:29.431Z"
       },
       "MySQL": {
         "website": "https://www.mysql.com",
@@ -325570,9 +325762,8 @@
           }
         ],
         "total_versions": 459,
-        "new_versions_count": 1,
-        "download_page": "https://dev.mysql.com/downloads/mysql/",
-        "fetched_at": "2026-10-21T10:53:34.131Z"
+        "new_versions_count": 0,
+        "fetched_at": "2026-10-21T16:22:30.521Z"
       },
       "MariaDB": {
         "website": "https://mariadb.org",
@@ -339060,7 +339251,7 @@
         ],
         "total_versions": 454,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:53:35.711Z"
+        "fetched_at": "2026-10-21T16:22:32.659Z"
       },
       "MongoDB": {
         "website": "https://www.mongodb.com",
@@ -357754,7 +357945,7 @@
         ],
         "total_versions": 553,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:53:36.106Z"
+        "fetched_at": "2026-10-21T16:22:33.066Z"
       },
       "Redis": {
         "website": "https://redis.io",
@@ -360967,7 +361158,7 @@
         "new_versions_count": 0,
         "download_page": "https://redis.io/download/",
         "windows_builds_source": "https://github.com/redis-windows/redis-windows",
-        "fetched_at": "2026-10-21T10:53:37.065Z"
+        "fetched_at": "2026-10-21T16:22:34.070Z"
       },
       "pgAdmin": {
         "website": "https://www.pgadmin.org",
@@ -364312,7 +364503,7 @@
         ],
         "total_versions": 120,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:53:37.487Z"
+        "fetched_at": "2026-10-21T16:22:34.638Z"
       },
       "phpMyAdmin": {
         "website": "https://www.phpmyadmin.net",
@@ -365409,9 +365600,7 @@
                 {
                   "name": "phpMyAdmin-4.7.1-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.7.1/phpMyAdmin-4.7.1-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 9127399,
-                  "size": "8.70 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -365757,7 +365946,9 @@
                 {
                   "name": "phpMyAdmin-4.5.4-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.5.4/phpMyAdmin-4.5.4-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 9823169,
+                  "size": "9.37 MB"
                 }
               ]
             },
@@ -365779,7 +365970,9 @@
                 {
                   "name": "phpMyAdmin-4.5.3.1-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.5.3.1/phpMyAdmin-4.5.3.1-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 9675378,
+                  "size": "9.23 MB"
                 }
               ]
             },
@@ -366091,7 +366284,9 @@
                 {
                   "name": "phpMyAdmin-4.4.15.3-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.4.15.3/phpMyAdmin-4.4.15.3-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 9508130,
+                  "size": "9.07 MB"
                 }
               ]
             },
@@ -366161,9 +366356,7 @@
                 {
                   "name": "phpMyAdmin-4.4.14.1-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.4.14.1/phpMyAdmin-4.4.14.1-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 9432778,
-                  "size": "9.00 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -366728,7 +366921,9 @@
                 {
                   "name": "phpMyAdmin-4.3.10-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.3.10/phpMyAdmin-4.3.10-all-languages.zip",
-                  "type": "zip"
+                  "type": "zip",
+                  "size_bytes": 9642918,
+                  "size": "9.20 MB"
                 },
                 {
                   "name": "phpMyAdmin-4.3.10-all-languages.tar.gz",
@@ -367583,9 +367778,7 @@
                 {
                   "name": "phpMyAdmin-4.1.14.1-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.1.14.1/phpMyAdmin-4.1.14.1-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 8271348,
-                  "size": "7.89 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -367765,9 +367958,7 @@
                 {
                   "name": "phpMyAdmin-4.1.7-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.1.7/phpMyAdmin-4.1.7-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 8080674,
-                  "size": "7.71 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -368095,7 +368286,9 @@
                 {
                   "name": "phpMyAdmin-4.0.10.13-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.0.10.13/phpMyAdmin-4.0.10.13-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 7961669,
+                  "size": "7.59 MB"
                 }
               ]
             },
@@ -368117,7 +368310,9 @@
                 {
                   "name": "phpMyAdmin-4.0.10.12-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.0.10.12/phpMyAdmin-4.0.10.12-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 7940262,
+                  "size": "7.57 MB"
                 }
               ]
             },
@@ -371553,43 +371748,73 @@
         "total_versions": 312,
         "new_versions_count": 312,
         "download_page": "https://www.phpmyadmin.net/downloads/",
-        "fetched_at": "2026-10-21T10:54:14.242Z"
+        "fetched_at": "2026-10-21T16:23:09.382Z"
       }
     },
     "Web Servers": {
       "Nginx": {
         "website": "https://nginx.org",
         "latest": {
-          "version": "1.31.7",
-          "tag": "release-1.31.7",
-          "published_at": "2026-10-01T17:19:27Z",
-          "release_url": "https://github.com/nginx/nginx/releases/tag/release-1.31.7",
+          "version": "1.31.8",
+          "tag": "release-1.31.8",
+          "published_at": "2026-10-21T14:24:51Z",
+          "release_url": "https://github.com/nginx/nginx/releases/tag/release-1.31.8",
           "source_download": {
-            "tarball": "https://github.com/nginx/nginx/archive/refs/tags/release-1.31.7.tar.gz",
-            "zipball": "https://github.com/nginx/nginx/archive/refs/tags/release-1.31.7.zip"
+            "tarball": "https://github.com/nginx/nginx/archive/refs/tags/release-1.31.8.tar.gz",
+            "zipball": "https://github.com/nginx/nginx/archive/refs/tags/release-1.31.8.zip"
           },
           "downloads": {
             "windows": [
               {
-                "name": "nginx-1.31.7.zip",
-                "download_url": "https://nginx.org/download/nginx-1.31.7.zip",
+                "name": "nginx-1.31.8.zip",
+                "download_url": "https://nginx.org/download/nginx-1.31.8.zip",
                 "type": "binaries",
-                "size_bytes": 2795610,
+                "size_bytes": 2794487,
                 "size": "2.67 MB"
               }
             ],
             "source": [
               {
-                "name": "nginx-1.31.7.tar.gz",
-                "download_url": "https://nginx.org/download/nginx-1.31.7.tar.gz",
+                "name": "nginx-1.31.8.tar.gz",
+                "download_url": "https://nginx.org/download/nginx-1.31.8.tar.gz",
                 "type": "source",
-                "size_bytes": 1392370,
-                "size": "1.33 MB"
+                "size_bytes": 1385338,
+                "size": "1.32 MB"
               }
             ]
           }
         },
         "versions": [
+          {
+            "version": "1.31.8",
+            "tag": "release-1.31.8",
+            "published_at": "2026-10-21T14:24:51Z",
+            "release_url": "https://github.com/nginx/nginx/releases/tag/release-1.31.8",
+            "source_download": {
+              "tarball": "https://github.com/nginx/nginx/archive/refs/tags/release-1.31.8.tar.gz",
+              "zipball": "https://github.com/nginx/nginx/archive/refs/tags/release-1.31.8.zip"
+            },
+            "downloads": {
+              "windows": [
+                {
+                  "name": "nginx-1.31.8.zip",
+                  "download_url": "https://nginx.org/download/nginx-1.31.8.zip",
+                  "type": "binaries",
+                  "size_bytes": 2794487,
+                  "size": "2.67 MB"
+                }
+              ],
+              "source": [
+                {
+                  "name": "nginx-1.31.8.tar.gz",
+                  "download_url": "https://nginx.org/download/nginx-1.31.8.tar.gz",
+                  "type": "source",
+                  "size_bytes": 1385338,
+                  "size": "1.32 MB"
+                }
+              ]
+            }
+          },
           {
             "version": "1.31.7",
             "tag": "release-1.31.7",
@@ -389033,9 +389258,10 @@
             }
           }
         ],
-        "total_versions": 599,
-        "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:54:14.764Z"
+        "total_versions": 600,
+        "new_versions_count": 1,
+        "download_page": "https://nginx.org/en/download.html",
+        "fetched_at": "2026-10-21T16:23:10.371Z"
       },
       "Apache HTTP Server": {
         "website": "https://httpd.apache.org",
@@ -393612,7 +393838,7 @@
         ],
         "total_versions": 215,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:54:16.010Z"
+        "fetched_at": "2026-10-21T16:23:11.827Z"
       }
     },
     "Package Managers": {
@@ -398616,7 +398842,7 @@
         ],
         "total_versions": 226,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:54:17.228Z"
+        "fetched_at": "2026-10-21T16:23:12.787Z"
       },
       "npm": {
         "website": "https://www.npmjs.com",
@@ -407112,7 +407338,7 @@
         "total_versions": 942,
         "new_versions_count": 0,
         "install_command": "npm install -g npm@latest",
-        "fetched_at": "2026-10-21T10:54:17.827Z"
+        "fetched_at": "2026-10-21T16:23:13.431Z"
       },
       "Yarn": {
         "website": "https://yarnpkg.com",
@@ -407900,123 +408126,235 @@
         "total_versions": 73,
         "new_versions_count": 0,
         "install_command": "corepack enable && yarn set version stable",
-        "fetched_at": "2026-10-21T10:54:18.473Z"
+        "fetched_at": "2026-10-21T16:23:14.043Z"
       },
       "pnpm": {
         "website": "https://pnpm.io",
         "latest": {
-          "version": "12.14.0",
-          "tag": "v12.14.0",
-          "published_at": "2026-10-15T13:42:33Z",
+          "version": "12.15.0",
+          "tag": "v12.15.0",
+          "published_at": "2026-10-21T11:16:52Z",
           "prerelease": false,
-          "release_url": "https://github.com/pnpm/pnpm/releases/tag/v12.14.0",
+          "release_url": "https://github.com/pnpm/pnpm/releases/tag/v12.15.0",
           "downloads": {
             "windows": [
               {
                 "name": "pnpm-darwin-arm64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-darwin-arm64.tar.gz",
-                "size_bytes": 21337766,
-                "size": "20.35 MB",
-                "download_count": 9
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-darwin-arm64.tar.gz",
+                "size_bytes": 21873403,
+                "size": "20.86 MB",
+                "download_count": 42
               },
               {
                 "name": "pnpm-darwin-x64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-darwin-x64.tar.gz",
-                "size_bytes": 23947527,
-                "size": "22.84 MB",
-                "download_count": 3
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-darwin-x64.tar.gz",
+                "size_bytes": 24588168,
+                "size": "23.45 MB",
+                "download_count": 10
               },
               {
                 "name": "pnpm-win32-arm64.zip",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-win32-arm64.zip",
-                "size_bytes": 21140838,
-                "size": "20.16 MB",
-                "download_count": 2
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-win32-arm64.zip",
+                "size_bytes": 21631774,
+                "size": "20.63 MB",
+                "download_count": 5
               },
               {
                 "name": "pnpm-win32-x64.zip",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-win32-x64.zip",
-                "size_bytes": 22994360,
-                "size": "21.93 MB",
-                "download_count": 9
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-win32-x64.zip",
+                "size_bytes": 23538358,
+                "size": "22.45 MB",
+                "download_count": 430
               }
             ],
             "linux": [
               {
                 "name": "pnpm-android-arm64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-android-arm64.tar.gz",
-                "size_bytes": 22603083,
-                "size": "21.56 MB",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-android-arm64.tar.gz",
+                "size_bytes": 23160327,
+                "size": "22.09 MB",
                 "download_count": 1
               },
               {
                 "name": "pnpm-android-x64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-android-x64.tar.gz",
-                "size_bytes": 24678508,
-                "size": "23.54 MB",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-android-x64.tar.gz",
+                "size_bytes": 25363976,
+                "size": "24.19 MB",
                 "download_count": 1
               },
               {
                 "name": "pnpm-freebsd-x64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-freebsd-x64.tar.gz",
-                "size_bytes": 24660737,
-                "size": "23.52 MB",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-freebsd-x64.tar.gz",
+                "size_bytes": 25331883,
+                "size": "24.16 MB",
                 "download_count": 1
               },
               {
                 "name": "pnpm-linux-arm64-musl.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-linux-arm64-musl.tar.gz",
-                "size_bytes": 22385502,
-                "size": "21.35 MB",
-                "download_count": 2
-              },
-              {
-                "name": "pnpm-linux-arm64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-linux-arm64.tar.gz",
-                "size_bytes": 22258454,
-                "size": "21.23 MB",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-arm64-musl.tar.gz",
+                "size_bytes": 22942327,
+                "size": "21.88 MB",
                 "download_count": 10
               },
               {
+                "name": "pnpm-linux-arm64.tar.gz",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-arm64.tar.gz",
+                "size_bytes": 22812334,
+                "size": "21.76 MB",
+                "download_count": 19
+              },
+              {
                 "name": "pnpm-linux-ppc64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-linux-ppc64.tar.gz",
-                "size_bytes": 25852251,
-                "size": "24.65 MB",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-ppc64.tar.gz",
+                "size_bytes": 26530075,
+                "size": "25.30 MB",
                 "download_count": 1
               },
               {
                 "name": "pnpm-linux-riscv64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-linux-riscv64.tar.gz",
-                "size_bytes": 24231473,
-                "size": "23.11 MB",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-riscv64.tar.gz",
+                "size_bytes": 24841270,
+                "size": "23.69 MB",
                 "download_count": 1
               },
               {
                 "name": "pnpm-linux-s390x.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-linux-s390x.tar.gz",
-                "size_bytes": 27189377,
-                "size": "25.93 MB",
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-s390x.tar.gz",
+                "size_bytes": 27849941,
+                "size": "26.56 MB",
                 "download_count": 1
               },
               {
                 "name": "pnpm-linux-x64-musl.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-linux-x64-musl.tar.gz",
-                "size_bytes": 24892153,
-                "size": "23.74 MB",
-                "download_count": 3
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-x64-musl.tar.gz",
+                "size_bytes": 25551485,
+                "size": "24.37 MB",
+                "download_count": 17
               },
               {
                 "name": "pnpm-linux-x64.tar.gz",
-                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.14.0/pnpm-linux-x64.tar.gz",
-                "size_bytes": 24713030,
-                "size": "23.57 MB",
-                "download_count": 117
+                "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-x64.tar.gz",
+                "size_bytes": 25369328,
+                "size": "24.19 MB",
+                "download_count": 255
               }
             ]
           },
-          "total_downloads": 161
+          "total_downloads": 794
         },
         "versions": [
+          {
+            "version": "12.15.0",
+            "tag": "v12.15.0",
+            "published_at": "2026-10-21T11:16:52Z",
+            "prerelease": false,
+            "release_url": "https://github.com/pnpm/pnpm/releases/tag/v12.15.0",
+            "downloads": {
+              "windows": [
+                {
+                  "name": "pnpm-darwin-arm64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-darwin-arm64.tar.gz",
+                  "size_bytes": 21873403,
+                  "size": "20.86 MB",
+                  "download_count": 42
+                },
+                {
+                  "name": "pnpm-darwin-x64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-darwin-x64.tar.gz",
+                  "size_bytes": 24588168,
+                  "size": "23.45 MB",
+                  "download_count": 10
+                },
+                {
+                  "name": "pnpm-win32-arm64.zip",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-win32-arm64.zip",
+                  "size_bytes": 21631774,
+                  "size": "20.63 MB",
+                  "download_count": 5
+                },
+                {
+                  "name": "pnpm-win32-x64.zip",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-win32-x64.zip",
+                  "size_bytes": 23538358,
+                  "size": "22.45 MB",
+                  "download_count": 430
+                }
+              ],
+              "linux": [
+                {
+                  "name": "pnpm-android-arm64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-android-arm64.tar.gz",
+                  "size_bytes": 23160327,
+                  "size": "22.09 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "pnpm-android-x64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-android-x64.tar.gz",
+                  "size_bytes": 25363976,
+                  "size": "24.19 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "pnpm-freebsd-x64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-freebsd-x64.tar.gz",
+                  "size_bytes": 25331883,
+                  "size": "24.16 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "pnpm-linux-arm64-musl.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-arm64-musl.tar.gz",
+                  "size_bytes": 22942327,
+                  "size": "21.88 MB",
+                  "download_count": 10
+                },
+                {
+                  "name": "pnpm-linux-arm64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-arm64.tar.gz",
+                  "size_bytes": 22812334,
+                  "size": "21.76 MB",
+                  "download_count": 19
+                },
+                {
+                  "name": "pnpm-linux-ppc64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-ppc64.tar.gz",
+                  "size_bytes": 26530075,
+                  "size": "25.30 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "pnpm-linux-riscv64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-riscv64.tar.gz",
+                  "size_bytes": 24841270,
+                  "size": "23.69 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "pnpm-linux-s390x.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-s390x.tar.gz",
+                  "size_bytes": 27849941,
+                  "size": "26.56 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "pnpm-linux-x64-musl.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-x64-musl.tar.gz",
+                  "size_bytes": 25551485,
+                  "size": "24.37 MB",
+                  "download_count": 17
+                },
+                {
+                  "name": "pnpm-linux-x64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-x64.tar.gz",
+                  "size_bytes": 25369328,
+                  "size": "24.19 MB",
+                  "download_count": 255
+                }
+              ]
+            },
+            "total_downloads": 794
+          },
           {
             "version": "12.14.0",
             "tag": "v12.14.0",
@@ -410998,6 +411336,71 @@
               ]
             },
             "total_downloads": 227
+          },
+          {
+            "version": "11.28.7",
+            "tag": "v11.28.7",
+            "published_at": "2026-10-21T11:17:06Z",
+            "prerelease": false,
+            "release_url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.7",
+            "downloads": {
+              "windows": [
+                {
+                  "name": "pnpm-darwin-arm64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v11.28.7/pnpm-darwin-arm64.tar.gz",
+                  "size_bytes": 48655534,
+                  "size": "46.40 MB",
+                  "download_count": 19
+                },
+                {
+                  "name": "pnpm-win32-arm64.zip",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v11.28.7/pnpm-win32-arm64.zip",
+                  "size_bytes": 37728436,
+                  "size": "35.98 MB",
+                  "download_count": 3
+                },
+                {
+                  "name": "pnpm-win32-x64.zip",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v11.28.7/pnpm-win32-x64.zip",
+                  "size_bytes": 41762586,
+                  "size": "39.83 MB",
+                  "download_count": 8
+                }
+              ],
+              "linux": [
+                {
+                  "name": "pnpm-linux-arm64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v11.28.7/pnpm-linux-arm64.tar.gz",
+                  "size_bytes": 51937382,
+                  "size": "49.53 MB",
+                  "download_count": 31
+                },
+                {
+                  "name": "pnpm-linux-x64-musl.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v11.28.7/pnpm-linux-x64-musl.tar.gz",
+                  "size_bytes": 53633812,
+                  "size": "51.15 MB",
+                  "download_count": 8
+                },
+                {
+                  "name": "pnpm-linux-x64.tar.gz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v11.28.7/pnpm-linux-x64.tar.gz",
+                  "size_bytes": 51663124,
+                  "size": "49.27 MB",
+                  "download_count": 156
+                }
+              ],
+              "other": [
+                {
+                  "name": "source-maps.tgz",
+                  "download_url": "https://github.com/pnpm/pnpm/releases/download/v11.28.7/source-maps.tgz",
+                  "size_bytes": 7601745,
+                  "size": "7.25 MB",
+                  "download_count": 3
+                }
+              ]
+            },
+            "total_downloads": 228
           },
           {
             "version": "11.28.6",
@@ -441251,10 +441654,10 @@
             "total_downloads": 0
           }
         ],
-        "total_versions": 878,
-        "new_versions_count": 0,
+        "total_versions": 880,
+        "new_versions_count": 2,
         "install_command": "npm install -g pnpm",
-        "fetched_at": "2026-10-21T10:54:19.792Z"
+        "fetched_at": "2026-10-21T16:23:15.442Z"
       },
       "Bun": {
         "website": "https://bun.sh",
@@ -467593,7 +467996,7 @@
         "total_versions": 217,
         "new_versions_count": 0,
         "install_command": "curl -fsSL https://bun.sh/install | bash",
-        "fetched_at": "2026-10-21T10:54:21.511Z"
+        "fetched_at": "2026-10-21T16:23:17.117Z"
       }
     },
     "Frameworks": {
@@ -468011,6 +468414,15 @@
             "published_at": "2026-03-17T14:44:17Z",
             "prerelease": false,
             "release_url": "https://github.com/laravel/framework/releases/tag/v13.0.0",
+            "downloads": null,
+            "total_downloads": 0
+          },
+          {
+            "version": "12.70.1",
+            "tag": "v12.70.1",
+            "published_at": "2026-10-21T12:57:04Z",
+            "prerelease": false,
+            "release_url": "https://github.com/laravel/framework/releases/tag/v12.70.1",
             "downloads": null,
             "total_downloads": 0
           },
@@ -476466,10 +476878,10 @@
             "total_downloads": 0
           }
         ],
-        "total_versions": 984,
-        "new_versions_count": 0,
+        "total_versions": 985,
+        "new_versions_count": 1,
         "install_command": "composer create-project laravel/laravel example-app",
-        "fetched_at": "2026-10-21T10:54:22.137Z"
+        "fetched_at": "2026-10-21T16:23:17.772Z"
       },
       "Next.js": {
         "website": "https://nextjs.org",
@@ -479925,7 +480337,7 @@
         "total_versions": 382,
         "new_versions_count": 0,
         "install_command": "npx create-next-app@latest",
-        "fetched_at": "2026-10-21T10:54:23.352Z"
+        "fetched_at": "2026-10-21T16:23:19.053Z"
       },
       "Nuxt": {
         "website": "https://nuxt.com",
@@ -481824,7 +482236,7 @@
         "total_versions": 209,
         "new_versions_count": 0,
         "install_command": "npx nuxi@latest init <project-name>",
-        "fetched_at": "2026-10-21T10:54:24.243Z"
+        "fetched_at": "2026-10-21T16:23:19.870Z"
       },
       "Vue.js": {
         "website": "https://vuejs.org",
@@ -483309,7 +483721,7 @@
         "total_versions": 163,
         "new_versions_count": 0,
         "install_command": "npm create vue@latest",
-        "fetched_at": "2026-10-21T10:54:24.844Z"
+        "fetched_at": "2026-10-21T16:23:20.595Z"
       },
       "React": {
         "website": "https://react.dev",
@@ -486712,7 +487124,7 @@
         "total_versions": 132,
         "new_versions_count": 0,
         "install_command": "npm install react react-dom",
-        "fetched_at": "2026-10-21T10:54:26.006Z"
+        "fetched_at": "2026-10-21T16:23:21.737Z"
       },
       "Svelte": {
         "website": "https://svelte.dev",
@@ -490087,7 +490499,7 @@
         "total_versions": 373,
         "new_versions_count": 0,
         "install_command": "npx sv create my-app",
-        "fetched_at": "2026-10-21T10:54:26.612Z"
+        "fetched_at": "2026-10-21T16:23:22.431Z"
       }
     },
     "DevOps": {
@@ -498377,7 +498789,7 @@
         ],
         "total_versions": 206,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-21T10:54:27.265Z"
+        "fetched_at": "2026-10-21T16:23:23.287Z"
       },
       "Git": {
         "website": "https://git-scm.com",
@@ -498397,28 +498809,28 @@
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/Git-2.56.0.2-64-bit.exe",
                 "size_bytes": 66763664,
                 "size": "63.67 MB",
-                "download_count": 2112672
+                "download_count": 2153257
               },
               {
                 "name": "Git-2.56.0.2-arm64.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/Git-2.56.0.2-arm64.exe",
                 "size_bytes": 64316408,
                 "size": "61.34 MB",
-                "download_count": 37318
+                "download_count": 38125
               },
               {
                 "name": "PortableGit-2.56.0.2-64-bit.7z.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/PortableGit-2.56.0.2-64-bit.7z.exe",
                 "size_bytes": 60027568,
                 "size": "57.25 MB",
-                "download_count": 171993
+                "download_count": 175706
               },
               {
                 "name": "PortableGit-2.56.0.2-arm64.7z.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/PortableGit-2.56.0.2-arm64.7z.exe",
                 "size_bytes": 59581088,
                 "size": "56.82 MB",
-                "download_count": 10803
+                "download_count": 11098
               }
             ],
             "source": []
@@ -498441,28 +498853,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/Git-2.56.0.2-64-bit.exe",
                   "size_bytes": 66763664,
                   "size": "63.67 MB",
-                  "download_count": 2112672
+                  "download_count": 2153257
                 },
                 {
                   "name": "Git-2.56.0.2-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/Git-2.56.0.2-arm64.exe",
                   "size_bytes": 64316408,
                   "size": "61.34 MB",
-                  "download_count": 37318
+                  "download_count": 38125
                 },
                 {
                   "name": "PortableGit-2.56.0.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/PortableGit-2.56.0.2-64-bit.7z.exe",
                   "size_bytes": 60027568,
                   "size": "57.25 MB",
-                  "download_count": 171993
+                  "download_count": 175706
                 },
                 {
                   "name": "PortableGit-2.56.0.2-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/PortableGit-2.56.0.2-arm64.7z.exe",
                   "size_bytes": 59581088,
                   "size": "56.82 MB",
-                  "download_count": 10803
+                  "download_count": 11098
                 }
               ],
               "source": []
@@ -498484,28 +498896,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/Git-2.55.0.5-64-bit.exe",
                   "size_bytes": 65343712,
                   "size": "62.32 MB",
-                  "download_count": 6211751
+                  "download_count": 6229362
                 },
                 {
                   "name": "Git-2.55.0.5-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/Git-2.55.0.5-arm64.exe",
                   "size_bytes": 63259960,
                   "size": "60.33 MB",
-                  "download_count": 132057
+                  "download_count": 132356
                 },
                 {
                   "name": "PortableGit-2.55.0.5-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-64-bit.7z.exe",
                   "size_bytes": 58960208,
                   "size": "56.23 MB",
-                  "download_count": 311167
+                  "download_count": 311397
                 },
                 {
                   "name": "PortableGit-2.55.0.5-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-arm64.7z.exe",
                   "size_bytes": 59215872,
                   "size": "56.47 MB",
-                  "download_count": 29988
+                  "download_count": 29995
                 }
               ],
               "source": []
@@ -498527,7 +498939,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe",
                   "size_bytes": 65175776,
                   "size": "62.16 MB",
-                  "download_count": 10350668
+                  "download_count": 10350928
                 },
                 {
                   "name": "Git-2.54.0-arm64.exe",
@@ -498541,7 +498953,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe",
                   "size_bytes": 58995352,
                   "size": "56.26 MB",
-                  "download_count": 1158094
+                  "download_count": 1158155
                 },
                 {
                   "name": "PortableGit-2.54.0-arm64.7z.exe",
@@ -498570,7 +498982,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/Git-2.53.0.3-64-bit.exe",
                   "size_bytes": 64557224,
                   "size": "61.57 MB",
-                  "download_count": 2247292
+                  "download_count": 2247383
                 },
                 {
                   "name": "Git-2.53.0.3-arm64.exe",
@@ -498668,14 +499080,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/PortableGit-2.53.0.3-64-bit.7z.exe",
                   "size_bytes": 58269480,
                   "size": "55.57 MB",
-                  "download_count": 673040
+                  "download_count": 680092
                 },
                 {
                   "name": "PortableGit-2.53.0.3-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/PortableGit-2.53.0.3-arm64.7z.exe",
                   "size_bytes": 59042984,
                   "size": "56.31 MB",
-                  "download_count": 35781
+                  "download_count": 36100
                 }
               ],
               "source": []
@@ -498697,7 +499109,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe",
                   "size_bytes": 66292520,
                   "size": "63.22 MB",
-                  "download_count": 7501571
+                  "download_count": 7501672
                 },
                 {
                   "name": "Git-2.52.0-arm64.exe",
@@ -498711,14 +499123,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-64-bit.7z.exe",
                   "size_bytes": 60238232,
                   "size": "57.45 MB",
-                  "download_count": 895823
+                  "download_count": 896479
                 },
                 {
                   "name": "PortableGit-2.52.0-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-arm64.7z.exe",
                   "size_bytes": 60333704,
                   "size": "57.54 MB",
-                  "download_count": 45614
+                  "download_count": 45617
                 }
               ],
               "source": []
@@ -498740,7 +499152,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/Git-2.51.2-64-bit.exe",
                   "size_bytes": 66178528,
                   "size": "63.11 MB",
-                  "download_count": 2382352
+                  "download_count": 2382548
                 },
                 {
                   "name": "Git-2.51.2-arm64.exe",
@@ -498754,7 +499166,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/PortableGit-2.51.2-64-bit.7z.exe",
                   "size_bytes": 60097272,
                   "size": "57.31 MB",
-                  "download_count": 885208
+                  "download_count": 885974
                 },
                 {
                   "name": "PortableGit-2.51.2-arm64.7z.exe",
@@ -498783,7 +499195,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.1.windows.1/Git-2.51.1-64-bit.exe",
                   "size_bytes": 66165512,
                   "size": "63.10 MB",
-                  "download_count": 2858732
+                  "download_count": 2858757
                 },
                 {
                   "name": "Git-2.51.1-arm64.exe",
@@ -498797,7 +499209,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.1.windows.1/PortableGit-2.51.1-64-bit.7z.exe",
                   "size_bytes": 60077912,
                   "size": "57.29 MB",
-                  "download_count": 62685
+                  "download_count": 62689
                 },
                 {
                   "name": "PortableGit-2.51.1-arm64.7z.exe",
@@ -498826,7 +499238,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/Git-2.51.0.2-64-bit.exe",
                   "size_bytes": 65895592,
                   "size": "62.84 MB",
-                  "download_count": 2194760
+                  "download_count": 2194828
                 },
                 {
                   "name": "Git-2.51.0.2-arm64.exe",
@@ -498840,7 +499252,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/PortableGit-2.51.0.2-64-bit.7z.exe",
                   "size_bytes": 60539504,
                   "size": "57.73 MB",
-                  "download_count": 95244
+                  "download_count": 95253
                 },
                 {
                   "name": "PortableGit-2.51.0.2-arm64.7z.exe",
@@ -498869,14 +499281,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-32-bit.exe",
                   "size_bytes": 64954592,
                   "size": "61.95 MB",
-                  "download_count": 87306
+                  "download_count": 87315
                 },
                 {
                   "name": "Git-2.50.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe",
                   "size_bytes": 70990944,
                   "size": "67.70 MB",
-                  "download_count": 5326573
+                  "download_count": 5326663
                 },
                 {
                   "name": "Git-2.50.1-arm64.exe",
@@ -498897,7 +499309,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/PortableGit-2.50.1-64-bit.7z.exe",
                   "size_bytes": 64802008,
                   "size": "61.80 MB",
-                  "download_count": 195269
+                  "download_count": 195283
                 },
                 {
                   "name": "PortableGit-2.50.1-arm64.7z.exe",
@@ -498926,7 +499338,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.0.windows.2/Git-2.50.0.2-64-bit.exe",
                   "size_bytes": 70982376,
                   "size": "67.69 MB",
-                  "download_count": 862900
+                  "download_count": 862901
                 },
                 {
                   "name": "Git-2.50.0.2-arm64.exe",
@@ -498940,7 +499352,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.0.windows.2/PortableGit-2.50.0.2-64-bit.7z.exe",
                   "size_bytes": 64797000,
                   "size": "61.80 MB",
-                  "download_count": 48921
+                  "download_count": 48923
                 },
                 {
                   "name": "PortableGit-2.50.0.2-arm64.7z.exe",
@@ -498994,28 +499406,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe",
                   "size_bytes": 70287136,
                   "size": "67.03 MB",
-                  "download_count": 8218023
+                  "download_count": 8218086
                 },
                 {
                   "name": "Git-2.49.0-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-arm64.exe",
                   "size_bytes": 68640440,
                   "size": "65.46 MB",
-                  "download_count": 141289
+                  "download_count": 141299
                 },
                 {
                   "name": "PortableGit-2.49.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/PortableGit-2.49.0-64-bit.7z.exe",
                   "size_bytes": 64145824,
                   "size": "61.17 MB",
-                  "download_count": 415190
+                  "download_count": 415201
                 },
                 {
                   "name": "PortableGit-2.49.0-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/PortableGit-2.49.0-arm64.7z.exe",
                   "size_bytes": 63430408,
                   "size": "60.49 MB",
-                  "download_count": 36915
+                  "download_count": 36925
                 }
               ],
               "source": []
@@ -499062,14 +499474,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-32-bit.exe",
                   "size_bytes": 62864568,
                   "size": "59.95 MB",
-                  "download_count": 316519
+                  "download_count": 316539
                 },
                 {
                   "name": "Git-2.48.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-64-bit.exe",
                   "size_bytes": 69544752,
                   "size": "66.32 MB",
-                  "download_count": 3504809
+                  "download_count": 3504891
                 },
                 {
                   "name": "Git-2.48.1-arm64.exe",
@@ -499083,14 +499495,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/PortableGit-2.48.1-32-bit.7z.exe",
                   "size_bytes": 57616464,
                   "size": "54.95 MB",
-                  "download_count": 45493
+                  "download_count": 45497
                 },
                 {
                   "name": "PortableGit-2.48.1-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/PortableGit-2.48.1-64-bit.7z.exe",
                   "size_bytes": 63431824,
                   "size": "60.49 MB",
-                  "download_count": 217052
+                  "download_count": 217058
                 },
                 {
                   "name": "PortableGit-2.48.1-arm64.7z.exe",
@@ -499194,14 +499606,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-32-bit.exe",
                   "size_bytes": 64006112,
                   "size": "61.04 MB",
-                  "download_count": 135681
+                  "download_count": 135682
                 },
                 {
                   "name": "Git-2.47.1.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-64-bit.exe",
                   "size_bytes": 69096664,
                   "size": "65.90 MB",
-                  "download_count": 4009705
+                  "download_count": 4009813
                 },
                 {
                   "name": "Git-2.47.1.2-arm64.exe",
@@ -499222,7 +499634,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/PortableGit-2.47.1.2-64-bit.7z.exe",
                   "size_bytes": 62945640,
                   "size": "60.03 MB",
-                  "download_count": 477236
+                  "download_count": 477299
                 },
                 {
                   "name": "PortableGit-2.47.1.2-arm64.7z.exe",
@@ -499251,14 +499663,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-32-bit.exe",
                   "size_bytes": 63786312,
                   "size": "60.83 MB",
-                  "download_count": 86252
+                  "download_count": 86257
                 },
                 {
                   "name": "Git-2.47.0.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe",
                   "size_bytes": 68778784,
                   "size": "65.59 MB",
-                  "download_count": 2716155
+                  "download_count": 2716180
                 },
                 {
                   "name": "PortableGit-2.47.0.2-32-bit.7z.exe",
@@ -499272,7 +499684,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/PortableGit-2.47.0.2-64-bit.7z.exe",
                   "size_bytes": 62068112,
                   "size": "59.19 MB",
-                  "download_count": 160560
+                  "download_count": 160564
                 }
               ],
               "source": []
@@ -499358,14 +499770,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.1.windows.1/Git-2.46.1-32-bit.exe",
                   "size_bytes": 63482776,
                   "size": "60.54 MB",
-                  "download_count": 25441
+                  "download_count": 25442
                 },
                 {
                   "name": "Git-2.46.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.1.windows.1/Git-2.46.1-64-bit.exe",
                   "size_bytes": 68339752,
                   "size": "65.17 MB",
-                  "download_count": 750745
+                  "download_count": 750751
                 },
                 {
                   "name": "PortableGit-2.46.1-32-bit.7z.exe",
@@ -499401,28 +499813,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-32-bit.exe",
                   "size_bytes": 63401032,
                   "size": "60.46 MB",
-                  "download_count": 134890
+                  "download_count": 134892
                 },
                 {
                   "name": "Git-2.46.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe",
                   "size_bytes": 68220888,
                   "size": "65.06 MB",
-                  "download_count": 4097466
+                  "download_count": 4097499
                 },
                 {
                   "name": "PortableGit-2.46.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/PortableGit-2.46.0-32-bit.7z.exe",
                   "size_bytes": 58923744,
                   "size": "56.19 MB",
-                  "download_count": 484382
+                  "download_count": 484392
                 },
                 {
                   "name": "PortableGit-2.46.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/PortableGit-2.46.0-64-bit.7z.exe",
                   "size_bytes": 61419624,
                   "size": "58.57 MB",
-                  "download_count": 231939
+                  "download_count": 232027
                 }
               ],
               "source": []
@@ -499508,14 +499920,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/Git-2.45.1-32-bit.exe",
                   "size_bytes": 63147736,
                   "size": "60.22 MB",
-                  "download_count": 69049
+                  "download_count": 69066
                 },
                 {
                   "name": "Git-2.45.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/Git-2.45.1-64-bit.exe",
                   "size_bytes": 67843632,
                   "size": "64.70 MB",
-                  "download_count": 10536903
+                  "download_count": 10539151
                 },
                 {
                   "name": "Git-Windows-Minimal.2.45.1.nupkg",
@@ -499550,7 +499962,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/PortableGit-2.45.1-64-bit.7z.exe",
                   "size_bytes": 62747136,
                   "size": "59.84 MB",
-                  "download_count": 107466
+                  "download_count": 107482
                 }
               ],
               "source": []
@@ -499572,14 +499984,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/Git-2.45.0-32-bit.exe",
                   "size_bytes": 63120904,
                   "size": "60.20 MB",
-                  "download_count": 45512
+                  "download_count": 45513
                 },
                 {
                   "name": "Git-2.45.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/Git-2.45.0-64-bit.exe",
                   "size_bytes": 67797640,
                   "size": "64.66 MB",
-                  "download_count": 1485736
+                  "download_count": 1485753
                 },
                 {
                   "name": "PortableGit-2.45.0-32-bit.7z.exe",
@@ -499593,7 +500005,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/PortableGit-2.45.0-64-bit.7z.exe",
                   "size_bytes": 62741680,
                   "size": "59.84 MB",
-                  "download_count": 86383
+                  "download_count": 86387
                 }
               ],
               "source": []
@@ -499754,14 +500166,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-32-bit.exe",
                   "size_bytes": 62435528,
                   "size": "59.54 MB",
-                  "download_count": 189092
+                  "download_count": 189118
                 },
                 {
                   "name": "Git-2.44.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
                   "size_bytes": 65350776,
                   "size": "62.32 MB",
-                  "download_count": 6541508
+                  "download_count": 6542194
                 },
                 {
                   "name": "PortableGit-2.44.0-32-bit.7z.exe",
@@ -499775,7 +500187,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/PortableGit-2.44.0-64-bit.7z.exe",
                   "size_bytes": 61765416,
                   "size": "58.90 MB",
-                  "download_count": 324690
+                  "download_count": 324720
                 }
               ],
               "source": []
@@ -499972,28 +500384,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-32-bit.exe",
                   "size_bytes": 61296000,
                   "size": "58.46 MB",
-                  "download_count": 301318
+                  "download_count": 301319
                 },
                 {
                   "name": "Git-2.43.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe",
                   "size_bytes": 60868040,
                   "size": "58.05 MB",
-                  "download_count": 7086831
+                  "download_count": 7086976
                 },
                 {
                   "name": "PortableGit-2.43.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/PortableGit-2.43.0-32-bit.7z.exe",
                   "size_bytes": 57474808,
                   "size": "54.81 MB",
-                  "download_count": 430278
+                  "download_count": 430286
                 },
                 {
                   "name": "PortableGit-2.43.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/PortableGit-2.43.0-64-bit.7z.exe",
                   "size_bytes": 56424944,
                   "size": "53.81 MB",
-                  "download_count": 489336
+                  "download_count": 489364
                 }
               ],
               "source": []
@@ -500122,7 +500534,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe",
                   "size_bytes": 61263968,
                   "size": "58.43 MB",
-                  "download_count": 5770638
+                  "download_count": 5770740
                 },
                 {
                   "name": "PortableGit-2.42.0.2-32-bit.7z.exe",
@@ -500136,7 +500548,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/PortableGit-2.42.0.2-64-bit.7z.exe",
                   "size_bytes": 57890920,
                   "size": "55.21 MB",
-                  "download_count": 337732
+                  "download_count": 337739
                 }
               ],
               "source": []
@@ -500240,7 +500652,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe",
                   "size_bytes": 61230448,
                   "size": "58.39 MB",
-                  "download_count": 2926023
+                  "download_count": 2926025
                 },
                 {
                   "name": "PortableGit-2.41.0.3-32-bit.7z.exe",
@@ -500351,14 +500763,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-32-bit.exe",
                   "size_bytes": 53400648,
                   "size": "50.93 MB",
-                  "download_count": 129047
+                  "download_count": 129057
                 },
                 {
                   "name": "Git-2.40.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe",
                   "size_bytes": 53918064,
                   "size": "51.42 MB",
-                  "download_count": 3843899
+                  "download_count": 3843904
                 },
                 {
                   "name": "PortableGit-2.40.1-32-bit.7z.exe",
@@ -500401,7 +500813,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe",
                   "size_bytes": 53792928,
                   "size": "51.30 MB",
-                  "download_count": 7814269
+                  "download_count": 7814982
                 },
                 {
                   "name": "PortableGit-2.40.0-32-bit.7z.exe",
@@ -500415,7 +500827,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/PortableGit-2.40.0-64-bit.7z.exe",
                   "size_bytes": 49093544,
                   "size": "46.82 MB",
-                  "download_count": 179691
+                  "download_count": 179692
                 }
               ],
               "source": []
@@ -500512,14 +500924,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-32-bit.exe",
                   "size_bytes": 53132448,
                   "size": "50.67 MB",
-                  "download_count": 137434
+                  "download_count": 137437
                 },
                 {
                   "name": "Git-2.39.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe",
                   "size_bytes": 53002824,
                   "size": "50.55 MB",
-                  "download_count": 4288824
+                  "download_count": 4288839
                 },
                 {
                   "name": "PortableGit-2.39.2-32-bit.7z.exe",
@@ -500533,7 +500945,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/PortableGit-2.39.2-64-bit.7z.exe",
                   "size_bytes": 48383424,
                   "size": "46.14 MB",
-                  "download_count": 123768
+                  "download_count": 123769
                 }
               ],
               "source": []
@@ -500562,14 +500974,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe",
                   "size_bytes": 52998824,
                   "size": "50.54 MB",
-                  "download_count": 4718508
+                  "download_count": 4718536
                 },
                 {
                   "name": "PortableGit-2.39.1-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-32-bit.7z.exe",
                   "size_bytes": 48868896,
                   "size": "46.61 MB",
-                  "download_count": 707952
+                  "download_count": 707956
                 },
                 {
                   "name": "PortableGit-2.39.1-64-bit.7z.exe",
@@ -500598,14 +501010,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-32-bit.exe",
                   "size_bytes": 53114320,
                   "size": "50.65 MB",
-                  "download_count": 67488
+                  "download_count": 67491
                 },
                 {
                   "name": "Git-2.39.0.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-64-bit.exe",
                   "size_bytes": 52999992,
                   "size": "50.54 MB",
-                  "download_count": 1554713
+                  "download_count": 1554728
                 },
                 {
                   "name": "PortableGit-2.39.0.2-32-bit.7z.exe",
@@ -500619,7 +501031,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/PortableGit-2.39.0.2-64-bit.7z.exe",
                   "size_bytes": 48373080,
                   "size": "46.13 MB",
-                  "download_count": 96149
+                  "download_count": 96150
                 }
               ],
               "source": []
@@ -500748,7 +501160,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe",
                   "size_bytes": 53360624,
                   "size": "50.89 MB",
-                  "download_count": 3585222
+                  "download_count": 3585237
                 },
                 {
                   "name": "PortableGit-2.38.1-32-bit.7z.exe",
@@ -500791,7 +501203,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe",
                   "size_bytes": 53344368,
                   "size": "50.87 MB",
-                  "download_count": 1205084
+                  "download_count": 1205089
                 },
                 {
                   "name": "PortableGit-2.38.0-32-bit.7z.exe",
@@ -500934,7 +501346,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe",
                   "size_bytes": 49375864,
                   "size": "47.09 MB",
-                  "download_count": 2166931
+                  "download_count": 2166932
                 },
                 {
                   "name": "PortableGit-2.37.3-32-bit.7z.exe",
@@ -500970,14 +501382,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/Git-2.37.2.2-32-bit.exe",
                   "size_bytes": 49850416,
                   "size": "47.54 MB",
-                  "download_count": 51143
+                  "download_count": 51144
                 },
                 {
                   "name": "Git-2.37.2.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/Git-2.37.2.2-64-bit.exe",
                   "size_bytes": 49351760,
                   "size": "47.07 MB",
-                  "download_count": 1011186
+                  "download_count": 1011231
                 },
                 {
                   "name": "PortableGit-2.37.2.2-32-bit.7z.exe",
@@ -501020,7 +501432,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-64-bit.exe",
                   "size_bytes": 49381480,
                   "size": "47.09 MB",
-                  "download_count": 2002175
+                  "download_count": 2002198
                 },
                 {
                   "name": "PortableGit-2.37.1-32-bit.7z.exe",
@@ -501034,7 +501446,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/PortableGit-2.37.1-64-bit.7z.exe",
                   "size_bytes": 45440576,
                   "size": "43.34 MB",
-                  "download_count": 97299
+                  "download_count": 97301
                 }
               ],
               "source": []
@@ -501063,7 +501475,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.0.windows.1/Git-2.37.0-64-bit.exe",
                   "size_bytes": 49274960,
                   "size": "46.99 MB",
-                  "download_count": 794471
+                  "download_count": 794472
                 },
                 {
                   "name": "PortableGit-2.37.0-32-bit.7z.exe",
@@ -501231,7 +501643,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe",
                   "size_bytes": 49638112,
                   "size": "47.34 MB",
-                  "download_count": 2146943
+                  "download_count": 2146947
                 },
                 {
                   "name": "PortableGit-2.36.1-32-bit.7z.exe",
@@ -501245,7 +501657,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/PortableGit-2.36.1-64-bit.7z.exe",
                   "size_bytes": 45568272,
                   "size": "43.46 MB",
-                  "download_count": 140606
+                  "download_count": 140607
                 }
               ],
               "source": []
@@ -501274,14 +501686,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-64-bit.exe",
                   "size_bytes": 49371696,
                   "size": "47.08 MB",
-                  "download_count": 1116961
+                  "download_count": 1116963
                 },
                 {
                   "name": "PortableGit-2.36.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/PortableGit-2.36.0-32-bit.7z.exe",
                   "size_bytes": 45949464,
                   "size": "43.82 MB",
-                  "download_count": 588475
+                  "download_count": 588480
                 },
                 {
                   "name": "PortableGit-2.36.0-64-bit.7z.exe",
@@ -501485,7 +501897,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.2.windows.1/Git-2.35.2-64-bit.exe",
                   "size_bytes": 50249384,
                   "size": "47.92 MB",
-                  "download_count": 208601
+                  "download_count": 208603
                 },
                 {
                   "name": "PortableGit-2.35.2-32-bit.7z.exe",
@@ -501528,21 +501940,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe",
                   "size_bytes": 50244992,
                   "size": "47.92 MB",
-                  "download_count": 2754182
+                  "download_count": 2754184
                 },
                 {
                   "name": "PortableGit-2.35.1.2-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/PortableGit-2.35.1.2-32-bit.7z.exe",
                   "size_bytes": 45654568,
                   "size": "43.54 MB",
-                  "download_count": 97286
+                  "download_count": 97287
                 },
                 {
                   "name": "PortableGit-2.35.1.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/PortableGit-2.35.1.2-64-bit.7z.exe",
                   "size_bytes": 45835848,
                   "size": "43.71 MB",
-                  "download_count": 200228
+                  "download_count": 200230
                 }
               ],
               "source": []
@@ -501578,7 +501990,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.0.windows.1/PortableGit-2.35.0-32-bit.7z.exe",
                   "size_bytes": 45630704,
                   "size": "43.52 MB",
-                  "download_count": 159188
+                  "download_count": 159190
                 },
                 {
                   "name": "PortableGit-2.35.0-64-bit.7z.exe",
@@ -501782,14 +502194,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-32-bit.exe",
                   "size_bytes": 49178136,
                   "size": "46.90 MB",
-                  "download_count": 116977
+                  "download_count": 116978
                 },
                 {
                   "name": "Git-2.34.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe",
                   "size_bytes": 50403600,
                   "size": "48.07 MB",
-                  "download_count": 2642910
+                  "download_count": 2642935
                 },
                 {
                   "name": "PortableGit-2.34.1-32-bit.7z.exe",
@@ -502050,7 +502462,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
                   "size_bytes": 50186136,
                   "size": "47.86 MB",
-                  "download_count": 2054744
+                  "download_count": 2054749
                 },
                 {
                   "name": "PortableGit-2.33.1-32-bit.7z.exe",
@@ -502093,7 +502505,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe",
                   "size_bytes": 50101024,
                   "size": "47.78 MB",
-                  "download_count": 3639811
+                  "download_count": 3639813
                 },
                 {
                   "name": "PortableGit-2.33.0.2-32-bit.7z.exe",
@@ -502311,7 +502723,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/Git-2.32.0.2-64-bit.exe",
                   "size_bytes": 49960224,
                   "size": "47.65 MB",
-                  "download_count": 1475796
+                  "download_count": 1475797
                 },
                 {
                   "name": "PortableGit-2.32.0.2-32-bit.7z.exe",
@@ -502529,7 +502941,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
                   "size_bytes": 49871216,
                   "size": "47.56 MB",
-                  "download_count": 2834426
+                  "download_count": 2834427
                 },
                 {
                   "name": "PortableGit-2.31.1-32-bit.7z.exe",
@@ -502543,7 +502955,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/PortableGit-2.31.1-64-bit.7z.exe",
                   "size_bytes": 45170848,
                   "size": "43.08 MB",
-                  "download_count": 113678
+                  "download_count": 113679
                 }
               ],
               "source": []
@@ -502797,7 +503209,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.2.windows.1/PortableGit-2.30.2-32-bit.7z.exe",
                   "size_bytes": 42780200,
                   "size": "40.80 MB",
-                  "download_count": 595357
+                  "download_count": 595363
                 },
                 {
                   "name": "PortableGit-2.30.2-64-bit.7z.exe",
@@ -502876,7 +503288,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.2/Git-2.30.0.2-64-bit.exe",
                   "size_bytes": 48823136,
                   "size": "46.56 MB",
-                  "download_count": 862226
+                  "download_count": 862228
                 },
                 {
                   "name": "PortableGit-2.30.0.2-32-bit.7z.exe",
@@ -503098,7 +503510,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe",
                   "size_bytes": 51110112,
                   "size": "48.74 MB",
-                  "download_count": 2730795
+                  "download_count": 2730862
                 },
                 {
                   "name": "PortableGit-2.28.0-32-bit.7z.exe",
@@ -503166,7 +503578,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-64-bit.exe",
                   "size_bytes": 48066136,
                   "size": "45.84 MB",
-                  "download_count": 1818353
+                  "download_count": 1818354
                 },
                 {
                   "name": "PortableGit-2.27.0-32-bit.7z.exe",
@@ -503241,7 +503653,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/PortableGit-2.26.2-32-bit.7z.exe",
                   "size_bytes": 42821800,
                   "size": "40.84 MB",
-                  "download_count": 530920
+                  "download_count": 530921
                 },
                 {
                   "name": "PortableGit-2.26.2-64-bit.7z.exe",
@@ -503499,7 +503911,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-64-bit.exe",
                   "size_bytes": 46476880,
                   "size": "44.32 MB",
-                  "download_count": 2999363
+                  "download_count": 2999364
                 },
                 {
                   "name": "Git-2.25.0-32-bit.exe",
@@ -503513,7 +503925,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/PortableGit-2.25.0-64-bit.7z.exe",
                   "size_bytes": 43086536,
                   "size": "41.09 MB",
-                  "download_count": 112885
+                  "download_count": 112904
                 },
                 {
                   "name": "PortableGit-2.25.0-32-bit.7z.exe",
@@ -503617,7 +504029,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe",
                   "size_bytes": 48104224,
                   "size": "45.88 MB",
-                  "download_count": 3561202
+                  "download_count": 3561204
                 },
                 {
                   "name": "Git-2.24.1.2-32-bit.exe",
@@ -503971,21 +504383,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.22.0.windows.1/Git-2.22.0-64-bit.exe",
                   "size_bytes": 47087448,
                   "size": "44.91 MB",
-                  "download_count": 5166165
+                  "download_count": 5166167
                 },
                 {
                   "name": "Git-2.22.0-32-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.22.0.windows.1/Git-2.22.0-32-bit.exe",
                   "size_bytes": 46908040,
                   "size": "44.73 MB",
-                  "download_count": 292901
+                  "download_count": 292902
                 },
                 {
                   "name": "PortableGit-2.22.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.22.0.windows.1/PortableGit-2.22.0-64-bit.7z.exe",
                   "size_bytes": 43091984,
                   "size": "41.10 MB",
-                  "download_count": 243141
+                  "download_count": 243143
                 },
                 {
                   "name": "PortableGit-2.22.0-32-bit.7z.exe",
@@ -504114,7 +504526,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.exe",
                   "size_bytes": 46327744,
                   "size": "44.18 MB",
-                  "download_count": 7313315
+                  "download_count": 7313319
                 },
                 {
                   "name": "Git-2.21.0-32-bit.exe",
@@ -504257,7 +504669,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe",
                   "size_bytes": 45608976,
                   "size": "43.50 MB",
-                  "download_count": 5368309
+                  "download_count": 5368353
                 },
                 {
                   "name": "Git-2.20.1-32-bit.exe",
@@ -504468,7 +504880,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-64-bit.exe",
                   "size_bytes": 43450544,
                   "size": "41.44 MB",
-                  "download_count": 3507958
+                  "download_count": 3507960
                 },
                 {
                   "name": "Git-2.19.1-32-bit.exe",
@@ -504679,7 +505091,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-64-bit.exe",
                   "size_bytes": 41126928,
                   "size": "39.22 MB",
-                  "download_count": 6075182
+                  "download_count": 6075193
                 },
                 {
                   "name": "Git-2.18.0-32-bit.exe",
@@ -505065,7 +505477,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.16.2.windows.1/Git-2.16.2-64-bit.exe",
                   "size_bytes": 39139744,
                   "size": "37.33 MB",
-                  "download_count": 7144681
+                  "download_count": 7144682
                 },
                 {
                   "name": "Git-2.16.2-32-bit.exe",
@@ -505108,7 +505520,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.4/Git-2.16.1.4-64-bit.exe",
                   "size_bytes": 39065656,
                   "size": "37.26 MB",
-                  "download_count": 2426581
+                  "download_count": 2426584
                 },
                 {
                   "name": "Git-2.16.1.4-32-bit.exe",
@@ -505430,7 +505842,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.14.3.windows.1/Git-2.14.3-64-bit.exe",
                   "size_bytes": 38484256,
                   "size": "36.70 MB",
-                  "download_count": 434548
+                  "download_count": 434554
                 },
                 {
                   "name": "Git-2.14.3-32-bit.exe",
@@ -505716,7 +506128,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.13.3.windows.1/PortableGit-2.13.3-64-bit.7z.exe",
                   "size_bytes": 36892784,
                   "size": "35.18 MB",
-                  "download_count": 44080
+                  "download_count": 44081
                 },
                 {
                   "name": "PortableGit-2.13.3-32-bit.7z.exe",
@@ -506357,7 +506769,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-32-bit.exe",
                   "size_bytes": 33001392,
                   "size": "31.47 MB",
-                  "download_count": 431867
+                  "download_count": 431868
                 },
                 {
                   "name": "Git-2.10.1-64-bit.exe",
@@ -506400,7 +506812,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-32-bit.exe",
                   "size_bytes": 32980760,
                   "size": "31.45 MB",
-                  "download_count": 221316
+                  "download_count": 221317
                 },
                 {
                   "name": "Git-2.10.0-64-bit.exe",
@@ -507098,7 +507510,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.7.1.windows.2/Git-2.7.1.2-64-bit.exe",
                   "size_bytes": 30770752,
                   "size": "29.35 MB",
-                  "download_count": 2287700
+                  "download_count": 2287701
                 },
                 {
                   "name": "PortableGit-2.7.1.2-32-bit.7z.exe",
@@ -507381,14 +507793,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.6.1.windows.1/Git-2.6.1-32-bit.exe",
                   "size_bytes": 31745392,
                   "size": "30.27 MB",
-                  "download_count": 159468
+                  "download_count": 159469
                 },
                 {
                   "name": "Git-2.6.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.6.1.windows.1/Git-2.6.1-64-bit.exe",
                   "size_bytes": 32105216,
                   "size": "30.62 MB",
-                  "download_count": 404462
+                  "download_count": 404463
                 },
                 {
                   "name": "PortableGit-2.6.1-32-bit.7z.exe",
@@ -507549,7 +507961,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.5.3.windows.1/Git-2.5.3-64-bit.exe",
                   "size_bytes": 31986464,
                   "size": "30.50 MB",
-                  "download_count": 292547
+                  "download_count": 292548
                 },
                 {
                   "name": "PortableGit-2.5.3-32-bit.7z.exe",
@@ -510802,7 +511214,7 @@
         "total_versions": 405,
         "download_page": "https://git-scm.com/downloads",
         "windows_builds_source": "https://github.com/git-for-windows/git",
-        "fetched_at": "2026-10-21T10:54:31.691Z"
+        "fetched_at": "2026-10-21T16:23:27.684Z"
       }
     }
   }
