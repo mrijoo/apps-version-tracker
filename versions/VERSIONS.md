@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-10-21T02:35:00.818Z
+> Last updated: 2026-10-21T10:51:01.548Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -8,7 +8,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PHP | 8.5.11 | 558 | [Website](https://www.php.net) |
-| Node.js | 26.12.0 | 872 | [Website](https://nodejs.org) |
+| Node.js | 26.12.1 | 875 | [Website](https://nodejs.org) |
 | Go | 1.27.3 | 369 | [Website](https://go.dev) |
 | Python | 3.15.0 | 267 | [Website](https://www.python.org) |
 | Ruby | 3.4.11 | 170 | [Website](https://www.ruby-lang.org) |
@@ -20,7 +20,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | PostgreSQL | 18.6 | 173 | [Website](https://www.postgresql.org) |
-| MySQL | 26.10.0 | 458 | [Website](https://www.mysql.com) |
+| MySQL | 26.10.0 | 459 | [Website](https://www.mysql.com) |
 | MariaDB | 13.1.1 | 454 | [Website](https://mariadb.org) |
 | MongoDB | 9.0.4 | 553 | [Website](https://www.mongodb.com) |
 | Redis | 8.10.2 | 130 | [Website](https://redis.io) |
