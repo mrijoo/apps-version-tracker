@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T10:00:08.516Z",
+  "last_updated": "2026-10-24T15:04:49.493Z",
   "incremental_mode": true,
   "software": {
     "Languages": {
@@ -18616,7 +18616,7 @@
         ],
         "total_versions": 560,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:00:08.852Z"
+        "fetched_at": "2026-10-24T15:04:49.886Z"
       },
       "Node.js": {
         "website": "https://nodejs.org",
@@ -67863,7 +67863,7 @@
             ]
           }
         },
-        "fetched_at": "2026-10-24T10:00:09.215Z"
+        "fetched_at": "2026-10-24T15:04:50.546Z"
       },
       "Go": {
         "website": "https://go.dev",
@@ -123392,7 +123392,7 @@
           }
         ],
         "total_versions": 369,
-        "fetched_at": "2026-10-24T10:00:09.780Z"
+        "fetched_at": "2026-10-24T15:04:51.289Z"
       },
       "Python": {
         "website": "https://www.python.org",
@@ -133292,7 +133292,7 @@
         ],
         "total_versions": 270,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:00:10.209Z"
+        "fetched_at": "2026-10-24T15:04:51.726Z"
       },
       "Ruby": {
         "website": "https://www.ruby-lang.org",
@@ -138289,7 +138289,7 @@
         ],
         "total_versions": 172,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:00:10.629Z"
+        "fetched_at": "2026-10-24T15:04:52.181Z"
       },
       "Rust": {
         "website": "https://www.rust-lang.org",
@@ -144370,7 +144370,7 @@
         ],
         "total_versions": 156,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:00:11.410Z"
+        "fetched_at": "2026-10-24T15:04:53.011Z"
       },
       "Java (Eclipse Temurin)": {
         "website": "https://adoptium.net",
@@ -144552,6 +144552,677 @@
           "lts": true,
           "stable": true,
           "release_date": "2024-07-25T19:28:42Z"
+        },
+        "latest_stable": {
+          "version": "jdk-27.0.1.0.2+1",
+          "tag": "jdk-27.0.1.0.2+1",
+          "published_at": "2026-10-24T11:36:00Z",
+          "prerelease": false,
+          "release_url": "https://github.com/adoptium/temurin27-binaries/releases/tag/jdk-27.0.1.0.2%2B1",
+          "downloads": {
+            "linux": [
+              {
+                "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 52165341,
+                "size": "49.75 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 335820888,
+                "size": "320.26 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 30576,
+                "size": "29.86 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 133,
+                "size": "133.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 284150392,
+                "size": "270.99 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 32379,
+                "size": "31.62 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 126,
+                "size": "126.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 122496805,
+                "size": "116.82 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 138171324,
+                "size": "131.77 MB",
+                "download_count": 440
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 142004487,
+                "size": "135.43 MB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 30569,
+                "size": "29.85 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 126,
+                "size": "126.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 142729023,
+                "size": "136.12 MB",
+                "download_count": 616
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 32372,
+                "size": "31.61 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 119,
+                "size": "119.00 B",
+                "download_count": 7
+              },
+              {
+                "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 238
+              },
+              {
+                "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 82306242,
+                "size": "78.49 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 86766486,
+                "size": "82.75 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 30571,
+                "size": "29.85 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 128,
+                "size": "128.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 87454782,
+                "size": "83.40 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 32374,
+                "size": "31.62 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 121,
+                "size": "121.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 57028968,
+                "size": "54.39 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 61558330,
+                "size": "58.71 MB",
+                "download_count": 6
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 30569,
+                "size": "29.85 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 126,
+                "size": "126.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 62137637,
+                "size": "59.26 MB",
+                "download_count": 23
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 32372,
+                "size": "31.61 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 119,
+                "size": "119.00 B",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 12
+              },
+              {
+                "name": "OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1-metadata.json",
+                "size_bytes": 30570,
+                "size": "29.85 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json",
+                "size_bytes": 168132,
+                "size": "164.19 KB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1-metadata.json",
+                "size_bytes": 32373,
+                "size": "31.61 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json",
+                "size_bytes": 179982,
+                "size": "175.76 KB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 5241356,
+                "size": "5.00 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 32379,
+                "size": "31.62 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 133,
+                "size": "133.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 3817975,
+                "size": "3.64 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 30576,
+                "size": "29.86 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 139,
+                "size": "139.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 3933138,
+                "size": "3.75 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 58466711,
+                "size": "55.76 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 118449379,
+                "size": "112.96 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 30575,
+                "size": "29.86 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 132,
+                "size": "132.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                "size_bytes": 114211039,
+                "size": "108.92 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 32378,
+                "size": "31.62 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 125,
+                "size": "125.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              }
+            ],
+            "macos": [
+              {
+                "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 31813,
+                "size": "31.07 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 128,
+                "size": "128.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                "size_bytes": 138705208,
+                "size": "132.28 MB",
+                "download_count": 17
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                "size_bytes": 31806,
+                "size": "31.06 KB",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                "size_bytes": 118,
+                "size": "118.00 B",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 31806,
+                "size": "31.06 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 121,
+                "size": "121.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 30
+              },
+              {
+                "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 31808,
+                "size": "31.06 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 123,
+                "size": "123.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                "size_bytes": 57405362,
+                "size": "54.75 MB",
+                "download_count": 13
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                "size_bytes": 31806,
+                "size": "31.06 KB",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                "size_bytes": 118,
+                "size": "118.00 B",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 31806,
+                "size": "31.06 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 121,
+                "size": "121.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1-metadata.json",
+                "size_bytes": 31807,
+                "size": "31.06 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json",
+                "size_bytes": 171403,
+                "size": "167.39 KB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 31813,
+                "size": "31.07 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 129,
+                "size": "129.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 31812,
+                "size": "31.07 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 127,
+                "size": "127.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              }
+            ],
+            "other": [
+              {
+                "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.json",
+                "size_bytes": 32376,
+                "size": "31.62 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sha256.txt",
+                "size_bytes": 109,
+                "size": "109.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              }
+            ]
+          },
+          "total_downloads": 1539,
+          "major_version": 27,
+          "lts": false,
+          "stable": true,
+          "release_date": "2026-10-24T11:36:00Z"
         },
         "versions": [
           {
@@ -255540,6 +256211,677 @@
             "release_date": "2024-04-23T17:09:54Z"
           },
           {
+            "version": "jdk-27.0.1.0.2+1",
+            "tag": "jdk-27.0.1.0.2+1",
+            "published_at": "2026-10-24T11:36:00Z",
+            "prerelease": false,
+            "release_url": "https://github.com/adoptium/temurin27-binaries/releases/tag/jdk-27.0.1.0.2%2B1",
+            "downloads": {
+              "linux": [
+                {
+                  "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 52165341,
+                  "size": "49.75 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 335820888,
+                  "size": "320.26 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 30576,
+                  "size": "29.86 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 133,
+                  "size": "133.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 284150392,
+                  "size": "270.99 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 32379,
+                  "size": "31.62 KB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 126,
+                  "size": "126.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 122496805,
+                  "size": "116.82 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 138171324,
+                  "size": "131.77 MB",
+                  "download_count": 440
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 142004487,
+                  "size": "135.43 MB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 30569,
+                  "size": "29.85 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 126,
+                  "size": "126.00 B",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 142729023,
+                  "size": "136.12 MB",
+                  "download_count": 616
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 32372,
+                  "size": "31.61 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 119,
+                  "size": "119.00 B",
+                  "download_count": 7
+                },
+                {
+                  "name": "OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 238
+                },
+                {
+                  "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 82306242,
+                  "size": "78.49 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 86766486,
+                  "size": "82.75 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 30571,
+                  "size": "29.85 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 128,
+                  "size": "128.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 87454782,
+                  "size": "83.40 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 32374,
+                  "size": "31.62 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 121,
+                  "size": "121.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 57028968,
+                  "size": "54.39 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 61558330,
+                  "size": "58.71 MB",
+                  "download_count": 6
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 30569,
+                  "size": "29.85 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 126,
+                  "size": "126.00 B",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 62137637,
+                  "size": "59.26 MB",
+                  "download_count": 23
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 32372,
+                  "size": "31.61 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 119,
+                  "size": "119.00 B",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 12
+                },
+                {
+                  "name": "OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1-metadata.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1-metadata.json",
+                  "size_bytes": 30570,
+                  "size": "29.85 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json",
+                  "size_bytes": 168132,
+                  "size": "164.19 KB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_alpine-linux_hotspot_27.0.1.0.2_1.json.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1-metadata.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1-metadata.json",
+                  "size_bytes": 32373,
+                  "size": "31.61 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json",
+                  "size_bytes": 179982,
+                  "size": "175.76 KB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_x64_linux_hotspot_27.0.1.0.2_1.json.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 5241356,
+                  "size": "5.00 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 32379,
+                  "size": "31.62 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 133,
+                  "size": "133.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-glibc_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 3817975,
+                  "size": "3.64 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 30576,
+                  "size": "29.86 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 139,
+                  "size": "139.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs-musl_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 3933138,
+                  "size": "3.75 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 58466711,
+                  "size": "55.76 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 118449379,
+                  "size": "112.96 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 30575,
+                  "size": "29.86 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 132,
+                  "size": "132.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+                  "size_bytes": 114211039,
+                  "size": "108.92 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 32378,
+                  "size": "31.62 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 125,
+                  "size": "125.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_linux_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                }
+              ],
+              "macos": [
+                {
+                  "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 31813,
+                  "size": "31.07 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 128,
+                  "size": "128.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                  "size_bytes": 138705208,
+                  "size": "132.28 MB",
+                  "download_count": 17
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                  "size_bytes": 31806,
+                  "size": "31.06 KB",
+                  "download_count": 2
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                  "size_bytes": 118,
+                  "size": "118.00 B",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 31806,
+                  "size": "31.06 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 121,
+                  "size": "121.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 30
+                },
+                {
+                  "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 31808,
+                  "size": "31.06 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 123,
+                  "size": "123.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jmods_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg",
+                  "size_bytes": 57405362,
+                  "size": "54.75 MB",
+                  "download_count": 13
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.json",
+                  "size_bytes": 31806,
+                  "size": "31.06 KB",
+                  "download_count": 2
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sha256.txt",
+                  "size_bytes": 118,
+                  "size": "118.00 B",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.pkg.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 31806,
+                  "size": "31.06 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 121,
+                  "size": "121.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1-metadata.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1-metadata.json",
+                  "size_bytes": 31807,
+                  "size": "31.06 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json",
+                  "size_bytes": 171403,
+                  "size": "167.39 KB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-sbom_aarch64_mac_hotspot_27.0.1.0.2_1.json.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 31813,
+                  "size": "31.07 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 129,
+                  "size": "129.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-static-libs_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 31812,
+                  "size": "31.07 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 127,
+                  "size": "127.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                }
+              ],
+              "other": [
+                {
+                  "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.json",
+                  "size_bytes": 32376,
+                  "size": "31.62 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sha256.txt",
+                  "size_bytes": 109,
+                  "size": "109.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk-sources_27.0.1.0.2_1.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                }
+              ]
+            },
+            "total_downloads": 1539,
+            "major_version": 27,
+            "lts": false,
+            "stable": true,
+            "release_date": "2026-10-24T11:36:00Z"
+          },
+          {
             "version": "jdk-25.0.1+8",
             "tag": "jdk-25.0.1+8",
             "published_at": "2025-10-24T08:13:58Z",
@@ -307953,9 +309295,9 @@
             "release_date": "2026-09-21T10:22:53Z"
           }
         ],
-        "total_versions": 134,
+        "total_versions": 135,
         "download_page": "https://adoptium.net/temurin/releases/",
-        "fetched_at": "2026-10-24T10:02:36.725Z"
+        "fetched_at": "2026-10-24T15:07:13.205Z"
       }
     },
     "Databases": {
@@ -315695,7 +317037,7 @@
         ],
         "total_versions": 173,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:02:37.139Z"
+        "fetched_at": "2026-10-24T15:07:13.633Z"
       },
       "MySQL": {
         "website": "https://www.mysql.com",
@@ -327827,7 +329169,7 @@
         ],
         "total_versions": 459,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:02:38.068Z"
+        "fetched_at": "2026-10-24T15:07:14.717Z"
       },
       "MariaDB": {
         "website": "https://mariadb.org",
@@ -341315,7 +342657,7 @@
         ],
         "total_versions": 454,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:02:39.742Z"
+        "fetched_at": "2026-10-24T15:07:16.402Z"
       },
       "MongoDB": {
         "website": "https://www.mongodb.com",
@@ -360009,7 +361351,7 @@
         ],
         "total_versions": 553,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:02:40.200Z"
+        "fetched_at": "2026-10-24T15:07:16.891Z"
       },
       "Redis": {
         "website": "https://redis.io",
@@ -363222,7 +364564,7 @@
         "new_versions_count": 0,
         "download_page": "https://redis.io/download/",
         "windows_builds_source": "https://github.com/redis-windows/redis-windows",
-        "fetched_at": "2026-10-24T10:02:41.219Z"
+        "fetched_at": "2026-10-24T15:07:17.993Z"
       },
       "pgAdmin": {
         "website": "https://www.pgadmin.org",
@@ -366567,7 +367909,7 @@
         ],
         "total_versions": 120,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:02:41.624Z"
+        "fetched_at": "2026-10-24T15:07:18.418Z"
       },
       "phpMyAdmin": {
         "website": "https://www.phpmyadmin.net",
@@ -366711,9 +368053,7 @@
                 {
                   "name": "phpMyAdmin-5.1.4-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/5.1.4/phpMyAdmin-5.1.4-all-languages.zip",
-                  "type": "zip",
-                  "size_bytes": 13835761,
-                  "size": "13.19 MB"
+                  "type": "zip"
                 },
                 {
                   "name": "phpMyAdmin-5.1.4-all-languages.tar.gz",
@@ -366742,9 +368082,7 @@
                 {
                   "name": "phpMyAdmin-5.1.3-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/5.1.3/phpMyAdmin-5.1.3-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 12399585,
-                  "size": "11.83 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -366761,9 +368099,7 @@
                 {
                   "name": "phpMyAdmin-5.1.2-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/5.1.2/phpMyAdmin-5.1.2-all-languages.zip",
-                  "type": "zip",
-                  "size_bytes": 13805161,
-                  "size": "13.17 MB"
+                  "type": "zip"
                 },
                 {
                   "name": "phpMyAdmin-5.1.2-all-languages.tar.gz",
@@ -366891,9 +368227,7 @@
                 {
                   "name": "phpMyAdmin-5.0.2-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-languages.zip",
-                  "type": "zip",
-                  "size_bytes": 14199213,
-                  "size": "13.54 MB"
+                  "type": "zip"
                 },
                 {
                   "name": "phpMyAdmin-5.0.2-all-languages.tar.gz",
@@ -367298,7 +368632,9 @@
                 {
                   "name": "phpMyAdmin-4.8.5-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.8.5/phpMyAdmin-4.8.5-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 9797700,
+                  "size": "9.34 MB"
                 }
               ]
             },
@@ -367469,9 +368805,7 @@
                 {
                   "name": "phpMyAdmin-4.7.9-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.7.9/phpMyAdmin-4.7.9-all-languages.zip",
-                  "type": "zip",
-                  "size_bytes": 11496288,
-                  "size": "10.96 MB"
+                  "type": "zip"
                 },
                 {
                   "name": "phpMyAdmin-4.7.9-all-languages.tar.gz",
@@ -367943,7 +369277,9 @@
                 {
                   "name": "phpMyAdmin-4.5.5.1-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.5.5.1/phpMyAdmin-4.5.5.1-all-languages.zip",
-                  "type": "zip"
+                  "type": "zip",
+                  "size_bytes": 10983915,
+                  "size": "10.48 MB"
                 },
                 {
                   "name": "phpMyAdmin-4.5.5.1-all-languages.tar.gz",
@@ -368403,7 +369739,9 @@
                 {
                   "name": "phpMyAdmin-4.4.15-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.4.15/phpMyAdmin-4.4.15-all-languages.zip",
-                  "type": "zip"
+                  "type": "zip",
+                  "size_bytes": 10077983,
+                  "size": "9.61 MB"
                 },
                 {
                   "name": "phpMyAdmin-4.4.15-all-languages.tar.gz",
@@ -369293,7 +370631,9 @@
                 {
                   "name": "phpMyAdmin-4.2.13.1-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.2.13.1/phpMyAdmin-4.2.13.1-all-languages.zip",
-                  "type": "zip"
+                  "type": "zip",
+                  "size_bytes": 9309110,
+                  "size": "8.88 MB"
                 },
                 {
                   "name": "phpMyAdmin-4.2.13.1-all-languages.tar.gz",
@@ -373860,7 +375200,7 @@
         "total_versions": 312,
         "new_versions_count": 312,
         "download_page": "https://www.phpmyadmin.net/downloads/",
-        "fetched_at": "2026-10-24T10:03:15.762Z"
+        "fetched_at": "2026-10-24T15:07:51.391Z"
       }
     },
     "Web Servers": {
@@ -391372,7 +392712,7 @@
         ],
         "total_versions": 600,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:03:16.268Z"
+        "fetched_at": "2026-10-24T15:07:51.974Z"
       },
       "Apache HTTP Server": {
         "website": "https://httpd.apache.org",
@@ -395949,7 +397289,7 @@
         ],
         "total_versions": 215,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:03:17.547Z"
+        "fetched_at": "2026-10-24T15:07:53.356Z"
       }
     },
     "Package Managers": {
@@ -400953,7 +402293,7 @@
         ],
         "total_versions": 226,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:03:18.355Z"
+        "fetched_at": "2026-10-24T15:07:54.276Z"
       },
       "npm": {
         "website": "https://www.npmjs.com",
@@ -409449,7 +410789,7 @@
         "total_versions": 942,
         "new_versions_count": 0,
         "install_command": "npm install -g npm@latest",
-        "fetched_at": "2026-10-24T10:03:18.973Z"
+        "fetched_at": "2026-10-24T15:07:54.882Z"
       },
       "Yarn": {
         "website": "https://yarnpkg.com",
@@ -410237,7 +411577,7 @@
         "total_versions": 73,
         "new_versions_count": 0,
         "install_command": "corepack enable && yarn set version stable",
-        "fetched_at": "2026-10-24T10:03:19.816Z"
+        "fetched_at": "2026-10-24T15:07:55.411Z"
       },
       "pnpm": {
         "website": "https://pnpm.io",
@@ -443833,7 +445173,7 @@
         "total_versions": 881,
         "new_versions_count": 0,
         "install_command": "npm install -g pnpm",
-        "fetched_at": "2026-10-24T10:03:21.107Z"
+        "fetched_at": "2026-10-24T15:07:56.824Z"
       },
       "Bun": {
         "website": "https://bun.sh",
@@ -470454,7 +471794,7 @@
         "total_versions": 218,
         "new_versions_count": 0,
         "install_command": "curl -fsSL https://bun.sh/install | bash",
-        "fetched_at": "2026-10-24T10:03:22.678Z"
+        "fetched_at": "2026-10-24T15:07:58.409Z"
       }
     },
     "Frameworks": {
@@ -479339,7 +480679,7 @@
         "total_versions": 985,
         "new_versions_count": 0,
         "install_command": "composer create-project laravel/laravel example-app",
-        "fetched_at": "2026-10-24T10:03:23.321Z"
+        "fetched_at": "2026-10-24T15:07:59.103Z"
       },
       "Next.js": {
         "website": "https://nextjs.org",
@@ -482804,7 +484144,7 @@
         "total_versions": 383,
         "new_versions_count": 0,
         "install_command": "npx create-next-app@latest",
-        "fetched_at": "2026-10-24T10:03:24.452Z"
+        "fetched_at": "2026-10-24T15:08:00.265Z"
       },
       "Nuxt": {
         "website": "https://nuxt.com",
@@ -484703,7 +486043,7 @@
         "total_versions": 209,
         "new_versions_count": 0,
         "install_command": "npx nuxi@latest init <project-name>",
-        "fetched_at": "2026-10-24T10:03:25.187Z"
+        "fetched_at": "2026-10-24T15:08:01.006Z"
       },
       "Vue.js": {
         "website": "https://vuejs.org",
@@ -486188,7 +487528,7 @@
         "total_versions": 163,
         "new_versions_count": 0,
         "install_command": "npm create vue@latest",
-        "fetched_at": "2026-10-24T10:03:25.738Z"
+        "fetched_at": "2026-10-24T15:08:01.602Z"
       },
       "React": {
         "website": "https://react.dev",
@@ -489591,7 +490931,7 @@
         "total_versions": 132,
         "new_versions_count": 0,
         "install_command": "npm install react react-dom",
-        "fetched_at": "2026-10-24T10:03:26.787Z"
+        "fetched_at": "2026-10-24T15:08:02.813Z"
       },
       "Svelte": {
         "website": "https://svelte.dev",
@@ -492966,7 +494306,7 @@
         "total_versions": 373,
         "new_versions_count": 0,
         "install_command": "npx sv create my-app",
-        "fetched_at": "2026-10-24T10:03:27.496Z"
+        "fetched_at": "2026-10-24T15:08:03.437Z"
       }
     },
     "DevOps": {
@@ -501256,7 +502596,7 @@
         ],
         "total_versions": 206,
         "new_versions_count": 0,
-        "fetched_at": "2026-10-24T10:03:28.278Z"
+        "fetched_at": "2026-10-24T15:08:04.119Z"
       },
       "Git": {
         "website": "https://git-scm.com",
@@ -501276,154 +502616,154 @@
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-64-bit.exe",
                 "size_bytes": 66837216,
                 "size": "63.74 MB",
-                "download_count": 157079
+                "download_count": 202112
               },
               {
                 "name": "Git-2.56.0.3-arm64.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-arm64.exe",
                 "size_bytes": 64392112,
                 "size": "61.41 MB",
-                "download_count": 3194
+                "download_count": 5650
               },
               {
                 "name": "Git-2.56.0.3-mingw64.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-mingw64.exe",
                 "size_bytes": 66585288,
                 "size": "63.50 MB",
-                "download_count": 275
+                "download_count": 310
               },
               {
                 "name": "mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 30240,
                 "size": "29.53 KB",
-                "download_count": 62
+                "download_count": 65
               },
               {
                 "name": "mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 58
+                "download_count": 61
               },
               {
                 "name": "mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 147656,
                 "size": "144.20 KB",
-                "download_count": 62
+                "download_count": 65
               },
               {
                 "name": "mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 60
+                "download_count": 63
               },
               {
                 "name": "mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 29248,
                 "size": "28.56 KB",
-                "download_count": 61
+                "download_count": 64
               },
               {
                 "name": "mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 56
+                "download_count": 59
               },
               {
                 "name": "mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 112272,
                 "size": "109.64 KB",
-                "download_count": 60
+                "download_count": 63
               },
               {
                 "name": "mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 56
+                "download_count": 59
               },
               {
                 "name": "mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 34148,
                 "size": "33.35 KB",
-                "download_count": 62
+                "download_count": 65
               },
               {
                 "name": "mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 57
+                "download_count": 60
               },
               {
                 "name": "mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 153384,
                 "size": "149.79 KB",
-                "download_count": 63
+                "download_count": 66
               },
               {
                 "name": "mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 58
+                "download_count": 61
               },
               {
                 "name": "mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 35652,
                 "size": "34.82 KB",
-                "download_count": 58
+                "download_count": 61
               },
               {
                 "name": "mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 53
+                "download_count": 56
               },
               {
                 "name": "mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                 "size_bytes": 151108,
                 "size": "147.57 KB",
-                "download_count": 58
+                "download_count": 61
               },
               {
                 "name": "mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                 "size_bytes": 566,
                 "size": "566.00 B",
-                "download_count": 52
+                "download_count": 55
               },
               {
                 "name": "PortableGit-2.56.0.3-64-bit.7z.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/PortableGit-2.56.0.3-64-bit.7z.exe",
                 "size_bytes": 60079112,
                 "size": "57.30 MB",
-                "download_count": 27173
+                "download_count": 30283
               },
               {
                 "name": "PortableGit-2.56.0.3-arm64.7z.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/PortableGit-2.56.0.3-arm64.7z.exe",
                 "size_bytes": 59652656,
                 "size": "56.89 MB",
-                "download_count": 717
+                "download_count": 931
               },
               {
                 "name": "PortableGit-2.56.0.3-mingw64.7z.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/PortableGit-2.56.0.3-mingw64.7z.exe",
                 "size_bytes": 59886176,
                 "size": "57.11 MB",
-                "download_count": 209
+                "download_count": 234
               }
             ],
             "source": []
@@ -501446,154 +502786,154 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-64-bit.exe",
                   "size_bytes": 66837216,
                   "size": "63.74 MB",
-                  "download_count": 157079
+                  "download_count": 202112
                 },
                 {
                   "name": "Git-2.56.0.3-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-arm64.exe",
                   "size_bytes": 64392112,
                   "size": "61.41 MB",
-                  "download_count": 3194
+                  "download_count": 5650
                 },
                 {
                   "name": "Git-2.56.0.3-mingw64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-mingw64.exe",
                   "size_bytes": 66585288,
                   "size": "63.50 MB",
-                  "download_count": 275
+                  "download_count": 310
                 },
                 {
                   "name": "mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 30240,
                   "size": "29.53 KB",
-                  "download_count": 62
+                  "download_count": 65
                 },
                 {
                   "name": "mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 58
+                  "download_count": 61
                 },
                 {
                   "name": "mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 147656,
                   "size": "144.20 KB",
-                  "download_count": 62
+                  "download_count": 65
                 },
                 {
                   "name": "mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-clang-aarch64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 60
+                  "download_count": 63
                 },
                 {
                   "name": "mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 29248,
                   "size": "28.56 KB",
-                  "download_count": 61
+                  "download_count": 64
                 },
                 {
                   "name": "mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 56
+                  "download_count": 59
                 },
                 {
                   "name": "mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 112272,
                   "size": "109.64 KB",
-                  "download_count": 60
+                  "download_count": 63
                 },
                 {
                   "name": "mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-i686-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 56
+                  "download_count": 59
                 },
                 {
                   "name": "mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 34148,
                   "size": "33.35 KB",
-                  "download_count": 62
+                  "download_count": 65
                 },
                 {
                   "name": "mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 57
+                  "download_count": 60
                 },
                 {
                   "name": "mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 153384,
                   "size": "149.79 KB",
-                  "download_count": 63
+                  "download_count": 66
                 },
                 {
                   "name": "mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-ucrt-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 58
+                  "download_count": 61
                 },
                 {
                   "name": "mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 35652,
                   "size": "34.82 KB",
-                  "download_count": 58
+                  "download_count": 61
                 },
                 {
                   "name": "mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-credential-wincred-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 53
+                  "download_count": 56
                 },
                 {
                   "name": "mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 151108,
                   "size": "147.57 KB",
-                  "download_count": 58
+                  "download_count": 61
                 },
                 {
                   "name": "mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/mingw-w64-x86_64-git-for-windows-addons-2.56.0.3-1-any.pkg.tar.xz.sig",
                   "size_bytes": 566,
                   "size": "566.00 B",
-                  "download_count": 52
+                  "download_count": 55
                 },
                 {
                   "name": "PortableGit-2.56.0.3-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/PortableGit-2.56.0.3-64-bit.7z.exe",
                   "size_bytes": 60079112,
                   "size": "57.30 MB",
-                  "download_count": 27173
+                  "download_count": 30283
                 },
                 {
                   "name": "PortableGit-2.56.0.3-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/PortableGit-2.56.0.3-arm64.7z.exe",
                   "size_bytes": 59652656,
                   "size": "56.89 MB",
-                  "download_count": 717
+                  "download_count": 931
                 },
                 {
                   "name": "PortableGit-2.56.0.3-mingw64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/PortableGit-2.56.0.3-mingw64.7z.exe",
                   "size_bytes": 59886176,
                   "size": "57.11 MB",
-                  "download_count": 209
+                  "download_count": 234
                 }
               ],
               "source": []
@@ -501615,28 +502955,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/Git-2.55.0.5-64-bit.exe",
                   "size_bytes": 65343712,
                   "size": "62.32 MB",
-                  "download_count": 6377695
+                  "download_count": 6380429
                 },
                 {
                   "name": "Git-2.55.0.5-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/Git-2.55.0.5-arm64.exe",
                   "size_bytes": 63259960,
                   "size": "60.33 MB",
-                  "download_count": 135106
+                  "download_count": 135109
                 },
                 {
                   "name": "PortableGit-2.55.0.5-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-64-bit.7z.exe",
                   "size_bytes": 58960208,
                   "size": "56.23 MB",
-                  "download_count": 314058
+                  "download_count": 314266
                 },
                 {
                   "name": "PortableGit-2.55.0.5-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-arm64.7z.exe",
                   "size_bytes": 59215872,
                   "size": "56.47 MB",
-                  "download_count": 30058
+                  "download_count": 30060
                 }
               ],
               "source": []
@@ -501658,28 +502998,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe",
                   "size_bytes": 65175776,
                   "size": "62.16 MB",
-                  "download_count": 10353603
+                  "download_count": 10353799
                 },
                 {
                   "name": "Git-2.54.0-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-arm64.exe",
                   "size_bytes": 63430440,
                   "size": "60.49 MB",
-                  "download_count": 281916
+                  "download_count": 281917
                 },
                 {
                   "name": "PortableGit-2.54.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe",
                   "size_bytes": 58995352,
                   "size": "56.26 MB",
-                  "download_count": 1158946
+                  "download_count": 1158991
                 },
                 {
                   "name": "PortableGit-2.54.0-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-arm64.7z.exe",
                   "size_bytes": 59757336,
                   "size": "56.99 MB",
-                  "download_count": 82953
+                  "download_count": 82956
                 }
               ],
               "source": []
@@ -501701,7 +503041,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/Git-2.53.0.3-64-bit.exe",
                   "size_bytes": 64557224,
                   "size": "61.57 MB",
-                  "download_count": 2248382
+                  "download_count": 2248463
                 },
                 {
                   "name": "Git-2.53.0.3-arm64.exe",
@@ -501799,14 +503139,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/PortableGit-2.53.0.3-64-bit.7z.exe",
                   "size_bytes": 58269480,
                   "size": "55.57 MB",
-                  "download_count": 751163
+                  "download_count": 757574
                 },
                 {
                   "name": "PortableGit-2.53.0.3-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/PortableGit-2.53.0.3-arm64.7z.exe",
                   "size_bytes": 59042984,
                   "size": "56.31 MB",
-                  "download_count": 40768
+                  "download_count": 41162
                 }
               ],
               "source": []
@@ -501828,7 +503168,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe",
                   "size_bytes": 66292520,
                   "size": "63.22 MB",
-                  "download_count": 7502770
+                  "download_count": 7502834
                 },
                 {
                   "name": "Git-2.52.0-arm64.exe",
@@ -501842,7 +503182,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-64-bit.7z.exe",
                   "size_bytes": 60238232,
                   "size": "57.45 MB",
-                  "download_count": 903221
+                  "download_count": 903821
                 },
                 {
                   "name": "PortableGit-2.52.0-arm64.7z.exe",
@@ -501871,7 +503211,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/Git-2.51.2-64-bit.exe",
                   "size_bytes": 66178528,
                   "size": "63.11 MB",
-                  "download_count": 2384528
+                  "download_count": 2384676
                 },
                 {
                   "name": "Git-2.51.2-arm64.exe",
@@ -501885,7 +503225,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/PortableGit-2.51.2-64-bit.7z.exe",
                   "size_bytes": 60097272,
                   "size": "57.31 MB",
-                  "download_count": 897051
+                  "download_count": 897928
                 },
                 {
                   "name": "PortableGit-2.51.2-arm64.7z.exe",
@@ -501914,7 +503254,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.1.windows.1/Git-2.51.1-64-bit.exe",
                   "size_bytes": 66165512,
                   "size": "63.10 MB",
-                  "download_count": 2858928
+                  "download_count": 2858930
                 },
                 {
                   "name": "Git-2.51.1-arm64.exe",
@@ -501957,7 +503297,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/Git-2.51.0.2-64-bit.exe",
                   "size_bytes": 65895592,
                   "size": "62.84 MB",
-                  "download_count": 2195649
+                  "download_count": 2195713
                 },
                 {
                   "name": "Git-2.51.0.2-arm64.exe",
@@ -502000,14 +503340,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-32-bit.exe",
                   "size_bytes": 64954592,
                   "size": "61.95 MB",
-                  "download_count": 87403
+                  "download_count": 87411
                 },
                 {
                   "name": "Git-2.50.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe",
                   "size_bytes": 70990944,
                   "size": "67.70 MB",
-                  "download_count": 5327759
+                  "download_count": 5327842
                 },
                 {
                   "name": "Git-2.50.1-arm64.exe",
@@ -502028,7 +503368,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/PortableGit-2.50.1-64-bit.7z.exe",
                   "size_bytes": 64802008,
                   "size": "61.80 MB",
-                  "download_count": 195371
+                  "download_count": 195380
                 },
                 {
                   "name": "PortableGit-2.50.1-arm64.7z.exe",
@@ -502057,7 +503397,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.0.windows.2/Git-2.50.0.2-64-bit.exe",
                   "size_bytes": 70982376,
                   "size": "67.69 MB",
-                  "download_count": 862936
+                  "download_count": 862937
                 },
                 {
                   "name": "Git-2.50.0.2-arm64.exe",
@@ -502125,28 +503465,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe",
                   "size_bytes": 70287136,
                   "size": "67.03 MB",
-                  "download_count": 8219015
+                  "download_count": 8219059
                 },
                 {
                   "name": "Git-2.49.0-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-arm64.exe",
                   "size_bytes": 68640440,
                   "size": "65.46 MB",
-                  "download_count": 141417
+                  "download_count": 141426
                 },
                 {
                   "name": "PortableGit-2.49.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/PortableGit-2.49.0-64-bit.7z.exe",
                   "size_bytes": 64145824,
                   "size": "61.17 MB",
-                  "download_count": 415325
+                  "download_count": 415331
                 },
                 {
                   "name": "PortableGit-2.49.0-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/PortableGit-2.49.0-arm64.7z.exe",
                   "size_bytes": 63430408,
                   "size": "60.49 MB",
-                  "download_count": 37031
+                  "download_count": 37039
                 }
               ],
               "source": []
@@ -502193,14 +503533,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-32-bit.exe",
                   "size_bytes": 62864568,
                   "size": "59.95 MB",
-                  "download_count": 316773
+                  "download_count": 316787
                 },
                 {
                   "name": "Git-2.48.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-64-bit.exe",
                   "size_bytes": 69544752,
                   "size": "66.32 MB",
-                  "download_count": 3505719
+                  "download_count": 3505750
                 },
                 {
                   "name": "Git-2.48.1-arm64.exe",
@@ -502214,14 +503554,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/PortableGit-2.48.1-32-bit.7z.exe",
                   "size_bytes": 57616464,
                   "size": "54.95 MB",
-                  "download_count": 45533
+                  "download_count": 45538
                 },
                 {
                   "name": "PortableGit-2.48.1-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/PortableGit-2.48.1-64-bit.7z.exe",
                   "size_bytes": 63431824,
                   "size": "60.49 MB",
-                  "download_count": 217112
+                  "download_count": 217118
                 },
                 {
                   "name": "PortableGit-2.48.1-arm64.7z.exe",
@@ -502325,14 +503665,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-32-bit.exe",
                   "size_bytes": 64006112,
                   "size": "61.04 MB",
-                  "download_count": 135707
+                  "download_count": 135709
                 },
                 {
                   "name": "Git-2.47.1.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-64-bit.exe",
                   "size_bytes": 69096664,
                   "size": "65.90 MB",
-                  "download_count": 4010596
+                  "download_count": 4010617
                 },
                 {
                   "name": "Git-2.47.1.2-arm64.exe",
@@ -502353,7 +503693,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/PortableGit-2.47.1.2-64-bit.7z.exe",
                   "size_bytes": 62945640,
                   "size": "60.03 MB",
-                  "download_count": 479791
+                  "download_count": 479835
                 },
                 {
                   "name": "PortableGit-2.47.1.2-arm64.7z.exe",
@@ -502382,14 +503722,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-32-bit.exe",
                   "size_bytes": 63786312,
                   "size": "60.83 MB",
-                  "download_count": 86309
+                  "download_count": 86311
                 },
                 {
                   "name": "Git-2.47.0.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe",
                   "size_bytes": 68778784,
                   "size": "65.59 MB",
-                  "download_count": 2716423
+                  "download_count": 2716437
                 },
                 {
                   "name": "PortableGit-2.47.0.2-32-bit.7z.exe",
@@ -502403,7 +503743,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/PortableGit-2.47.0.2-64-bit.7z.exe",
                   "size_bytes": 62068112,
                   "size": "59.19 MB",
-                  "download_count": 160594
+                  "download_count": 160600
                 }
               ],
               "source": []
@@ -502539,7 +503879,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe",
                   "size_bytes": 68220888,
                   "size": "65.06 MB",
-                  "download_count": 4098198
+                  "download_count": 4098238
                 },
                 {
                   "name": "PortableGit-2.46.0-32-bit.7z.exe",
@@ -502553,7 +503893,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/PortableGit-2.46.0-64-bit.7z.exe",
                   "size_bytes": 61419624,
                   "size": "58.57 MB",
-                  "download_count": 233104
+                  "download_count": 233183
                 }
               ],
               "source": []
@@ -502639,14 +503979,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/Git-2.45.1-32-bit.exe",
                   "size_bytes": 63147736,
                   "size": "60.22 MB",
-                  "download_count": 69263
+                  "download_count": 69265
                 },
                 {
                   "name": "Git-2.45.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/Git-2.45.1-64-bit.exe",
                   "size_bytes": 67843632,
                   "size": "64.70 MB",
-                  "download_count": 10556807
+                  "download_count": 10557720
                 },
                 {
                   "name": "Git-Windows-Minimal.2.45.1.nupkg",
@@ -502681,7 +504021,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/PortableGit-2.45.1-64-bit.7z.exe",
                   "size_bytes": 62747136,
                   "size": "59.84 MB",
-                  "download_count": 107640
+                  "download_count": 107668
                 }
               ],
               "source": []
@@ -502710,7 +504050,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/Git-2.45.0-64-bit.exe",
                   "size_bytes": 67797640,
                   "size": "64.66 MB",
-                  "download_count": 1485898
+                  "download_count": 1485923
                 },
                 {
                   "name": "PortableGit-2.45.0-32-bit.7z.exe",
@@ -502885,14 +504225,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-32-bit.exe",
                   "size_bytes": 62435528,
                   "size": "59.54 MB",
-                  "download_count": 189401
+                  "download_count": 189405
                 },
                 {
                   "name": "Git-2.44.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
                   "size_bytes": 65350776,
                   "size": "62.32 MB",
-                  "download_count": 6550825
+                  "download_count": 6551479
                 },
                 {
                   "name": "PortableGit-2.44.0-32-bit.7z.exe",
@@ -502906,7 +504246,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/PortableGit-2.44.0-64-bit.7z.exe",
                   "size_bytes": 61765416,
                   "size": "58.90 MB",
-                  "download_count": 324878
+                  "download_count": 324894
                 }
               ],
               "source": []
@@ -503103,28 +504443,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-32-bit.exe",
                   "size_bytes": 61296000,
                   "size": "58.46 MB",
-                  "download_count": 301336
+                  "download_count": 301337
                 },
                 {
                   "name": "Git-2.43.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe",
                   "size_bytes": 60868040,
                   "size": "58.05 MB",
-                  "download_count": 7088067
+                  "download_count": 7088166
                 },
                 {
                   "name": "PortableGit-2.43.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/PortableGit-2.43.0-32-bit.7z.exe",
                   "size_bytes": 57474808,
                   "size": "54.81 MB",
-                  "download_count": 430329
+                  "download_count": 430330
                 },
                 {
                   "name": "PortableGit-2.43.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/PortableGit-2.43.0-64-bit.7z.exe",
                   "size_bytes": 56424944,
                   "size": "53.81 MB",
-                  "download_count": 490210
+                  "download_count": 490211
                 }
               ],
               "source": []
@@ -503253,7 +504593,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe",
                   "size_bytes": 61263968,
                   "size": "58.43 MB",
-                  "download_count": 5771686
+                  "download_count": 5771713
                 },
                 {
                   "name": "PortableGit-2.42.0.2-32-bit.7z.exe",
@@ -503371,7 +504711,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe",
                   "size_bytes": 61230448,
                   "size": "58.39 MB",
-                  "download_count": 2926074
+                  "download_count": 2926075
                 },
                 {
                   "name": "PortableGit-2.41.0.3-32-bit.7z.exe",
@@ -503482,14 +504822,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-32-bit.exe",
                   "size_bytes": 53400648,
                   "size": "50.93 MB",
-                  "download_count": 129075
+                  "download_count": 129076
                 },
                 {
                   "name": "Git-2.40.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe",
                   "size_bytes": 53918064,
                   "size": "51.42 MB",
-                  "download_count": 3843962
+                  "download_count": 3843966
                 },
                 {
                   "name": "PortableGit-2.40.1-32-bit.7z.exe",
@@ -503503,7 +504843,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/PortableGit-2.40.1-64-bit.7z.exe",
                   "size_bytes": 49220256,
                   "size": "46.94 MB",
-                  "download_count": 180267
+                  "download_count": 180269
                 }
               ],
               "source": []
@@ -503525,14 +504865,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-32-bit.exe",
                   "size_bytes": 53300528,
                   "size": "50.83 MB",
-                  "download_count": 121137
+                  "download_count": 121138
                 },
                 {
                   "name": "Git-2.40.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe",
                   "size_bytes": 53792928,
                   "size": "51.30 MB",
-                  "download_count": 7825260
+                  "download_count": 7826170
                 },
                 {
                   "name": "PortableGit-2.40.0-32-bit.7z.exe",
@@ -503643,14 +504983,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-32-bit.exe",
                   "size_bytes": 53132448,
                   "size": "50.67 MB",
-                  "download_count": 137555
+                  "download_count": 137557
                 },
                 {
                   "name": "Git-2.39.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe",
                   "size_bytes": 53002824,
                   "size": "50.55 MB",
-                  "download_count": 4288971
+                  "download_count": 4288979
                 },
                 {
                   "name": "PortableGit-2.39.2-32-bit.7z.exe",
@@ -503693,14 +505033,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe",
                   "size_bytes": 52998824,
                   "size": "50.54 MB",
-                  "download_count": 4718834
+                  "download_count": 4718855
                 },
                 {
                   "name": "PortableGit-2.39.1-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-32-bit.7z.exe",
                   "size_bytes": 48868896,
                   "size": "46.61 MB",
-                  "download_count": 708020
+                  "download_count": 708022
                 },
                 {
                   "name": "PortableGit-2.39.1-64-bit.7z.exe",
@@ -503736,7 +505076,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-64-bit.exe",
                   "size_bytes": 52999992,
                   "size": "50.54 MB",
-                  "download_count": 1554848
+                  "download_count": 1554852
                 },
                 {
                   "name": "PortableGit-2.39.0.2-32-bit.7z.exe",
@@ -503879,7 +505219,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe",
                   "size_bytes": 53360624,
                   "size": "50.89 MB",
-                  "download_count": 3585286
+                  "download_count": 3585287
                 },
                 {
                   "name": "PortableGit-2.38.1-32-bit.7z.exe",
@@ -503922,7 +505262,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe",
                   "size_bytes": 53344368,
                   "size": "50.87 MB",
-                  "download_count": 1205122
+                  "download_count": 1205124
                 },
                 {
                   "name": "PortableGit-2.38.0-32-bit.7z.exe",
@@ -504151,7 +505491,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-64-bit.exe",
                   "size_bytes": 49381480,
                   "size": "47.09 MB",
-                  "download_count": 2002379
+                  "download_count": 2002388
                 },
                 {
                   "name": "PortableGit-2.37.1-32-bit.7z.exe",
@@ -504362,7 +505702,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe",
                   "size_bytes": 49638112,
                   "size": "47.34 MB",
-                  "download_count": 2147002
+                  "download_count": 2147005
                 },
                 {
                   "name": "PortableGit-2.36.1-32-bit.7z.exe",
@@ -504376,7 +505716,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/PortableGit-2.36.1-64-bit.7z.exe",
                   "size_bytes": 45568272,
                   "size": "43.46 MB",
-                  "download_count": 140617
+                  "download_count": 140618
                 }
               ],
               "source": []
@@ -504405,14 +505745,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-64-bit.exe",
                   "size_bytes": 49371696,
                   "size": "47.08 MB",
-                  "download_count": 1117012
+                  "download_count": 1117013
                 },
                 {
                   "name": "PortableGit-2.36.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/PortableGit-2.36.0-32-bit.7z.exe",
                   "size_bytes": 45949464,
                   "size": "43.82 MB",
-                  "download_count": 588514
+                  "download_count": 588518
                 },
                 {
                   "name": "PortableGit-2.36.0-64-bit.7z.exe",
@@ -504659,7 +505999,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe",
                   "size_bytes": 50244992,
                   "size": "47.92 MB",
-                  "download_count": 2754226
+                  "download_count": 2754228
                 },
                 {
                   "name": "PortableGit-2.35.1.2-32-bit.7z.exe",
@@ -504709,7 +506049,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.0.windows.1/PortableGit-2.35.0-32-bit.7z.exe",
                   "size_bytes": 45630704,
                   "size": "43.52 MB",
-                  "download_count": 159224
+                  "download_count": 159226
                 },
                 {
                   "name": "PortableGit-2.35.0-64-bit.7z.exe",
@@ -504920,7 +506260,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe",
                   "size_bytes": 50403600,
                   "size": "48.07 MB",
-                  "download_count": 2643208
+                  "download_count": 2643225
                 },
                 {
                   "name": "PortableGit-2.34.1-32-bit.7z.exe",
@@ -504934,7 +506274,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/PortableGit-2.34.1-64-bit.7z.exe",
                   "size_bytes": 46160568,
                   "size": "44.02 MB",
-                  "download_count": 125730
+                  "download_count": 125732
                 }
               ],
               "source": []
@@ -505181,7 +506521,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
                   "size_bytes": 50186136,
                   "size": "47.86 MB",
-                  "download_count": 2054773
+                  "download_count": 2054774
                 },
                 {
                   "name": "PortableGit-2.33.1-32-bit.7z.exe",
@@ -505224,7 +506564,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe",
                   "size_bytes": 50101024,
                   "size": "47.78 MB",
-                  "download_count": 3639863
+                  "download_count": 3639864
                 },
                 {
                   "name": "PortableGit-2.33.0.2-32-bit.7z.exe",
@@ -505442,7 +506782,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/Git-2.32.0.2-64-bit.exe",
                   "size_bytes": 49960224,
                   "size": "47.65 MB",
-                  "download_count": 1475829
+                  "download_count": 1475830
                 },
                 {
                   "name": "PortableGit-2.32.0.2-32-bit.7z.exe",
@@ -505660,7 +507000,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
                   "size_bytes": 49871216,
                   "size": "47.56 MB",
-                  "download_count": 2834473
+                  "download_count": 2834477
                 },
                 {
                   "name": "PortableGit-2.31.1-32-bit.7z.exe",
@@ -505717,7 +507057,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.0.windows.1/PortableGit-2.31.0-64-bit.7z.exe",
                   "size_bytes": 45624384,
                   "size": "43.51 MB",
-                  "download_count": 26034
+                  "download_count": 26035
                 }
               ],
               "source": []
@@ -506007,7 +507347,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.2/Git-2.30.0.2-64-bit.exe",
                   "size_bytes": 48823136,
                   "size": "46.56 MB",
-                  "download_count": 862254
+                  "download_count": 862255
                 },
                 {
                   "name": "PortableGit-2.30.0.2-32-bit.7z.exe",
@@ -506229,7 +507569,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe",
                   "size_bytes": 51110112,
                   "size": "48.74 MB",
-                  "download_count": 2731523
+                  "download_count": 2731556
                 },
                 {
                   "name": "PortableGit-2.28.0-32-bit.7z.exe",
@@ -506297,7 +507637,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-64-bit.exe",
                   "size_bytes": 48066136,
                   "size": "45.84 MB",
-                  "download_count": 1818371
+                  "download_count": 1818372
                 },
                 {
                   "name": "PortableGit-2.27.0-32-bit.7z.exe",
@@ -506372,7 +507712,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/PortableGit-2.26.2-32-bit.7z.exe",
                   "size_bytes": 42821800,
                   "size": "40.84 MB",
-                  "download_count": 530940
+                  "download_count": 530941
                 },
                 {
                   "name": "PortableGit-2.26.2-64-bit.7z.exe",
@@ -506451,7 +507791,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/Git-2.26.0-64-bit.exe",
                   "size_bytes": 46669192,
                   "size": "44.51 MB",
-                  "download_count": 888965
+                  "download_count": 888966
                 },
                 {
                   "name": "PortableGit-2.26.0-32-bit.7z.exe",
@@ -506587,7 +507927,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe",
                   "size_bytes": 46544904,
                   "size": "44.39 MB",
-                  "download_count": 976203
+                  "download_count": 976204
                 },
                 {
                   "name": "Git-2.25.1-32-bit.exe",
@@ -506644,7 +507984,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/PortableGit-2.25.0-64-bit.7z.exe",
                   "size_bytes": 43086536,
                   "size": "41.09 MB",
-                  "download_count": 113017
+                  "download_count": 113019
                 },
                 {
                   "name": "PortableGit-2.25.0-32-bit.7z.exe",
@@ -507102,7 +508442,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.22.0.windows.1/Git-2.22.0-64-bit.exe",
                   "size_bytes": 47087448,
                   "size": "44.91 MB",
-                  "download_count": 5166188
+                  "download_count": 5166189
                 },
                 {
                   "name": "Git-2.22.0-32-bit.exe",
@@ -507245,7 +508585,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.exe",
                   "size_bytes": 46327744,
                   "size": "44.18 MB",
-                  "download_count": 7313403
+                  "download_count": 7313409
                 },
                 {
                   "name": "Git-2.21.0-32-bit.exe",
@@ -507388,7 +508728,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe",
                   "size_bytes": 45608976,
                   "size": "43.50 MB",
-                  "download_count": 5368894
+                  "download_count": 5368934
                 },
                 {
                   "name": "Git-2.20.1-32-bit.exe",
@@ -507438,7 +508778,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.20.0.windows.1/Git-2.20.0-32-bit.exe",
                   "size_bytes": 45907264,
                   "size": "43.78 MB",
-                  "download_count": 28606
+                  "download_count": 28607
                 },
                 {
                   "name": "PortableGit-2.20.0-64-bit.7z.exe",
@@ -507810,7 +509150,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-64-bit.exe",
                   "size_bytes": 41126928,
                   "size": "39.22 MB",
-                  "download_count": 6075333
+                  "download_count": 6075343
                 },
                 {
                   "name": "Git-2.18.0-32-bit.exe",
@@ -507978,28 +509318,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.17.1.windows.2/Git-2.17.1.2-64-bit.exe",
                   "size_bytes": 40724176,
                   "size": "38.84 MB",
-                  "download_count": 1823043
+                  "download_count": 1823044
                 },
                 {
                   "name": "Git-2.17.1.2-32-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.17.1.windows.2/Git-2.17.1.2-32-bit.exe",
                   "size_bytes": 40610048,
                   "size": "38.73 MB",
-                  "download_count": 155784
+                  "download_count": 155785
                 },
                 {
                   "name": "PortableGit-2.17.1.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.17.1.windows.2/PortableGit-2.17.1.2-64-bit.7z.exe",
                   "size_bytes": 38319560,
                   "size": "36.54 MB",
-                  "download_count": 53850
+                  "download_count": 53851
                 },
                 {
                   "name": "PortableGit-2.17.1.2-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.17.1.windows.2/PortableGit-2.17.1.2-32-bit.7z.exe",
                   "size_bytes": 38033688,
                   "size": "36.27 MB",
-                  "download_count": 12125
+                  "download_count": 12126
                 }
               ],
               "source": []
@@ -508239,7 +509579,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.4/Git-2.16.1.4-64-bit.exe",
                   "size_bytes": 39065656,
                   "size": "37.26 MB",
-                  "download_count": 2426736
+                  "download_count": 2426748
                 },
                 {
                   "name": "Git-2.16.1.4-32-bit.exe",
@@ -508604,7 +509944,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.14.2.windows.3/Git-2.14.2.3-64-bit.exe",
                   "size_bytes": 38350440,
                   "size": "36.57 MB",
-                  "download_count": 585549
+                  "download_count": 585551
                 },
                 {
                   "name": "Git-2.14.2.3-32-bit.exe",
@@ -508647,7 +509987,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.14.1.windows.1/Git-2.14.1-64-bit.exe",
                   "size_bytes": 37255040,
                   "size": "35.53 MB",
-                  "download_count": 3391785
+                  "download_count": 3391789
                 },
                 {
                   "name": "Git-2.14.1-32-bit.exe",
@@ -509488,7 +510828,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-32-bit.exe",
                   "size_bytes": 33001392,
                   "size": "31.47 MB",
-                  "download_count": 431890
+                  "download_count": 431891
                 },
                 {
                   "name": "Git-2.10.1-64-bit.exe",
@@ -509545,7 +510885,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/PortableGit-2.10.0-32-bit.7z.exe",
                   "size_bytes": 31042152,
                   "size": "29.60 MB",
-                  "download_count": 17400
+                  "download_count": 17401
                 },
                 {
                   "name": "PortableGit-2.10.0-64-bit.7z.exe",
@@ -510512,7 +511852,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.6.1.windows.1/Git-2.6.1-32-bit.exe",
                   "size_bytes": 31745392,
                   "size": "30.27 MB",
-                  "download_count": 159476
+                  "download_count": 159477
                 },
                 {
                   "name": "Git-2.6.1-64-bit.exe",
@@ -513933,7 +515273,7 @@
         "total_versions": 405,
         "download_page": "https://git-scm.com/downloads",
         "windows_builds_source": "https://github.com/git-for-windows/git",
-        "fetched_at": "2026-10-24T10:03:32.319Z"
+        "fetched_at": "2026-10-24T15:08:08.526Z"
       }
     }
   }
