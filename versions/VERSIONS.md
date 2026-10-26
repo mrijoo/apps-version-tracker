@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-10-26T17:56:56.363Z
+> Last updated: 2026-10-26T22:09:51.189Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -53,7 +53,7 @@
 | Nuxt | 4.6.2 | 209 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.44 | 163 | [Website](https://vuejs.org) |
 | React | 19.3.1 | 132 | [Website](https://react.dev) |
-| Svelte | svelte@5.57.2 | 373 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.57.3 | 374 | [Website](https://svelte.dev) |
 
 ## DevOps
 
