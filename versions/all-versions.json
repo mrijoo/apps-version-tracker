@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T03:58:45.866Z",
+  "last_updated": "2026-11-04T13:29:48.137Z",
   "incremental_mode": true,
   "software": {
     "Languages": {
@@ -18616,7 +18616,7 @@
         ],
         "total_versions": 560,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T03:58:46.226Z"
+        "fetched_at": "2026-11-04T13:29:48.504Z"
       },
       "Node.js": {
         "website": "https://nodejs.org",
@@ -68037,7 +68037,7 @@
             ]
           }
         },
-        "fetched_at": "2026-11-04T03:58:46.741Z"
+        "fetched_at": "2026-11-04T13:29:48.848Z"
       },
       "Go": {
         "website": "https://go.dev",
@@ -123566,7 +123566,7 @@
           }
         ],
         "total_versions": 369,
-        "fetched_at": "2026-11-04T03:58:47.260Z"
+        "fetched_at": "2026-11-04T13:29:49.485Z"
       },
       "Python": {
         "website": "https://www.python.org",
@@ -133614,7 +133614,7 @@
         ],
         "total_versions": 274,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T03:58:47.752Z"
+        "fetched_at": "2026-11-04T13:29:49.943Z"
       },
       "Ruby": {
         "website": "https://www.ruby-lang.org",
@@ -138611,7 +138611,7 @@
         ],
         "total_versions": 172,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T03:58:48.221Z"
+        "fetched_at": "2026-11-04T13:29:50.396Z"
       },
       "Rust": {
         "website": "https://www.rust-lang.org",
@@ -144692,7 +144692,7 @@
         ],
         "total_versions": 156,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T03:58:48.975Z"
+        "fetched_at": "2026-11-04T13:29:51.192Z"
       },
       "Java (Eclipse Temurin)": {
         "website": "https://adoptium.net",
@@ -144874,6 +144874,1004 @@
           "lts": true,
           "stable": true,
           "release_date": "2024-07-25T19:28:42Z"
+        },
+        "latest_stable": {
+          "version": "jdk-11.0.33+10",
+          "tag": "jdk-11.0.33+10",
+          "published_at": "2026-11-04T09:48:49Z",
+          "prerelease": false,
+          "release_url": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.33%2B10",
+          "downloads": {
+            "linux": [
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 287452960,
+                "size": "274.14 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28310,
+                "size": "27.65 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 124,
+                "size": "124.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 193691169,
+                "size": "184.72 MB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27194,
+                "size": "26.56 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 128,
+                "size": "128.00 B",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 197015896,
+                "size": "187.89 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27167,
+                "size": "26.53 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 126,
+                "size": "126.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 183276155,
+                "size": "174.79 MB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28303,
+                "size": "27.64 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 117,
+                "size": "117.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 177109628,
+                "size": "168.90 MB",
+                "download_count": 11
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27187,
+                "size": "26.55 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 121,
+                "size": "121.00 B",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 168927892,
+                "size": "161.10 MB",
+                "download_count": 7
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27160,
+                "size": "26.52 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 119,
+                "size": "119.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 41899209,
+                "size": "39.96 MB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28303,
+                "size": "27.64 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 117,
+                "size": "117.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 38733902,
+                "size": "36.94 MB",
+                "download_count": 8
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27187,
+                "size": "26.55 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 121,
+                "size": "121.00 B",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 37454464,
+                "size": "35.72 MB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27160,
+                "size": "26.52 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 119,
+                "size": "119.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10-metadata.json",
+                "size_bytes": 28304,
+                "size": "27.64 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json",
+                "size_bytes": 150367,
+                "size": "146.84 KB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10-metadata.json",
+                "size_bytes": 27188,
+                "size": "26.55 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json",
+                "size_bytes": 149663,
+                "size": "146.16 KB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10-metadata.json",
+                "size_bytes": 27161,
+                "size": "26.52 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json",
+                "size_bytes": 150651,
+                "size": "147.12 KB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 3838881,
+                "size": "3.66 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28310,
+                "size": "27.65 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 131,
+                "size": "131.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 4014644,
+                "size": "3.83 MB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27194,
+                "size": "26.56 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 135,
+                "size": "135.00 B",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 3677852,
+                "size": "3.51 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27167,
+                "size": "26.53 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 133,
+                "size": "133.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 399386475,
+                "size": "380.88 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28309,
+                "size": "27.65 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 123,
+                "size": "123.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 293243502,
+                "size": "279.66 MB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27193,
+                "size": "26.56 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 127,
+                "size": "127.00 B",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 295654069,
+                "size": "281.96 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27166,
+                "size": "26.53 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 125,
+                "size": "125.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              }
+            ]
+          },
+          "total_downloads": 166,
+          "major_version": 11,
+          "lts": true,
+          "stable": true,
+          "release_date": "2026-11-04T09:48:49Z"
+        },
+        "latest_lts": {
+          "version": "jdk-11.0.33+10",
+          "tag": "jdk-11.0.33+10",
+          "published_at": "2026-11-04T09:48:49Z",
+          "prerelease": false,
+          "release_url": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.33%2B10",
+          "downloads": {
+            "linux": [
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 287452960,
+                "size": "274.14 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28310,
+                "size": "27.65 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 124,
+                "size": "124.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 193691169,
+                "size": "184.72 MB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27194,
+                "size": "26.56 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 128,
+                "size": "128.00 B",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 197015896,
+                "size": "187.89 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27167,
+                "size": "26.53 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 126,
+                "size": "126.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 183276155,
+                "size": "174.79 MB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28303,
+                "size": "27.64 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 117,
+                "size": "117.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 177109628,
+                "size": "168.90 MB",
+                "download_count": 11
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27187,
+                "size": "26.55 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 121,
+                "size": "121.00 B",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 168927892,
+                "size": "161.10 MB",
+                "download_count": 7
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27160,
+                "size": "26.52 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 119,
+                "size": "119.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 41899209,
+                "size": "39.96 MB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28303,
+                "size": "27.64 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 117,
+                "size": "117.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 38733902,
+                "size": "36.94 MB",
+                "download_count": 8
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27187,
+                "size": "26.55 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 121,
+                "size": "121.00 B",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 37454464,
+                "size": "35.72 MB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27160,
+                "size": "26.52 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 119,
+                "size": "119.00 B",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10-metadata.json",
+                "size_bytes": 28304,
+                "size": "27.64 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json",
+                "size_bytes": 150367,
+                "size": "146.84 KB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10-metadata.json",
+                "size_bytes": 27188,
+                "size": "26.55 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json",
+                "size_bytes": 149663,
+                "size": "146.16 KB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10-metadata.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10-metadata.json",
+                "size_bytes": 27161,
+                "size": "26.52 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json",
+                "size_bytes": 150651,
+                "size": "147.12 KB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 3838881,
+                "size": "3.66 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28310,
+                "size": "27.65 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 131,
+                "size": "131.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 4014644,
+                "size": "3.83 MB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27194,
+                "size": "26.56 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 135,
+                "size": "135.00 B",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 3677852,
+                "size": "3.51 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27167,
+                "size": "26.53 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 133,
+                "size": "133.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 399386475,
+                "size": "380.88 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 28309,
+                "size": "27.65 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 123,
+                "size": "123.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 293243502,
+                "size": "279.66 MB",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27193,
+                "size": "26.56 KB",
+                "download_count": 5
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 127,
+                "size": "127.00 B",
+                "download_count": 2
+              },
+              {
+                "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                "size_bytes": 295654069,
+                "size": "281.96 MB",
+                "download_count": 0
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                "size_bytes": 27166,
+                "size": "26.53 KB",
+                "download_count": 4
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                "size_bytes": 125,
+                "size": "125.00 B",
+                "download_count": 1
+              },
+              {
+                "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                "size_bytes": 310,
+                "size": "310.00 B",
+                "download_count": 0
+              }
+            ]
+          },
+          "total_downloads": 166,
+          "major_version": 11,
+          "lts": true,
+          "stable": true,
+          "release_date": "2026-11-04T09:48:49Z"
         },
         "versions": [
           {
@@ -145282,6 +146280,505 @@
             "lts": true,
             "stable": true,
             "release_date": "2021-08-04T19:09:54Z"
+          },
+          {
+            "version": "jdk-11.0.33+10",
+            "tag": "jdk-11.0.33+10",
+            "published_at": "2026-11-04T09:48:49Z",
+            "prerelease": false,
+            "release_url": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.33%2B10",
+            "downloads": {
+              "linux": [
+                {
+                  "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 287452960,
+                  "size": "274.14 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 28310,
+                  "size": "27.65 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 124,
+                  "size": "124.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 193691169,
+                  "size": "184.72 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27194,
+                  "size": "26.56 KB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 128,
+                  "size": "128.00 B",
+                  "download_count": 2
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 197015896,
+                  "size": "187.89 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27167,
+                  "size": "26.53 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 126,
+                  "size": "126.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 183276155,
+                  "size": "174.79 MB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 28303,
+                  "size": "27.64 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 117,
+                  "size": "117.00 B",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 177109628,
+                  "size": "168.90 MB",
+                  "download_count": 11
+                },
+                {
+                  "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27187,
+                  "size": "26.55 KB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 121,
+                  "size": "121.00 B",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 168927892,
+                  "size": "161.10 MB",
+                  "download_count": 7
+                },
+                {
+                  "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27160,
+                  "size": "26.52 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 119,
+                  "size": "119.00 B",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 41899209,
+                  "size": "39.96 MB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 28303,
+                  "size": "27.64 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 117,
+                  "size": "117.00 B",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 38733902,
+                  "size": "36.94 MB",
+                  "download_count": 8
+                },
+                {
+                  "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27187,
+                  "size": "26.55 KB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 121,
+                  "size": "121.00 B",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 37454464,
+                  "size": "35.72 MB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27160,
+                  "size": "26.52 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 119,
+                  "size": "119.00 B",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10-metadata.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10-metadata.json",
+                  "size_bytes": 28304,
+                  "size": "27.64 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json",
+                  "size_bytes": 150367,
+                  "size": "146.84 KB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_arm_linux_hotspot_11.0.33_10.json.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10-metadata.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10-metadata.json",
+                  "size_bytes": 27188,
+                  "size": "26.55 KB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json",
+                  "size_bytes": 149663,
+                  "size": "146.16 KB",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_ppc64le_linux_hotspot_11.0.33_10.json.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10-metadata.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10-metadata.json",
+                  "size_bytes": 27161,
+                  "size": "26.52 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json",
+                  "size_bytes": 150651,
+                  "size": "147.12 KB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-sbom_s390x_linux_hotspot_11.0.33_10.json.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 3838881,
+                  "size": "3.66 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 28310,
+                  "size": "27.65 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 131,
+                  "size": "131.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 4014644,
+                  "size": "3.83 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27194,
+                  "size": "26.56 KB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 135,
+                  "size": "135.00 B",
+                  "download_count": 2
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 3677852,
+                  "size": "3.51 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27167,
+                  "size": "26.53 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 133,
+                  "size": "133.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-static-libs-glibc_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 399386475,
+                  "size": "380.88 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 28309,
+                  "size": "27.65 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 123,
+                  "size": "123.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 293243502,
+                  "size": "279.66 MB",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27193,
+                  "size": "26.56 KB",
+                  "download_count": 5
+                },
+                {
+                  "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 127,
+                  "size": "127.00 B",
+                  "download_count": 2
+                },
+                {
+                  "name": "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz",
+                  "size_bytes": 295654069,
+                  "size": "281.96 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.json",
+                  "size_bytes": 27166,
+                  "size": "26.53 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sha256.txt",
+                  "size_bytes": 125,
+                  "size": "125.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.33_10.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                }
+              ]
+            },
+            "total_downloads": 166,
+            "major_version": 11,
+            "lts": true,
+            "stable": true,
+            "release_date": "2026-11-04T09:48:49Z"
           },
           {
             "version": "jdk-11.0.32.1+1",
@@ -308944,11 +310441,132 @@
             "lts": false,
             "stable": true,
             "release_date": "2026-09-21T10:22:53Z"
+          },
+          {
+            "version": "jdk8u512-b09",
+            "tag": "jdk8u512-b09",
+            "published_at": "2026-11-04T12:45:11Z",
+            "prerelease": false,
+            "release_url": "https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u512-b09",
+            "downloads": {
+              "linux": [
+                {
+                  "name": "OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz",
+                  "size_bytes": 138593404,
+                  "size": "132.17 MB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz.json",
+                  "size_bytes": 21456,
+                  "size": "20.95 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz.sha256.txt",
+                  "size_bytes": 125,
+                  "size": "125.00 B",
+                  "download_count": 1
+                },
+                {
+                  "name": "OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-debugimage_ppc64le_linux_hotspot_8u512b09.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz",
+                  "size_bytes": 101104922,
+                  "size": "96.42 MB",
+                  "download_count": 3
+                },
+                {
+                  "name": "OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz.json",
+                  "size_bytes": 21449,
+                  "size": "20.95 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz.sha256.txt",
+                  "size_bytes": 118,
+                  "size": "118.00 B",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u512b09.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz",
+                  "size_bytes": 41344234,
+                  "size": "39.43 MB",
+                  "download_count": 3
+                },
+                {
+                  "name": "OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz.json",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz.json",
+                  "size_bytes": 21449,
+                  "size": "20.95 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz.sha256.txt",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz.sha256.txt",
+                  "size_bytes": 118,
+                  "size": "118.00 B",
+                  "download_count": 3
+                },
+                {
+                  "name": "OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz.sig",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_ppc64le_linux_hotspot_8u512b09.tar.gz.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK8U-sbom_ppc64le_linux_hotspot_8u512b09-metadata.json",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-sbom_ppc64le_linux_hotspot_8u512b09-metadata.json",
+                  "size_bytes": 21450,
+                  "size": "20.95 KB",
+                  "download_count": 4
+                },
+                {
+                  "name": "OpenJDK8U-sbom_ppc64le_linux_hotspot_8u512b09.json",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-sbom_ppc64le_linux_hotspot_8u512b09.json",
+                  "size_bytes": 85197,
+                  "size": "83.20 KB",
+                  "download_count": 0
+                },
+                {
+                  "name": "OpenJDK8U-sbom_ppc64le_linux_hotspot_8u512b09.json.sig",
+                  "download_url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-sbom_ppc64le_linux_hotspot_8u512b09.json.sig",
+                  "size_bytes": 310,
+                  "size": "310.00 B",
+                  "download_count": 0
+                }
+              ]
+            },
+            "total_downloads": 30,
+            "major_version": 8,
+            "lts": true,
+            "stable": true,
+            "release_date": "2026-11-04T12:45:11Z"
           }
         ],
-        "total_versions": 135,
+        "total_versions": 137,
         "download_page": "https://adoptium.net/temurin/releases/",
-        "fetched_at": "2026-11-04T04:01:19.294Z"
+        "fetched_at": "2026-11-04T13:32:20.420Z"
       }
     },
     "Databases": {
@@ -316688,7 +318306,7 @@
         ],
         "total_versions": 173,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:19.685Z"
+        "fetched_at": "2026-11-04T13:32:20.831Z"
       },
       "MySQL": {
         "website": "https://www.mysql.com",
@@ -328820,7 +330438,7 @@
         ],
         "total_versions": 459,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:20.545Z"
+        "fetched_at": "2026-11-04T13:32:21.917Z"
       },
       "MariaDB": {
         "website": "https://mariadb.org",
@@ -342308,7 +343926,7 @@
         ],
         "total_versions": 454,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:21.899Z"
+        "fetched_at": "2026-11-04T13:32:23.832Z"
       },
       "MongoDB": {
         "website": "https://www.mongodb.com",
@@ -361002,7 +362620,7 @@
         ],
         "total_versions": 553,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:22.297Z"
+        "fetched_at": "2026-11-04T13:32:24.299Z"
       },
       "Redis": {
         "website": "https://redis.io",
@@ -364268,42 +365886,73 @@
         "new_versions_count": 0,
         "download_page": "https://redis.io/download/",
         "windows_builds_source": "https://github.com/redis-windows/redis-windows",
-        "fetched_at": "2026-11-04T04:01:23.327Z"
+        "fetched_at": "2026-11-04T13:32:25.355Z"
       },
       "pgAdmin": {
         "website": "https://www.pgadmin.org",
         "latest": {
-          "version": "9.18",
-          "tag": "REL-9_18",
-          "published_at": "2026-09-15T12:41:25Z",
-          "release_url": "https://github.com/pgadmin-org/pgadmin4/releases/tag/REL-9_18",
+          "version": "9.19",
+          "tag": "REL-9_19",
+          "published_at": "2026-10-27T00:01:39Z",
+          "release_url": "https://github.com/pgadmin-org/pgadmin4/releases/tag/REL-9_19",
           "source_download": {
-            "tarball": "https://github.com/pgadmin-org/pgadmin4/archive/refs/tags/REL-9_18.tar.gz",
-            "zipball": "https://github.com/pgadmin-org/pgadmin4/archive/refs/tags/REL-9_18.zip"
+            "tarball": "https://github.com/pgadmin-org/pgadmin4/archive/refs/tags/REL-9_19.tar.gz",
+            "zipball": "https://github.com/pgadmin-org/pgadmin4/archive/refs/tags/REL-9_19.zip"
           },
           "downloads": {
             "windows": [
               {
-                "name": "pgadmin4-9.18-x64.exe",
-                "download_url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.18/windows/pgadmin4-9.18-x64.exe",
+                "name": "pgadmin4-9.19-x64.exe",
+                "download_url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.19/windows/pgadmin4-9.19-x64.exe",
                 "type": "installer",
                 "arch": "x64",
-                "size_bytes": 240588864,
-                "size": "229.44 MB"
+                "size_bytes": 230357576,
+                "size": "219.69 MB"
               }
             ],
             "source": [
               {
-                "name": "pgadmin4-9.18.tar.gz",
-                "download_url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.18/source/pgadmin4-9.18.tar.gz",
+                "name": "pgadmin4-9.19.tar.gz",
+                "download_url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.19/source/pgadmin4-9.19.tar.gz",
                 "type": "source",
-                "size_bytes": 45198795,
-                "size": "43.10 MB"
+                "size_bytes": 47749003,
+                "size": "45.54 MB"
               }
             ]
           }
         },
         "versions": [
+          {
+            "version": "9.19",
+            "tag": "REL-9_19",
+            "published_at": "2026-10-27T00:01:39Z",
+            "release_url": "https://github.com/pgadmin-org/pgadmin4/releases/tag/REL-9_19",
+            "source_download": {
+              "tarball": "https://github.com/pgadmin-org/pgadmin4/archive/refs/tags/REL-9_19.tar.gz",
+              "zipball": "https://github.com/pgadmin-org/pgadmin4/archive/refs/tags/REL-9_19.zip"
+            },
+            "downloads": {
+              "windows": [
+                {
+                  "name": "pgadmin4-9.19-x64.exe",
+                  "download_url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.19/windows/pgadmin4-9.19-x64.exe",
+                  "type": "installer",
+                  "arch": "x64",
+                  "size_bytes": 230357576,
+                  "size": "219.69 MB"
+                }
+              ],
+              "source": [
+                {
+                  "name": "pgadmin4-9.19.tar.gz",
+                  "download_url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.19/source/pgadmin4-9.19.tar.gz",
+                  "type": "source",
+                  "size_bytes": 47749003,
+                  "size": "45.54 MB"
+                }
+              ]
+            }
+          },
           {
             "version": "9.18",
             "tag": "REL-9_18",
@@ -367611,9 +369260,10 @@
             }
           }
         ],
-        "total_versions": 120,
-        "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:23.823Z"
+        "total_versions": 121,
+        "new_versions_count": 1,
+        "download_page": "https://www.pgadmin.org/download/",
+        "fetched_at": "2026-11-04T13:32:26.351Z"
       },
       "phpMyAdmin": {
         "website": "https://www.phpmyadmin.net",
@@ -368185,9 +369835,7 @@
                 {
                   "name": "phpMyAdmin-4.9.4-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.9.4/phpMyAdmin-4.9.4-all-languages.zip",
-                  "type": "zip",
-                  "size_bytes": 11133271,
-                  "size": "10.62 MB"
+                  "type": "zip"
                 },
                 {
                   "name": "phpMyAdmin-4.9.4-all-languages.tar.gz",
@@ -368268,7 +369916,9 @@
                 {
                   "name": "phpMyAdmin-4.9.1-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.9.1/phpMyAdmin-4.9.1-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 10152966,
+                  "size": "9.68 MB"
                 }
               ]
             },
@@ -368439,7 +370089,9 @@
                 {
                   "name": "phpMyAdmin-4.8.1-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.8.1/phpMyAdmin-4.8.1-all-languages.zip",
-                  "type": "zip"
+                  "type": "zip",
+                  "size_bytes": 10552094,
+                  "size": "10.06 MB"
                 },
                 {
                   "name": "phpMyAdmin-4.8.1-all-languages.tar.gz",
@@ -369120,9 +370772,7 @@
                 {
                   "name": "phpMyAdmin-4.5.3-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.5.3/phpMyAdmin-4.5.3-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 9672927,
-                  "size": "9.22 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -369370,7 +371020,9 @@
                 {
                   "name": "phpMyAdmin-4.4.15.6-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.4.15.6/phpMyAdmin-4.4.15.6-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 9782625,
+                  "size": "9.33 MB"
                 }
               ]
             },
@@ -370059,9 +371711,7 @@
                 {
                   "name": "phpMyAdmin-4.3.11-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.3.11/phpMyAdmin-4.3.11-all-languages.zip",
-                  "type": "zip",
-                  "size_bytes": 9646853,
-                  "size": "9.20 MB"
+                  "type": "zip"
                 },
                 {
                   "name": "phpMyAdmin-4.3.11-all-languages.tar.gz",
@@ -371578,9 +373228,7 @@
                 {
                   "name": "phpMyAdmin-4.0.10.11-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/4.0.10.11/phpMyAdmin-4.0.10.11-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 7940071,
-                  "size": "7.57 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -372212,7 +373860,9 @@
                 {
                   "name": "phpMyAdmin-3.5.8-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/3.5.8/phpMyAdmin-3.5.8-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 6368696,
+                  "size": "6.07 MB"
                 }
               ]
             },
@@ -372456,7 +374106,9 @@
                 {
                   "name": "phpMyAdmin-3.5.0-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/3.5.0/phpMyAdmin-3.5.0-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 5896842,
+                  "size": "5.62 MB"
                 }
               ]
             },
@@ -372504,7 +374156,9 @@
                 {
                   "name": "phpMyAdmin-3.4.11-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/3.4.11/phpMyAdmin-3.4.11-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 5844415,
+                  "size": "5.57 MB"
                 }
               ]
             },
@@ -372548,9 +374202,7 @@
                 {
                   "name": "phpMyAdmin-3.4.10.1-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/3.4.10.1/phpMyAdmin-3.4.10.1-all-languages.tar.gz",
-                  "type": "tarball",
-                  "size_bytes": 5815556,
-                  "size": "5.55 MB"
+                  "type": "tarball"
                 }
               ]
             },
@@ -372737,9 +374389,7 @@
                 {
                   "name": "phpMyAdmin-3.4.4-all-languages.zip",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/3.4.4/phpMyAdmin-3.4.4-all-languages.zip",
-                  "type": "zip",
-                  "size_bytes": 6459244,
-                  "size": "6.16 MB"
+                  "type": "zip"
                 },
                 {
                   "name": "phpMyAdmin-3.4.4-all-languages.tar.gz",
@@ -372888,7 +374538,9 @@
                 {
                   "name": "phpMyAdmin-3.4.0-all-languages.tar.gz",
                   "download_url": "https://files.phpmyadmin.net/phpMyAdmin/3.4.0/phpMyAdmin-3.4.0-all-languages.tar.gz",
-                  "type": "tarball"
+                  "type": "tarball",
+                  "size_bytes": 5545791,
+                  "size": "5.29 MB"
                 }
               ]
             },
@@ -375048,7 +376700,7 @@
         "total_versions": 312,
         "new_versions_count": 312,
         "download_page": "https://www.phpmyadmin.net/downloads/",
-        "fetched_at": "2026-11-04T04:01:56.125Z"
+        "fetched_at": "2026-11-04T13:32:53.806Z"
       }
     },
     "Web Servers": {
@@ -392560,7 +394212,7 @@
         ],
         "total_versions": 600,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:56.638Z"
+        "fetched_at": "2026-11-04T13:32:54.372Z"
       },
       "Apache HTTP Server": {
         "website": "https://httpd.apache.org",
@@ -397137,7 +398789,7 @@
         ],
         "total_versions": 215,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:58.259Z"
+        "fetched_at": "2026-11-04T13:32:55.996Z"
       }
     },
     "Package Managers": {
@@ -402207,7 +403859,7 @@
         ],
         "total_versions": 229,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:01:59.121Z"
+        "fetched_at": "2026-11-04T13:32:56.854Z"
       },
       "npm": {
         "website": "https://www.npmjs.com",
@@ -410703,7 +412355,7 @@
         "total_versions": 942,
         "new_versions_count": 0,
         "install_command": "npm install -g npm@latest",
-        "fetched_at": "2026-11-04T04:01:59.821Z"
+        "fetched_at": "2026-11-04T13:32:57.498Z"
       },
       "Yarn": {
         "website": "https://yarnpkg.com",
@@ -411491,7 +413143,7 @@
         "total_versions": 73,
         "new_versions_count": 0,
         "install_command": "corepack enable && yarn set version stable",
-        "fetched_at": "2026-11-04T04:02:00.529Z"
+        "fetched_at": "2026-11-04T13:32:58.137Z"
       },
       "pnpm": {
         "website": "https://pnpm.io",
@@ -445697,7 +447349,7 @@
         "total_versions": 888,
         "new_versions_count": 0,
         "install_command": "npm install -g pnpm",
-        "fetched_at": "2026-11-04T04:02:01.928Z"
+        "fetched_at": "2026-11-04T13:32:59.612Z"
       },
       "Bun": {
         "website": "https://bun.sh",
@@ -472318,7 +473970,7 @@
         "total_versions": 218,
         "new_versions_count": 0,
         "install_command": "curl -fsSL https://bun.sh/install | bash",
-        "fetched_at": "2026-11-04T04:02:03.737Z"
+        "fetched_at": "2026-11-04T13:33:01.327Z"
       }
     },
     "Frameworks": {
@@ -481230,7 +482882,7 @@
         "total_versions": 988,
         "new_versions_count": 0,
         "install_command": "composer create-project laravel/laravel example-app",
-        "fetched_at": "2026-11-04T04:02:04.785Z"
+        "fetched_at": "2026-11-04T13:33:02.141Z"
       },
       "Next.js": {
         "website": "https://nextjs.org",
@@ -484722,7 +486374,7 @@
         "total_versions": 386,
         "new_versions_count": 0,
         "install_command": "npx create-next-app@latest",
-        "fetched_at": "2026-11-04T04:02:06.481Z"
+        "fetched_at": "2026-11-04T13:33:03.458Z"
       },
       "Nuxt": {
         "website": "https://nuxt.com",
@@ -486639,7 +488291,7 @@
         "total_versions": 211,
         "new_versions_count": 0,
         "install_command": "npx nuxi@latest init <project-name>",
-        "fetched_at": "2026-11-04T04:02:07.576Z"
+        "fetched_at": "2026-11-04T13:33:04.249Z"
       },
       "Vue.js": {
         "website": "https://vuejs.org",
@@ -488124,7 +489776,7 @@
         "total_versions": 163,
         "new_versions_count": 0,
         "install_command": "npm create vue@latest",
-        "fetched_at": "2026-11-04T04:02:08.339Z"
+        "fetched_at": "2026-11-04T13:33:04.950Z"
       },
       "React": {
         "website": "https://react.dev",
@@ -491527,7 +493179,7 @@
         "total_versions": 132,
         "new_versions_count": 0,
         "install_command": "npm install react react-dom",
-        "fetched_at": "2026-11-04T04:02:09.388Z"
+        "fetched_at": "2026-11-04T13:33:06.029Z"
       },
       "Svelte": {
         "website": "https://svelte.dev",
@@ -494911,7 +496563,7 @@
         "total_versions": 374,
         "new_versions_count": 0,
         "install_command": "npx sv create my-app",
-        "fetched_at": "2026-11-04T04:02:10.085Z"
+        "fetched_at": "2026-11-04T13:33:06.723Z"
       }
     },
     "DevOps": {
@@ -503241,7 +504893,7 @@
         ],
         "total_versions": 207,
         "new_versions_count": 0,
-        "fetched_at": "2026-11-04T04:02:10.834Z"
+        "fetched_at": "2026-11-04T13:33:07.515Z"
       },
       "Git": {
         "website": "https://git-scm.com",
@@ -503261,28 +504913,28 @@
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-64-bit.exe",
                 "size_bytes": 66850032,
                 "size": "63.75 MB",
-                "download_count": 1541863
+                "download_count": 1624745
               },
               {
                 "name": "Git-2.56.0.4-arm64.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-arm64.exe",
                 "size_bytes": 64406136,
                 "size": "61.42 MB",
-                "download_count": 46947
+                "download_count": 48704
               },
               {
                 "name": "PortableGit-2.56.0.4-64-bit.7z.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/PortableGit-2.56.0.4-64-bit.7z.exe",
                 "size_bytes": 60087472,
                 "size": "57.30 MB",
-                "download_count": 119103
+                "download_count": 125476
               },
               {
                 "name": "PortableGit-2.56.0.4-arm64.7z.exe",
                 "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/PortableGit-2.56.0.4-arm64.7z.exe",
                 "size_bytes": 59668120,
                 "size": "56.90 MB",
-                "download_count": 6513
+                "download_count": 6895
               }
             ],
             "source": []
@@ -503305,28 +504957,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-64-bit.exe",
                   "size_bytes": 66850032,
                   "size": "63.75 MB",
-                  "download_count": 1541863
+                  "download_count": 1624745
                 },
                 {
                   "name": "Git-2.56.0.4-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-arm64.exe",
                   "size_bytes": 64406136,
                   "size": "61.42 MB",
-                  "download_count": 46947
+                  "download_count": 48704
                 },
                 {
                   "name": "PortableGit-2.56.0.4-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/PortableGit-2.56.0.4-64-bit.7z.exe",
                   "size_bytes": 60087472,
                   "size": "57.30 MB",
-                  "download_count": 119103
+                  "download_count": 125476
                 },
                 {
                   "name": "PortableGit-2.56.0.4-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/PortableGit-2.56.0.4-arm64.7z.exe",
                   "size_bytes": 59668120,
                   "size": "56.90 MB",
-                  "download_count": 6513
+                  "download_count": 6895
                 }
               ],
               "source": []
@@ -503348,28 +505000,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/Git-2.55.0.5-64-bit.exe",
                   "size_bytes": 65343712,
                   "size": "62.32 MB",
-                  "download_count": 6481542
+                  "download_count": 6481885
                 },
                 {
                   "name": "Git-2.55.0.5-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/Git-2.55.0.5-arm64.exe",
                   "size_bytes": 63259960,
                   "size": "60.33 MB",
-                  "download_count": 135275
+                  "download_count": 135278
                 },
                 {
                   "name": "PortableGit-2.55.0.5-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-64-bit.7z.exe",
                   "size_bytes": 58960208,
                   "size": "56.23 MB",
-                  "download_count": 322381
+                  "download_count": 322573
                 },
                 {
                   "name": "PortableGit-2.55.0.5-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-arm64.7z.exe",
                   "size_bytes": 59215872,
                   "size": "56.47 MB",
-                  "download_count": 30250
+                  "download_count": 30255
                 }
               ],
               "source": []
@@ -503391,28 +505043,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe",
                   "size_bytes": 65175776,
                   "size": "62.16 MB",
-                  "download_count": 10363598
+                  "download_count": 10363998
                 },
                 {
                   "name": "Git-2.54.0-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-arm64.exe",
                   "size_bytes": 63430440,
                   "size": "60.49 MB",
-                  "download_count": 282050
+                  "download_count": 282053
                 },
                 {
                   "name": "PortableGit-2.54.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe",
                   "size_bytes": 58995352,
                   "size": "56.26 MB",
-                  "download_count": 1162383
+                  "download_count": 1162600
                 },
                 {
                   "name": "PortableGit-2.54.0-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-arm64.7z.exe",
                   "size_bytes": 59757336,
                   "size": "56.99 MB",
-                  "download_count": 83131
+                  "download_count": 83137
                 }
               ],
               "source": []
@@ -503434,14 +505086,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/Git-2.53.0.3-64-bit.exe",
                   "size_bytes": 64557224,
                   "size": "61.57 MB",
-                  "download_count": 2252003
+                  "download_count": 2252148
                 },
                 {
                   "name": "Git-2.53.0.3-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/Git-2.53.0.3-arm64.exe",
                   "size_bytes": 62851952,
                   "size": "59.94 MB",
-                  "download_count": 28092
+                  "download_count": 28094
                 },
                 {
                   "name": "mingw-w64-clang-aarch64-git-credential-wincred-2.53.0.3-1-any.pkg.tar.xz",
@@ -503504,7 +505156,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/mingw-w64-x86_64-git-credential-wincred-2.53.0.3-1-any.pkg.tar.xz",
                   "size_bytes": 36636,
                   "size": "35.78 KB",
-                  "download_count": 468
+                  "download_count": 469
                 },
                 {
                   "name": "mingw-w64-x86_64-git-credential-wincred-2.53.0.3-1-any.pkg.tar.xz.sig",
@@ -503532,14 +505184,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/PortableGit-2.53.0.3-64-bit.7z.exe",
                   "size_bytes": 58269480,
                   "size": "55.57 MB",
-                  "download_count": 1033746
+                  "download_count": 1044027
                 },
                 {
                   "name": "PortableGit-2.53.0.3-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/PortableGit-2.53.0.3-arm64.7z.exe",
                   "size_bytes": 59042984,
                   "size": "56.31 MB",
-                  "download_count": 59481
+                  "download_count": 60077
                 }
               ],
               "source": []
@@ -503561,21 +505213,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe",
                   "size_bytes": 66292520,
                   "size": "63.22 MB",
-                  "download_count": 7507010
+                  "download_count": 7507199
                 },
                 {
                   "name": "Git-2.52.0-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-arm64.exe",
                   "size_bytes": 64253208,
                   "size": "61.28 MB",
-                  "download_count": 184220
+                  "download_count": 184222
                 },
                 {
                   "name": "PortableGit-2.52.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-64-bit.7z.exe",
                   "size_bytes": 60238232,
                   "size": "57.45 MB",
-                  "download_count": 930460
+                  "download_count": 931591
                 },
                 {
                   "name": "PortableGit-2.52.0-arm64.7z.exe",
@@ -503604,28 +505256,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/Git-2.51.2-64-bit.exe",
                   "size_bytes": 66178528,
                   "size": "63.11 MB",
-                  "download_count": 2392359
+                  "download_count": 2392695
                 },
                 {
                   "name": "Git-2.51.2-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/Git-2.51.2-arm64.exe",
                   "size_bytes": 64129920,
                   "size": "61.16 MB",
-                  "download_count": 53218
+                  "download_count": 53220
                 },
                 {
                   "name": "PortableGit-2.51.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/PortableGit-2.51.2-64-bit.7z.exe",
                   "size_bytes": 60097272,
                   "size": "57.31 MB",
-                  "download_count": 913658
+                  "download_count": 913892
                 },
                 {
                   "name": "PortableGit-2.51.2-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/PortableGit-2.51.2-arm64.7z.exe",
                   "size_bytes": 60219144,
                   "size": "57.43 MB",
-                  "download_count": 11517
+                  "download_count": 11521
                 }
               ],
               "source": []
@@ -503647,21 +505299,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.1.windows.1/Git-2.51.1-64-bit.exe",
                   "size_bytes": 66165512,
                   "size": "63.10 MB",
-                  "download_count": 2859281
+                  "download_count": 2859302
                 },
                 {
                   "name": "Git-2.51.1-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.1.windows.1/Git-2.51.1-arm64.exe",
                   "size_bytes": 64085640,
                   "size": "61.12 MB",
-                  "download_count": 32913
+                  "download_count": 32914
                 },
                 {
                   "name": "PortableGit-2.51.1-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.1.windows.1/PortableGit-2.51.1-64-bit.7z.exe",
                   "size_bytes": 60077912,
                   "size": "57.29 MB",
-                  "download_count": 62757
+                  "download_count": 62767
                 },
                 {
                   "name": "PortableGit-2.51.1-arm64.7z.exe",
@@ -503690,21 +505342,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/Git-2.51.0.2-64-bit.exe",
                   "size_bytes": 65895592,
                   "size": "62.84 MB",
-                  "download_count": 2198771
+                  "download_count": 2198880
                 },
                 {
                   "name": "Git-2.51.0.2-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/Git-2.51.0.2-arm64.exe",
                   "size_bytes": 63779680,
                   "size": "60.83 MB",
-                  "download_count": 44273
+                  "download_count": 44274
                 },
                 {
                   "name": "PortableGit-2.51.0.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/PortableGit-2.51.0.2-64-bit.7z.exe",
                   "size_bytes": 60539504,
                   "size": "57.73 MB",
-                  "download_count": 95471
+                  "download_count": 95493
                 },
                 {
                   "name": "PortableGit-2.51.0.2-arm64.7z.exe",
@@ -503733,21 +505385,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-32-bit.exe",
                   "size_bytes": 64954592,
                   "size": "61.95 MB",
-                  "download_count": 87630
+                  "download_count": 87635
                 },
                 {
                   "name": "Git-2.50.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe",
                   "size_bytes": 70990944,
                   "size": "67.70 MB",
-                  "download_count": 5332409
+                  "download_count": 5332602
                 },
                 {
                   "name": "Git-2.50.1-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-arm64.exe",
                   "size_bytes": 69166752,
                   "size": "65.96 MB",
-                  "download_count": 107762
+                  "download_count": 107765
                 },
                 {
                   "name": "PortableGit-2.50.1-32-bit.7z.exe",
@@ -503761,14 +505413,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/PortableGit-2.50.1-64-bit.7z.exe",
                   "size_bytes": 64802008,
                   "size": "61.80 MB",
-                  "download_count": 195829
+                  "download_count": 195869
                 },
                 {
                   "name": "PortableGit-2.50.1-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/PortableGit-2.50.1-arm64.7z.exe",
                   "size_bytes": 63836848,
                   "size": "60.88 MB",
-                  "download_count": 19929
+                  "download_count": 19930
                 }
               ],
               "source": []
@@ -503790,14 +505442,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.0.windows.2/Git-2.50.0.2-64-bit.exe",
                   "size_bytes": 70982376,
                   "size": "67.69 MB",
-                  "download_count": 863065
+                  "download_count": 863070
                 },
                 {
                   "name": "Git-2.50.0.2-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.50.0.windows.2/Git-2.50.0.2-arm64.exe",
                   "size_bytes": 69145160,
                   "size": "65.94 MB",
-                  "download_count": 20609
+                  "download_count": 20610
                 },
                 {
                   "name": "PortableGit-2.50.0.2-64-bit.7z.exe",
@@ -503858,28 +505510,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe",
                   "size_bytes": 70287136,
                   "size": "67.03 MB",
-                  "download_count": 8223127
+                  "download_count": 8223254
                 },
                 {
                   "name": "Git-2.49.0-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-arm64.exe",
                   "size_bytes": 68640440,
                   "size": "65.46 MB",
-                  "download_count": 141839
+                  "download_count": 141849
                 },
                 {
                   "name": "PortableGit-2.49.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/PortableGit-2.49.0-64-bit.7z.exe",
                   "size_bytes": 64145824,
                   "size": "61.17 MB",
-                  "download_count": 415901
+                  "download_count": 415923
                 },
                 {
                   "name": "PortableGit-2.49.0-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/PortableGit-2.49.0-arm64.7z.exe",
                   "size_bytes": 63430408,
                   "size": "60.49 MB",
-                  "download_count": 37426
+                  "download_count": 37438
                 }
               ],
               "source": []
@@ -503926,35 +505578,35 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-32-bit.exe",
                   "size_bytes": 62864568,
                   "size": "59.95 MB",
-                  "download_count": 317655
+                  "download_count": 317692
                 },
                 {
                   "name": "Git-2.48.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-64-bit.exe",
                   "size_bytes": 69544752,
                   "size": "66.32 MB",
-                  "download_count": 3508423
+                  "download_count": 3508561
                 },
                 {
                   "name": "Git-2.48.1-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-arm64.exe",
                   "size_bytes": 67601816,
                   "size": "64.47 MB",
-                  "download_count": 7088
+                  "download_count": 7089
                 },
                 {
                   "name": "PortableGit-2.48.1-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/PortableGit-2.48.1-32-bit.7z.exe",
                   "size_bytes": 57616464,
                   "size": "54.95 MB",
-                  "download_count": 45722
+                  "download_count": 45731
                 },
                 {
                   "name": "PortableGit-2.48.1-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/PortableGit-2.48.1-64-bit.7z.exe",
                   "size_bytes": 63431824,
                   "size": "60.49 MB",
-                  "download_count": 217357
+                  "download_count": 217364
                 },
                 {
                   "name": "PortableGit-2.48.1-arm64.7z.exe",
@@ -504058,42 +505710,42 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-32-bit.exe",
                   "size_bytes": 64006112,
                   "size": "61.04 MB",
-                  "download_count": 135818
+                  "download_count": 135819
                 },
                 {
                   "name": "Git-2.47.1.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-64-bit.exe",
                   "size_bytes": 69096664,
                   "size": "65.90 MB",
-                  "download_count": 4014323
+                  "download_count": 4014434
                 },
                 {
                   "name": "Git-2.47.1.2-arm64.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-arm64.exe",
                   "size_bytes": 67166088,
                   "size": "64.05 MB",
-                  "download_count": 5091
+                  "download_count": 5092
                 },
                 {
                   "name": "PortableGit-2.47.1.2-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/PortableGit-2.47.1.2-32-bit.7z.exe",
                   "size_bytes": 58237456,
                   "size": "55.54 MB",
-                  "download_count": 10696
+                  "download_count": 10697
                 },
                 {
                   "name": "PortableGit-2.47.1.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/PortableGit-2.47.1.2-64-bit.7z.exe",
                   "size_bytes": 62945640,
                   "size": "60.03 MB",
-                  "download_count": 485887
+                  "download_count": 486066
                 },
                 {
                   "name": "PortableGit-2.47.1.2-arm64.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/PortableGit-2.47.1.2-arm64.7z.exe",
                   "size_bytes": 62368856,
                   "size": "59.48 MB",
-                  "download_count": 1570
+                  "download_count": 1571
                 }
               ],
               "source": []
@@ -504115,28 +505767,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-32-bit.exe",
                   "size_bytes": 63786312,
                   "size": "60.83 MB",
-                  "download_count": 86535
+                  "download_count": 86542
                 },
                 {
                   "name": "Git-2.47.0.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe",
                   "size_bytes": 68778784,
                   "size": "65.59 MB",
-                  "download_count": 2717530
+                  "download_count": 2717580
                 },
                 {
                   "name": "PortableGit-2.47.0.2-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/PortableGit-2.47.0.2-32-bit.7z.exe",
                   "size_bytes": 59249288,
                   "size": "56.50 MB",
-                  "download_count": 9743
+                  "download_count": 9745
                 },
                 {
                   "name": "PortableGit-2.47.0.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/PortableGit-2.47.0.2-64-bit.7z.exe",
                   "size_bytes": 62068112,
                   "size": "59.19 MB",
-                  "download_count": 160756
+                  "download_count": 160765
                 }
               ],
               "source": []
@@ -504229,7 +505881,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.1.windows.1/Git-2.46.1-64-bit.exe",
                   "size_bytes": 68339752,
                   "size": "65.17 MB",
-                  "download_count": 750885
+                  "download_count": 750889
                 },
                 {
                   "name": "PortableGit-2.46.1-32-bit.7z.exe",
@@ -504243,7 +505895,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.1.windows.1/PortableGit-2.46.1-64-bit.7z.exe",
                   "size_bytes": 61586288,
                   "size": "58.73 MB",
-                  "download_count": 41605
+                  "download_count": 41606
                 }
               ],
               "source": []
@@ -504272,21 +505924,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe",
                   "size_bytes": 68220888,
                   "size": "65.06 MB",
-                  "download_count": 4102245
+                  "download_count": 4102439
                 },
                 {
                   "name": "PortableGit-2.46.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/PortableGit-2.46.0-32-bit.7z.exe",
                   "size_bytes": 58923744,
                   "size": "56.19 MB",
-                  "download_count": 485026
+                  "download_count": 485064
                 },
                 {
                   "name": "PortableGit-2.46.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/PortableGit-2.46.0-64-bit.7z.exe",
                   "size_bytes": 61419624,
                   "size": "58.57 MB",
-                  "download_count": 237241
+                  "download_count": 237402
                 }
               ],
               "source": []
@@ -504372,14 +506024,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/Git-2.45.1-32-bit.exe",
                   "size_bytes": 63147736,
                   "size": "60.22 MB",
-                  "download_count": 69332
+                  "download_count": 69333
                 },
                 {
                   "name": "Git-2.45.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/Git-2.45.1-64-bit.exe",
                   "size_bytes": 67843632,
                   "size": "64.70 MB",
-                  "download_count": 10628210
+                  "download_count": 10632718
                 },
                 {
                   "name": "Git-Windows-Minimal.2.45.1.nupkg",
@@ -504414,7 +506066,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/PortableGit-2.45.1-64-bit.7z.exe",
                   "size_bytes": 62747136,
                   "size": "59.84 MB",
-                  "download_count": 108107
+                  "download_count": 108119
                 }
               ],
               "source": []
@@ -504436,14 +506088,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/Git-2.45.0-32-bit.exe",
                   "size_bytes": 63120904,
                   "size": "60.20 MB",
-                  "download_count": 45585
+                  "download_count": 45586
                 },
                 {
                   "name": "Git-2.45.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/Git-2.45.0-64-bit.exe",
                   "size_bytes": 67797640,
                   "size": "64.66 MB",
-                  "download_count": 1486618
+                  "download_count": 1486671
                 },
                 {
                   "name": "PortableGit-2.45.0-32-bit.7z.exe",
@@ -504457,7 +506109,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/PortableGit-2.45.0-64-bit.7z.exe",
                   "size_bytes": 62741680,
                   "size": "59.84 MB",
-                  "download_count": 86953
+                  "download_count": 86967
                 }
               ],
               "source": []
@@ -504554,14 +506206,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.1.windows.1/Git-2.44.1-32-bit.exe",
                   "size_bytes": 62440248,
                   "size": "59.55 MB",
-                  "download_count": 8534
+                  "download_count": 8535
                 },
                 {
                   "name": "Git-2.44.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.1.windows.1/Git-2.44.1-64-bit.exe",
                   "size_bytes": 65366728,
                   "size": "62.34 MB",
-                  "download_count": 283080
+                  "download_count": 283082
                 },
                 {
                   "name": "Git-Windows-Minimal.2.44.1.nupkg",
@@ -504589,14 +506241,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.1.windows.1/PortableGit-2.44.1-32-bit.7z.exe",
                   "size_bytes": 56921424,
                   "size": "54.28 MB",
-                  "download_count": 1293
+                  "download_count": 1294
                 },
                 {
                   "name": "PortableGit-2.44.1-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.1.windows.1/PortableGit-2.44.1-64-bit.7z.exe",
                   "size_bytes": 61773248,
                   "size": "58.91 MB",
-                  "download_count": 1789
+                  "download_count": 1790
                 }
               ],
               "source": []
@@ -504618,14 +506270,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-32-bit.exe",
                   "size_bytes": 62435528,
                   "size": "59.54 MB",
-                  "download_count": 189481
+                  "download_count": 189483
                 },
                 {
                   "name": "Git-2.44.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
                   "size_bytes": 65350776,
                   "size": "62.32 MB",
-                  "download_count": 6585949
+                  "download_count": 6587270
                 },
                 {
                   "name": "PortableGit-2.44.0-32-bit.7z.exe",
@@ -504639,7 +506291,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/PortableGit-2.44.0-64-bit.7z.exe",
                   "size_bytes": 61765416,
                   "size": "58.90 MB",
-                  "download_count": 325780
+                  "download_count": 325817
                 }
               ],
               "source": []
@@ -504843,21 +506495,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe",
                   "size_bytes": 60868040,
                   "size": "58.05 MB",
-                  "download_count": 7095599
+                  "download_count": 7096132
                 },
                 {
                   "name": "PortableGit-2.43.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/PortableGit-2.43.0-32-bit.7z.exe",
                   "size_bytes": 57474808,
                   "size": "54.81 MB",
-                  "download_count": 430607
+                  "download_count": 430632
                 },
                 {
                   "name": "PortableGit-2.43.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/PortableGit-2.43.0-64-bit.7z.exe",
                   "size_bytes": 56424944,
                   "size": "53.81 MB",
-                  "download_count": 495119
+                  "download_count": 495847
                 }
               ],
               "source": []
@@ -504986,7 +506638,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe",
                   "size_bytes": 61263968,
                   "size": "58.43 MB",
-                  "download_count": 5774907
+                  "download_count": 5775054
                 },
                 {
                   "name": "PortableGit-2.42.0.2-32-bit.7z.exe",
@@ -505000,7 +506652,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/PortableGit-2.42.0.2-64-bit.7z.exe",
                   "size_bytes": 57890920,
                   "size": "55.21 MB",
-                  "download_count": 337925
+                  "download_count": 337939
                 }
               ],
               "source": []
@@ -505097,14 +506749,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-32-bit.exe",
                   "size_bytes": 61817976,
                   "size": "58.95 MB",
-                  "download_count": 110537
+                  "download_count": 110538
                 },
                 {
                   "name": "Git-2.41.0.3-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe",
                   "size_bytes": 61230448,
                   "size": "58.39 MB",
-                  "download_count": 2926315
+                  "download_count": 2926322
                 },
                 {
                   "name": "PortableGit-2.41.0.3-32-bit.7z.exe",
@@ -505118,7 +506770,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/PortableGit-2.41.0.3-64-bit.7z.exe",
                   "size_bytes": 57718936,
                   "size": "55.05 MB",
-                  "download_count": 141703
+                  "download_count": 141704
                 }
               ],
               "source": []
@@ -505215,28 +506867,28 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-32-bit.exe",
                   "size_bytes": 53400648,
                   "size": "50.93 MB",
-                  "download_count": 129177
+                  "download_count": 129179
                 },
                 {
                   "name": "Git-2.40.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe",
                   "size_bytes": 53918064,
                   "size": "51.42 MB",
-                  "download_count": 3844206
+                  "download_count": 3844217
                 },
                 {
                   "name": "PortableGit-2.40.1-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/PortableGit-2.40.1-32-bit.7z.exe",
                   "size_bytes": 49665584,
                   "size": "47.36 MB",
-                  "download_count": 13317
+                  "download_count": 13318
                 },
                 {
                   "name": "PortableGit-2.40.1-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/PortableGit-2.40.1-64-bit.7z.exe",
                   "size_bytes": 49220256,
                   "size": "46.94 MB",
-                  "download_count": 180322
+                  "download_count": 180323
                 }
               ],
               "source": []
@@ -505265,7 +506917,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe",
                   "size_bytes": 53792928,
                   "size": "51.30 MB",
-                  "download_count": 7864371
+                  "download_count": 7865679
                 },
                 {
                   "name": "PortableGit-2.40.0-32-bit.7z.exe",
@@ -505279,7 +506931,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/PortableGit-2.40.0-64-bit.7z.exe",
                   "size_bytes": 49093544,
                   "size": "46.82 MB",
-                  "download_count": 179726
+                  "download_count": 179727
                 }
               ],
               "source": []
@@ -505376,14 +507028,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-32-bit.exe",
                   "size_bytes": 53132448,
                   "size": "50.67 MB",
-                  "download_count": 138015
+                  "download_count": 138032
                 },
                 {
                   "name": "Git-2.39.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe",
                   "size_bytes": 53002824,
                   "size": "50.55 MB",
-                  "download_count": 4297488
+                  "download_count": 4297956
                 },
                 {
                   "name": "PortableGit-2.39.2-32-bit.7z.exe",
@@ -505397,7 +507049,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/PortableGit-2.39.2-64-bit.7z.exe",
                   "size_bytes": 48383424,
                   "size": "46.14 MB",
-                  "download_count": 123865
+                  "download_count": 123867
                 }
               ],
               "source": []
@@ -505426,21 +507078,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe",
                   "size_bytes": 52998824,
                   "size": "50.54 MB",
-                  "download_count": 4720036
+                  "download_count": 4720084
                 },
                 {
                   "name": "PortableGit-2.39.1-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-32-bit.7z.exe",
                   "size_bytes": 48868896,
                   "size": "46.61 MB",
-                  "download_count": 708308
+                  "download_count": 708328
                 },
                 {
                   "name": "PortableGit-2.39.1-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-64-bit.7z.exe",
                   "size_bytes": 48387760,
                   "size": "46.15 MB",
-                  "download_count": 123259
+                  "download_count": 123260
                 }
               ],
               "source": []
@@ -505462,14 +507114,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-32-bit.exe",
                   "size_bytes": 53114320,
                   "size": "50.65 MB",
-                  "download_count": 67715
+                  "download_count": 67726
                 },
                 {
                   "name": "Git-2.39.0.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-64-bit.exe",
                   "size_bytes": 52999992,
                   "size": "50.54 MB",
-                  "download_count": 1555234
+                  "download_count": 1555251
                 },
                 {
                   "name": "PortableGit-2.39.0.2-32-bit.7z.exe",
@@ -505483,7 +507135,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/PortableGit-2.39.0.2-64-bit.7z.exe",
                   "size_bytes": 48373080,
                   "size": "46.13 MB",
-                  "download_count": 96229
+                  "download_count": 96231
                 }
               ],
               "source": []
@@ -505612,7 +507264,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe",
                   "size_bytes": 53360624,
                   "size": "50.89 MB",
-                  "download_count": 3585491
+                  "download_count": 3585501
                 },
                 {
                   "name": "PortableGit-2.38.1-32-bit.7z.exe",
@@ -505626,7 +507278,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/PortableGit-2.38.1-64-bit.7z.exe",
                   "size_bytes": 48639184,
                   "size": "46.39 MB",
-                  "download_count": 199063
+                  "download_count": 199064
                 }
               ],
               "source": []
@@ -505655,7 +507307,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe",
                   "size_bytes": 53344368,
                   "size": "50.87 MB",
-                  "download_count": 1205213
+                  "download_count": 1205216
                 },
                 {
                   "name": "PortableGit-2.38.0-32-bit.7z.exe",
@@ -505669,7 +507321,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/PortableGit-2.38.0-64-bit.7z.exe",
                   "size_bytes": 48625448,
                   "size": "46.37 MB",
-                  "download_count": 66947
+                  "download_count": 66948
                 }
               ],
               "source": []
@@ -505798,7 +507450,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe",
                   "size_bytes": 49375864,
                   "size": "47.09 MB",
-                  "download_count": 2167203
+                  "download_count": 2167223
                 },
                 {
                   "name": "PortableGit-2.37.3-32-bit.7z.exe",
@@ -505812,7 +507464,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/PortableGit-2.37.3-64-bit.7z.exe",
                   "size_bytes": 45498104,
                   "size": "43.39 MB",
-                  "download_count": 130152
+                  "download_count": 130153
                 }
               ],
               "source": []
@@ -505834,14 +507486,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/Git-2.37.2.2-32-bit.exe",
                   "size_bytes": 49850416,
                   "size": "47.54 MB",
-                  "download_count": 51215
+                  "download_count": 51216
                 },
                 {
                   "name": "Git-2.37.2.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/Git-2.37.2.2-64-bit.exe",
                   "size_bytes": 49351760,
                   "size": "47.07 MB",
-                  "download_count": 1011580
+                  "download_count": 1011581
                 },
                 {
                   "name": "PortableGit-2.37.2.2-32-bit.7z.exe",
@@ -505855,7 +507507,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/PortableGit-2.37.2.2-64-bit.7z.exe",
                   "size_bytes": 45431960,
                   "size": "43.33 MB",
-                  "download_count": 62038
+                  "download_count": 62039
                 }
               ],
               "source": []
@@ -505877,14 +507529,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-32-bit.exe",
                   "size_bytes": 49872920,
                   "size": "47.56 MB",
-                  "download_count": 103082
+                  "download_count": 103083
                 },
                 {
                   "name": "Git-2.37.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-64-bit.exe",
                   "size_bytes": 49381480,
                   "size": "47.09 MB",
-                  "download_count": 2002895
+                  "download_count": 2002920
                 },
                 {
                   "name": "PortableGit-2.37.1-32-bit.7z.exe",
@@ -505927,7 +507579,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.37.0.windows.1/Git-2.37.0-64-bit.exe",
                   "size_bytes": 49274960,
                   "size": "46.99 MB",
-                  "download_count": 794585
+                  "download_count": 794589
                 },
                 {
                   "name": "PortableGit-2.37.0-32-bit.7z.exe",
@@ -506095,7 +507747,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe",
                   "size_bytes": 49638112,
                   "size": "47.34 MB",
-                  "download_count": 2147198
+                  "download_count": 2147205
                 },
                 {
                   "name": "PortableGit-2.36.1-32-bit.7z.exe",
@@ -506109,7 +507761,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/PortableGit-2.36.1-64-bit.7z.exe",
                   "size_bytes": 45568272,
                   "size": "43.46 MB",
-                  "download_count": 140704
+                  "download_count": 140707
                 }
               ],
               "source": []
@@ -506131,21 +507783,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-32-bit.exe",
                   "size_bytes": 49488144,
                   "size": "47.20 MB",
-                  "download_count": 64580
+                  "download_count": 64583
                 },
                 {
                   "name": "Git-2.36.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-64-bit.exe",
                   "size_bytes": 49371696,
                   "size": "47.08 MB",
-                  "download_count": 1117177
+                  "download_count": 1117180
                 },
                 {
                   "name": "PortableGit-2.36.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/PortableGit-2.36.0-32-bit.7z.exe",
                   "size_bytes": 45949464,
                   "size": "43.82 MB",
-                  "download_count": 588700
+                  "download_count": 588712
                 },
                 {
                   "name": "PortableGit-2.36.0-64-bit.7z.exe",
@@ -506299,14 +507951,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.3.windows.1/Git-2.35.3-32-bit.exe",
                   "size_bytes": 49304744,
                   "size": "47.02 MB",
-                  "download_count": 24290
+                  "download_count": 24291
                 },
                 {
                   "name": "Git-2.35.3-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.3.windows.1/Git-2.35.3-64-bit.exe",
                   "size_bytes": 50404984,
                   "size": "48.07 MB",
-                  "download_count": 348405
+                  "download_count": 348407
                 },
                 {
                   "name": "PortableGit-2.35.3-32-bit.7z.exe",
@@ -506349,7 +508001,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.2.windows.1/Git-2.35.2-64-bit.exe",
                   "size_bytes": 50249384,
                   "size": "47.92 MB",
-                  "download_count": 208739
+                  "download_count": 208742
                 },
                 {
                   "name": "PortableGit-2.35.2-32-bit.7z.exe",
@@ -506392,14 +508044,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe",
                   "size_bytes": 50244992,
                   "size": "47.92 MB",
-                  "download_count": 2754418
+                  "download_count": 2754425
                 },
                 {
                   "name": "PortableGit-2.35.1.2-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/PortableGit-2.35.1.2-32-bit.7z.exe",
                   "size_bytes": 45654568,
                   "size": "43.54 MB",
-                  "download_count": 97311
+                  "download_count": 97313
                 },
                 {
                   "name": "PortableGit-2.35.1.2-64-bit.7z.exe",
@@ -506428,7 +508080,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.0.windows.1/Git-2.35.0-32-bit.exe",
                   "size_bytes": 49225096,
                   "size": "46.94 MB",
-                  "download_count": 21369
+                  "download_count": 21370
                 },
                 {
                   "name": "Git-2.35.0-64-bit.exe",
@@ -506442,7 +508094,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.35.0.windows.1/PortableGit-2.35.0-32-bit.7z.exe",
                   "size_bytes": 45630704,
                   "size": "43.52 MB",
-                  "download_count": 159405
+                  "download_count": 159416
                 },
                 {
                   "name": "PortableGit-2.35.0-64-bit.7z.exe",
@@ -506646,14 +508298,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-32-bit.exe",
                   "size_bytes": 49178136,
                   "size": "46.90 MB",
-                  "download_count": 117062
+                  "download_count": 117064
                 },
                 {
                   "name": "Git-2.34.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe",
                   "size_bytes": 50403600,
                   "size": "48.07 MB",
-                  "download_count": 2644287
+                  "download_count": 2644331
                 },
                 {
                   "name": "PortableGit-2.34.1-32-bit.7z.exe",
@@ -506914,7 +508566,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
                   "size_bytes": 50186136,
                   "size": "47.86 MB",
-                  "download_count": 2054873
+                  "download_count": 2054874
                 },
                 {
                   "name": "PortableGit-2.33.1-32-bit.7z.exe",
@@ -506957,7 +508609,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe",
                   "size_bytes": 50101024,
                   "size": "47.78 MB",
-                  "download_count": 3640183
+                  "download_count": 3640192
                 },
                 {
                   "name": "PortableGit-2.33.0.2-32-bit.7z.exe",
@@ -507175,21 +508827,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/Git-2.32.0.2-64-bit.exe",
                   "size_bytes": 49960224,
                   "size": "47.65 MB",
-                  "download_count": 1475989
+                  "download_count": 1475992
                 },
                 {
                   "name": "PortableGit-2.32.0.2-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/PortableGit-2.32.0.2-32-bit.7z.exe",
                   "size_bytes": 45519336,
                   "size": "43.41 MB",
-                  "download_count": 126086
+                  "download_count": 126087
                 },
                 {
                   "name": "PortableGit-2.32.0.2-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/PortableGit-2.32.0.2-64-bit.7z.exe",
                   "size_bytes": 46117488,
                   "size": "43.98 MB",
-                  "download_count": 68094
+                  "download_count": 68095
                 }
               ],
               "source": []
@@ -507393,7 +509045,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
                   "size_bytes": 49871216,
                   "size": "47.56 MB",
-                  "download_count": 2834694
+                  "download_count": 2834701
                 },
                 {
                   "name": "PortableGit-2.31.1-32-bit.7z.exe",
@@ -507436,7 +509088,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.0.windows.1/Git-2.31.0-64-bit.exe",
                   "size_bytes": 50351328,
                   "size": "48.02 MB",
-                  "download_count": 503238
+                  "download_count": 503241
                 },
                 {
                   "name": "PortableGit-2.31.0-32-bit.7z.exe",
@@ -507661,7 +509313,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.2.windows.1/PortableGit-2.30.2-32-bit.7z.exe",
                   "size_bytes": 42780200,
                   "size": "40.80 MB",
-                  "download_count": 595488
+                  "download_count": 595501
                 },
                 {
                   "name": "PortableGit-2.30.2-64-bit.7z.exe",
@@ -507690,14 +509342,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/Git-2.30.1-32-bit.exe",
                   "size_bytes": 45481560,
                   "size": "43.37 MB",
-                  "download_count": 63112
+                  "download_count": 63113
                 },
                 {
                   "name": "Git-2.30.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/Git-2.30.1-64-bit.exe",
                   "size_bytes": 48949520,
                   "size": "46.68 MB",
-                  "download_count": 993688
+                  "download_count": 993690
                 },
                 {
                   "name": "PortableGit-2.30.1-32-bit.7z.exe",
@@ -507711,7 +509363,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/PortableGit-2.30.1-64-bit.7z.exe",
                   "size_bytes": 45234256,
                   "size": "43.14 MB",
-                  "download_count": 51402
+                  "download_count": 51404
                 }
               ],
               "source": []
@@ -507740,7 +509392,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.2/Git-2.30.0.2-64-bit.exe",
                   "size_bytes": 48823136,
                   "size": "46.56 MB",
-                  "download_count": 862381
+                  "download_count": 862386
                 },
                 {
                   "name": "PortableGit-2.30.0.2-32-bit.7z.exe",
@@ -507801,14 +509453,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.3/Git-2.29.2.3-32-bit.exe",
                   "size_bytes": 45336944,
                   "size": "43.24 MB",
-                  "download_count": 43710
+                  "download_count": 43711
                 },
                 {
                   "name": "Git-2.29.2.3-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.3/Git-2.29.2.3-64-bit.exe",
                   "size_bytes": 48578904,
                   "size": "46.33 MB",
-                  "download_count": 605668
+                  "download_count": 605669
                 },
                 {
                   "name": "PortableGit-2.29.2.3-32-bit.7z.exe",
@@ -507822,7 +509474,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.3/PortableGit-2.29.2.3-64-bit.7z.exe",
                   "size_bytes": 44668568,
                   "size": "42.60 MB",
-                  "download_count": 42817
+                  "download_count": 42820
                 }
               ],
               "source": []
@@ -507962,21 +509614,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe",
                   "size_bytes": 51110112,
                   "size": "48.74 MB",
-                  "download_count": 2733174
+                  "download_count": 2733239
                 },
                 {
                   "name": "PortableGit-2.28.0-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/PortableGit-2.28.0-32-bit.7z.exe",
                   "size_bytes": 45342312,
                   "size": "43.24 MB",
-                  "download_count": 21422
+                  "download_count": 21423
                 },
                 {
                   "name": "PortableGit-2.28.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/PortableGit-2.28.0-64-bit.7z.exe",
                   "size_bytes": 46902448,
                   "size": "44.73 MB",
-                  "download_count": 154474
+                  "download_count": 154475
                 }
               ],
               "source": []
@@ -508030,7 +509682,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-64-bit.exe",
                   "size_bytes": 48066136,
                   "size": "45.84 MB",
-                  "download_count": 1818475
+                  "download_count": 1818476
                 },
                 {
                   "name": "PortableGit-2.27.0-32-bit.7z.exe",
@@ -508044,7 +509696,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/PortableGit-2.27.0-64-bit.7z.exe",
                   "size_bytes": 43803384,
                   "size": "41.77 MB",
-                  "download_count": 88195
+                  "download_count": 88196
                 }
               ],
               "source": []
@@ -508098,14 +509750,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe",
                   "size_bytes": 46891904,
                   "size": "44.72 MB",
-                  "download_count": 2090391
+                  "download_count": 2090392
                 },
                 {
                   "name": "PortableGit-2.26.2-32-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/PortableGit-2.26.2-32-bit.7z.exe",
                   "size_bytes": 42821800,
                   "size": "40.84 MB",
-                  "download_count": 531007
+                  "download_count": 531012
                 },
                 {
                   "name": "PortableGit-2.26.2-64-bit.7z.exe",
@@ -508177,7 +509829,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/Git-2.26.0-64-bit.exe",
                   "size_bytes": 46669192,
                   "size": "44.51 MB",
-                  "download_count": 889092
+                  "download_count": 889093
                 },
                 {
                   "name": "Git-2.26.0-32-bit.exe",
@@ -508320,7 +509972,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe",
                   "size_bytes": 46544904,
                   "size": "44.39 MB",
-                  "download_count": 976305
+                  "download_count": 976306
                 },
                 {
                   "name": "Git-2.25.1-32-bit.exe",
@@ -508363,21 +510015,21 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-64-bit.exe",
                   "size_bytes": 46476880,
                   "size": "44.32 MB",
-                  "download_count": 2999461
+                  "download_count": 2999462
                 },
                 {
                   "name": "Git-2.25.0-32-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-32-bit.exe",
                   "size_bytes": 46638048,
                   "size": "44.48 MB",
-                  "download_count": 151169
+                  "download_count": 151170
                 },
                 {
                   "name": "PortableGit-2.25.0-64-bit.7z.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/PortableGit-2.25.0-64-bit.7z.exe",
                   "size_bytes": 43086536,
                   "size": "41.09 MB",
-                  "download_count": 113813
+                  "download_count": 113862
                 },
                 {
                   "name": "PortableGit-2.25.0-32-bit.7z.exe",
@@ -508481,7 +510133,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe",
                   "size_bytes": 48104224,
                   "size": "45.88 MB",
-                  "download_count": 3561314
+                  "download_count": 3561317
                 },
                 {
                   "name": "Git-2.24.1.2-32-bit.exe",
@@ -508524,7 +510176,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/Git-2.24.0.2-64-bit.exe",
                   "size_bytes": 47983376,
                   "size": "45.76 MB",
-                  "download_count": 2899965
+                  "download_count": 2899966
                 },
                 {
                   "name": "Git-2.24.0.2-32-bit.exe",
@@ -508667,7 +510319,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe",
                   "size_bytes": 47701816,
                   "size": "45.49 MB",
-                  "download_count": 6246382
+                  "download_count": 6246384
                 },
                 {
                   "name": "Git-2.23.0-32-bit.exe",
@@ -508681,7 +510333,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/PortableGit-2.23.0-64-bit.7z.exe",
                   "size_bytes": 43507584,
                   "size": "41.49 MB",
-                  "download_count": 183977
+                  "download_count": 183978
                 },
                 {
                   "name": "PortableGit-2.23.0-32-bit.7z.exe",
@@ -508835,7 +510487,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.22.0.windows.1/Git-2.22.0-64-bit.exe",
                   "size_bytes": 47087448,
                   "size": "44.91 MB",
-                  "download_count": 5166282
+                  "download_count": 5166283
                 },
                 {
                   "name": "Git-2.22.0-32-bit.exe",
@@ -508856,7 +510508,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.22.0.windows.1/PortableGit-2.22.0-32-bit.7z.exe",
                   "size_bytes": 42899272,
                   "size": "40.91 MB",
-                  "download_count": 30669
+                  "download_count": 30670
                 }
               ],
               "source": []
@@ -508978,7 +510630,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.exe",
                   "size_bytes": 46327744,
                   "size": "44.18 MB",
-                  "download_count": 7313662
+                  "download_count": 7313681
                 },
                 {
                   "name": "Git-2.21.0-32-bit.exe",
@@ -508999,7 +510651,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/PortableGit-2.21.0-32-bit.7z.exe",
                   "size_bytes": 42181440,
                   "size": "40.23 MB",
-                  "download_count": 805963
+                  "download_count": 805965
                 }
               ],
               "source": []
@@ -509121,7 +510773,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe",
                   "size_bytes": 45608976,
                   "size": "43.50 MB",
-                  "download_count": 5371066
+                  "download_count": 5371144
                 },
                 {
                   "name": "Git-2.20.1-32-bit.exe",
@@ -509332,14 +510984,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-64-bit.exe",
                   "size_bytes": 43450544,
                   "size": "41.44 MB",
-                  "download_count": 3508067
+                  "download_count": 3508069
                 },
                 {
                   "name": "Git-2.19.1-32-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-32-bit.exe",
                   "size_bytes": 43358072,
                   "size": "41.35 MB",
-                  "download_count": 243585
+                  "download_count": 243588
                 },
                 {
                   "name": "PortableGit-2.19.1-64-bit.7z.exe",
@@ -509382,7 +511034,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.19.0.windows.1/Git-2.19.0-32-bit.exe",
                   "size_bytes": 43290640,
                   "size": "41.29 MB",
-                  "download_count": 104564
+                  "download_count": 104565
                 },
                 {
                   "name": "PortableGit-2.19.0-64-bit.7z.exe",
@@ -509543,7 +511195,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-64-bit.exe",
                   "size_bytes": 41126928,
                   "size": "39.22 MB",
-                  "download_count": 6075915
+                  "download_count": 6075930
                 },
                 {
                   "name": "Git-2.18.0-32-bit.exe",
@@ -509754,7 +511406,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.17.0.windows.1/Git-2.17.0-64-bit.exe",
                   "size_bytes": 40531384,
                   "size": "38.65 MB",
-                  "download_count": 2594968
+                  "download_count": 2594970
                 },
                 {
                   "name": "Git-2.17.0-32-bit.exe",
@@ -509929,14 +511581,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.16.2.windows.1/Git-2.16.2-64-bit.exe",
                   "size_bytes": 39139744,
                   "size": "37.33 MB",
-                  "download_count": 7145298
+                  "download_count": 7145326
                 },
                 {
                   "name": "Git-2.16.2-32-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.16.2.windows.1/Git-2.16.2-32-bit.exe",
                   "size_bytes": 38821744,
                   "size": "37.02 MB",
-                  "download_count": 692486
+                  "download_count": 692487
                 },
                 {
                   "name": "PortableGit-2.16.2-64-bit.7z.exe",
@@ -509972,7 +511624,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.4/Git-2.16.1.4-64-bit.exe",
                   "size_bytes": 39065656,
                   "size": "37.26 MB",
-                  "download_count": 2427095
+                  "download_count": 2427111
                 },
                 {
                   "name": "Git-2.16.1.4-32-bit.exe",
@@ -509986,7 +511638,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.4/PortableGit-2.16.1.4-64-bit.7z.exe",
                   "size_bytes": 37154720,
                   "size": "35.43 MB",
-                  "download_count": 18283
+                  "download_count": 18284
                 },
                 {
                   "name": "PortableGit-2.16.1.4-32-bit.7z.exe",
@@ -510133,7 +511785,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe",
                   "size_bytes": 39912976,
                   "size": "38.06 MB",
-                  "download_count": 2741498
+                  "download_count": 2741500
                 },
                 {
                   "name": "Git-2.15.1.2-32-bit.exe",
@@ -510176,7 +511828,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.15.0.windows.1/Git-2.15.0-64-bit.exe",
                   "size_bytes": 38518544,
                   "size": "36.73 MB",
-                  "download_count": 1694261
+                  "download_count": 1694262
                 },
                 {
                   "name": "Git-2.15.0-32-bit.exe",
@@ -510294,7 +511946,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.14.3.windows.1/Git-2.14.3-64-bit.exe",
                   "size_bytes": 38484256,
                   "size": "36.70 MB",
-                  "download_count": 434615
+                  "download_count": 434616
                 },
                 {
                   "name": "Git-2.14.3-32-bit.exe",
@@ -510337,7 +511989,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.14.2.windows.3/Git-2.14.2.3-64-bit.exe",
                   "size_bytes": 38350440,
                   "size": "36.57 MB",
-                  "download_count": 585590
+                  "download_count": 585591
                 },
                 {
                   "name": "Git-2.14.2.3-32-bit.exe",
@@ -510566,7 +512218,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.13.3.windows.1/Git-2.13.3-32-bit.exe",
                   "size_bytes": 38588096,
                   "size": "36.80 MB",
-                  "download_count": 150750
+                  "download_count": 150751
                 },
                 {
                   "name": "Git-2.13.3-64-bit.exe",
@@ -510587,7 +512239,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.13.3.windows.1/PortableGit-2.13.3-64-bit.7z.exe",
                   "size_bytes": 36892784,
                   "size": "35.18 MB",
-                  "download_count": 44127
+                  "download_count": 44132
                 }
               ],
               "source": []
@@ -510702,7 +512354,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-64-bit.exe",
                   "size_bytes": 37156256,
                   "size": "35.43 MB",
-                  "download_count": 1822618
+                  "download_count": 1822619
                 },
                 {
                   "name": "PortableGit-2.13.0-32-bit.7z.exe",
@@ -510899,14 +512551,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.12.0.windows.1/Git-2.12.0-32-bit.exe",
                   "size_bytes": 34825184,
                   "size": "33.21 MB",
-                  "download_count": 148836
+                  "download_count": 148837
                 },
                 {
                   "name": "Git-2.12.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.12.0.windows.1/Git-2.12.0-64-bit.exe",
                   "size_bytes": 34827024,
                   "size": "33.21 MB",
-                  "download_count": 2183244
+                  "download_count": 2183246
                 },
                 {
                   "name": "PortableGit-2.12.0-32-bit.7z.exe",
@@ -511081,7 +512733,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.3/PortableGit-2.11.0.3-64-bit.7z.exe",
                   "size_bytes": 32085744,
                   "size": "30.60 MB",
-                  "download_count": 18185
+                  "download_count": 18186
                 }
               ],
               "source": []
@@ -511178,14 +512830,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.2.windows.1/Git-2.10.2-32-bit.exe",
                   "size_bytes": 34307456,
                   "size": "32.72 MB",
-                  "download_count": 133507
+                  "download_count": 133509
                 },
                 {
                   "name": "Git-2.10.2-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.2.windows.1/Git-2.10.2-64-bit.exe",
                   "size_bytes": 34348536,
                   "size": "32.76 MB",
-                  "download_count": 1297370
+                  "download_count": 1297372
                 },
                 {
                   "name": "PortableGit-2.10.2-32-bit.7z.exe",
@@ -511221,14 +512873,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-32-bit.exe",
                   "size_bytes": 33001392,
                   "size": "31.47 MB",
-                  "download_count": 432091
+                  "download_count": 432097
                 },
                 {
                   "name": "Git-2.10.1-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-64-bit.exe",
                   "size_bytes": 33075016,
                   "size": "31.54 MB",
-                  "download_count": 5162552
+                  "download_count": 5162556
                 },
                 {
                   "name": "PortableGit-2.10.1-32-bit.7z.exe",
@@ -511264,14 +512916,14 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-32-bit.exe",
                   "size_bytes": 32980760,
                   "size": "31.45 MB",
-                  "download_count": 221530
+                  "download_count": 221532
                 },
                 {
                   "name": "Git-2.10.0-64-bit.exe",
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-64-bit.exe",
                   "size_bytes": 33049944,
                   "size": "31.52 MB",
-                  "download_count": 1207089
+                  "download_count": 1207091
                 },
                 {
                   "name": "PortableGit-2.10.0-32-bit.7z.exe",
@@ -511697,7 +513349,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.8.1.windows.1/Git-2.8.1-64-bit.exe",
                   "size_bytes": 31168480,
                   "size": "29.72 MB",
-                  "download_count": 4136465
+                  "download_count": 4136469
                 },
                 {
                   "name": "PortableGit-2.8.1-32-bit.7z.exe",
@@ -511754,7 +513406,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.8.0.windows.1/PortableGit-2.8.0-64-bit.7z.exe",
                   "size_bytes": 30099992,
                   "size": "28.71 MB",
-                  "download_count": 9300
+                  "download_count": 9302
                 }
               ],
               "source": []
@@ -511912,7 +513564,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.7.2.windows.1/Git-2.7.2-32-bit.exe",
                   "size_bytes": 30749808,
                   "size": "29.33 MB",
-                  "download_count": 137463
+                  "download_count": 137464
                 },
                 {
                   "name": "Git-2.7.2-64-bit.exe",
@@ -512159,7 +513811,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.6.3.windows.1/Git-2.6.3-32-bit.exe",
                   "size_bytes": 30334304,
                   "size": "28.93 MB",
-                  "download_count": 226662
+                  "download_count": 226663
                 },
                 {
                   "name": "Git-2.6.3-64-bit.exe",
@@ -512252,7 +513904,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.6.1.windows.1/Git-2.6.1-64-bit.exe",
                   "size_bytes": 32105216,
                   "size": "30.62 MB",
-                  "download_count": 404507
+                  "download_count": 404508
                 },
                 {
                   "name": "PortableGit-2.6.1-32-bit.7z.exe",
@@ -512295,7 +513947,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.6.0.windows.1/Git-2.6.0-64-bit.exe",
                   "size_bytes": 32067688,
                   "size": "30.58 MB",
-                  "download_count": 176308
+                  "download_count": 176309
                 },
                 {
                   "name": "PortableGit-2.6.0-32-bit.7z.exe",
@@ -512542,7 +514194,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.5.0.windows.1/Git-2.5.0-64-bit.exe",
                   "size_bytes": 30862816,
                   "size": "29.43 MB",
-                  "download_count": 371983
+                  "download_count": 371984
                 },
                 {
                   "name": "PortableGit-2.5.0-32-bit.7z.exe",
@@ -512556,7 +514208,7 @@
                   "download_url": "https://github.com/git-for-windows/git/releases/download/v2.5.0.windows.1/PortableGit-2.5.0-64-bit.7z.exe",
                   "size_bytes": 28275064,
                   "size": "26.97 MB",
-                  "download_count": 15270
+                  "download_count": 15271
                 }
               ],
               "source": []
@@ -515666,7 +517318,7 @@
         "total_versions": 405,
         "download_page": "https://git-scm.com/downloads",
         "windows_builds_source": "https://github.com/git-for-windows/git",
-        "fetched_at": "2026-11-04T04:02:15.635Z"
+        "fetched_at": "2026-11-04T13:33:12.249Z"
       }
     }
   }
