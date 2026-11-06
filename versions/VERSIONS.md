@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-11-06T04:16:47.040Z
+> Last updated: 2026-11-06T13:28:10.852Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -32,7 +32,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Nginx | 1.31.8 | 600 | [Website](https://nginx.org) |
-| Apache HTTP Server | 2.4.69 | 215 | [Website](https://httpd.apache.org) |
+| Apache HTTP Server | 2.4.70 | 216 | [Website](https://httpd.apache.org) |
 
 ## Package Managers
 
