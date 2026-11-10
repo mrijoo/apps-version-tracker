@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-11-10T13:58:51.739Z
+> Last updated: 2026-11-10T22:40:07.649Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -9,7 +9,7 @@
 |----------|----------------|----------------|----------|
 | PHP | 8.5.12 | 560 | [Website](https://www.php.net) |
 | Node.js | 27.0.0-alpha.0.0.0 | 878 | [Website](https://nodejs.org) |
-| Go | 1.27.3 | 369 | [Website](https://go.dev) |
+| Go | 1.27.4 | 371 | [Website](https://go.dev) |
 | Python | 3.15.2 | 274 | [Website](https://www.python.org) |
 | Ruby | 3.4.12 | 172 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.99.1 | 156 | [Website](https://www.rust-lang.org) |
@@ -19,7 +19,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| PostgreSQL | 18.6 | 173 | [Website](https://www.postgresql.org) |
+| PostgreSQL | 18.7 | 177 | [Website](https://www.postgresql.org) |
 | MySQL | 26.10.0 | 459 | [Website](https://www.mysql.com) |
 | MariaDB | 13.1.1 | 454 | [Website](https://mariadb.org) |
 | MongoDB | 9.0.4 | 553 | [Website](https://www.mongodb.com) |
@@ -48,7 +48,7 @@
 
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
-| Laravel | 13.40.0 | 988 | [Website](https://laravel.com) |
+| Laravel | 13.42.0 | 990 | [Website](https://laravel.com) |
 | Next.js | 16.4.6 | 387 | [Website](https://nextjs.org) |
 | Nuxt | 4.6.4 | 211 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.45 | 164 | [Website](https://vuejs.org) |
@@ -60,7 +60,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Docker | 28.5.2 | 207 | [Website](https://www.docker.com) |
-| Git | 2.56.0 | 405 | [Website](https://git-scm.com) |
+| Git | 2.56.1 | 412 | [Website](https://git-scm.com) |
 
 ---
 
