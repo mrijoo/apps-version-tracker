@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-11-18T00:14:00.210Z
+> Last updated: 2026-11-18T14:49:41.328Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -13,7 +13,7 @@
 | Python | 3.15.2 | 274 | [Website](https://www.python.org) |
 | Ruby | 3.4.12 | 172 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.100.0 | 157 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 137 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 138 | [Website](https://adoptium.net) |
 
 ## Databases
 
@@ -39,7 +39,7 @@
 | Software | Latest Version | Total Versions | Downloads |
 |----------|----------------|----------------|----------|
 | Composer | 2.11.2 | 231 | [Website](https://getcomposer.org) |
-| npm | 12.2.2 | 947 | [Website](https://www.npmjs.com) |
+| npm | 12.2.3 | 954 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 73 | [Website](https://yarnpkg.com) |
 | pnpm | 12.22.0 | 896 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 218 | [Website](https://bun.sh) |
@@ -53,7 +53,7 @@
 | Nuxt | 4.6.4 | 211 | [Website](https://nuxt.com) |
 | Vue.js | 3.5.45 | 164 | [Website](https://vuejs.org) |
 | React | 19.3.1 | 132 | [Website](https://react.dev) |
-| Svelte | svelte@5.57.3 | 374 | [Website](https://svelte.dev) |
+| Svelte | svelte@5.58.0 | 375 | [Website](https://svelte.dev) |
 
 ## DevOps
 
