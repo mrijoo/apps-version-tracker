@@ -1,6 +1,6 @@
 # Software Versions
 
-> Last updated: 2026-11-22T04:07:53.240Z
+> Last updated: 2026-11-22T13:48:04.174Z
 > Max versions tracked per software: undefined
 
 ## Languages
@@ -13,7 +13,7 @@
 | Python | 3.15.2 | 274 | [Website](https://www.python.org) |
 | Ruby | 3.4.13 | 174 | [Website](https://www.ruby-lang.org) |
 | Rust | 1.100.0 | 157 | [Website](https://www.rust-lang.org) |
-| Java (Eclipse Temurin) | jdk8u422-b05.1 | 142 | [Website](https://adoptium.net) |
+| Java (Eclipse Temurin) | jdk8u422-b05.1 | 143 | [Website](https://adoptium.net) |
 
 ## Databases
 
@@ -23,7 +23,7 @@
 | MySQL | 26.10.0 | 459 | [Website](https://www.mysql.com) |
 | MariaDB | 13.2.1 | 459 | [Website](https://mariadb.org) |
 | MongoDB | 9.0.8 | 557 | [Website](https://www.mongodb.com) |
-| Redis | 8.10.3 | 137 | [Website](https://redis.io) |
+| Redis | 8.12.0 | 138 | [Website](https://redis.io) |
 | pgAdmin | 9.19 | 121 | [Website](https://www.pgadmin.org) |
 | phpMyAdmin | 5.2.3 | 312 | [Website](https://www.phpmyadmin.net) |
 
@@ -41,7 +41,7 @@
 | Composer | 2.11.2 | 231 | [Website](https://getcomposer.org) |
 | npm | 12.2.3 | 967 | [Website](https://www.npmjs.com) |
 | Yarn | 2019-08-16 | 74 | [Website](https://yarnpkg.com) |
-| pnpm | 12.22.0 | 896 | [Website](https://pnpm.io) |
+| pnpm | 12.23.0 | 897 | [Website](https://pnpm.io) |
 | Bun | bun-v0.8.1 | 219 | [Website](https://bun.sh) |
 
 ## Frameworks
